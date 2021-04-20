@@ -8,7 +8,8 @@
 		Masi Kosong 
 	</h1>
 	<p>
-		<a href="login.php">Login</a>
+		<a href="login.php">Login</a><br>
+		<a href="registrasi.php">Registrasi</a>
 	</p>
 
 </body>
