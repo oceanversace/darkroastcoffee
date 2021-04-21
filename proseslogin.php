@@ -1,4 +1,6 @@
 <?php 
+	session_start();
+
 	include('config.php');
 	if (isset($_POST["login"])) {
 
@@ -10,18 +12,22 @@
 		$res = mysqli_fetch_assoc($userRes);
 
 		if($res) {
-			if ($res["password"] = $password) {
+			if ( password_verify($password, $res['password']) ) {
+				
+				$_SESSION["login"] = true;
 				echo "<script type='text/javascript'>
     			alert('Login Sukses!');
     			window.location.replace('index.php')
 				</script>";
+				exit;
 			}
 		}
-		else {
-			header('Location: index.php');
-		}
+		
 	}
-	else {
-		header('Location: index.php');
-	}
+	
+
+	echo "<script type='text/javascript'>
+    			alert('Username/passowrd salah.');
+    			window.location.replace('index.php')
+				</script>";
  ?>
