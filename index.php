@@ -1,5 +1,8 @@
 <?php 
 	session_start();
+	if( isset($_SESSION['login']) ) :
+		$username = $_SESSION['username'];
+	endif;
  ?>
 
 <!DOCTYPE html>
@@ -17,7 +20,8 @@
 				<a href="registrasi.php">Registrasi</a>
 			<?php else: ?>
 				<a href="editprofile.php">Edit Profile</a><br>
-				<a href="proseslogout.php">Logout</a>
+				<a href="proseslogout.php">Logout</a><br>
+				<a onClick="\javascript: return confirm('Please confirm deletion');\" href='prosesdelete.php?delet=$username'>Delete Account</a>
 			<?php endif; ?>
 
 	</p>
