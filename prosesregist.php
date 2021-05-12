@@ -2,15 +2,15 @@
 	include("config.php");
 	if( isset($_POST["register"]) ) {
 
-		$username = strtolower(stripslashes($_POST["username"]));
+		$email = strtolower(stripslashes($_POST["email"]));
 		$password = mysqli_real_escape_string($conn, $_POST["password"]);
 		$konfpassword = mysqli_real_escape_string($conn, $_POST["konfpassword"]);
 
-		$res = mysqli_query($conn, "SELECT username FROM user WHERE username = '$username'");
+		$res = mysqli_query($conn, "SELECT email FROM user WHERE email = '$email'");
 
 		if(mysqli_fetch_assoc($res)) {
 			echo "<script>
-					alert('Username telah terdaftar!');
+					alert('Email telah terdaftar!');
 					window.location.replace('registrasi.php');
 				</script>";
 			die;
@@ -29,7 +29,7 @@
 		
 		$password = password_hash($password, PASSWORD_DEFAULT);
 
-		mysqli_query($conn, "INSERT INTO user VALUES('', '$username', '$password','','','','','customer');");
+		mysqli_query($conn, "INSERT INTO user VALUES('', '', '$password','','$email','','','customer');");
 		echo '<script>
 				alert("Registrasi Sukses!");
 				window.location.replace("index.php");

@@ -1,0 +1,160 @@
+body {
+	background-image: url(img/Headerhome.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  }
+  .logo{
+	  width: 211px;
+	  height: 51px;
+	  left: 14px;
+	  top: 20px;
+	  background: url("img/logo.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		opacity: 1;
+		position: relative;
+		overflow: hidden;
+  }
+  .maintext{
+	  position: absolute;
+	  width: 652px;
+	  height: 50px;
+	  left: 113px;
+	  top: 283px;
+	  font-family: No Virus;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-size: 40px;
+	  line-height: 41px;
+	  text-align: center;
+	  color: #000000;
+  }
+  .maintext2{
+	  position: absolute;
+	  width: 600px;
+	  height: 59px;
+	  left: 139px;
+	  top: 343px;
+  
+	  font-family: Roboto;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-size: 23px;
+	  line-height: 27px;
+	  text-align: center;
+  
+	  color: #000000;
+  }
+  * {
+	  margin: 0px;
+	  padding: 0px;
+	  font-family: century gothic;
+  }
+  
+  ul {
+	  list-style-type: none;
+	  float: right;
+	  margin-top: 20px;
+  }
+  
+  ul li {
+	  display: inline-block;
+  }
+  
+  ul li a {
+	  text-decoration: none;
+	  color: black;
+	  padding: 5px 20px;
+	  border: 1px solid transparent;
+	  transition: 0.6s;
+  }
+  
+  ul li a:hover{
+	  background-color: white;
+	  color: black;
+  }
+  
+  ul li.active a {
+	  background-color: white;
+	  color: black;	
+  }
+  
+  .main {
+	  max-width: 1200px;
+	  margin: auto;
+  }
+  
+  .title {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+  }
+  
+  .title h1 {
+	  color: white;
+	  font-size: 60px;
+	  text-decoration: underline; 
+  }
+  
+  .button {
+	  position: absolute;
+	  top: 65%;
+	  left: 50%;
+	  color: white;
+	  transform: translate(-50%, -50%);
+  }
+  
+  .btn {
+	  position: absolute;
+	  top: 400px;
+	  border: 1px solid rgb(231, 13, 166);
+	  padding: 10px 20px;
+	  color: black;
+	  text-decoration: none;
+	  transition: 0.6s;
+  }
+  
+  .btn:hover {
+	  background-color: white;
+	  color: black;
+	  position: absolute;
+  }
+  
+  .tombol {
+	  text-transform: uppercase;
+	  border-radius: 40px;
+	  text-align: center;
+	  margin-left: 375px;
+  }
+  
+  form {
+	  width:500px;
+	  margin: -38px auto;
+  }
+	  .search {          
+		  padding: 8px 50px; 
+		  bottom: 70px;
+		  background: #f0f8ff; 
+		  border:2px solid #ee0bdb;
+	  }
+		  .button {
+			  position: relative;
+			  left: 37px;
+			  top: 18px;          
+			  padding:10px 15px; 
+			  border:0px solid #df25c0;          
+			  background-color: #d111b8; 
+			  color:#fafafa;
+			  font-weight:bold;
+		  }
+		  .button:hover {
+			  background: #d406b2;          
+			  color:#fafafa;
+		  }
+		  .button:active {
+			  background:#e033bb;
+		  }
+

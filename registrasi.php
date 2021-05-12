@@ -13,8 +13,8 @@
 			
 			<li>
 				
-				<label for="username">Username : </label>
-				<input type="text" name="username" id="username">
+				<label for="email">email : </label>
+				<input type="text" name="email" id="email">
 
 			</li>
 			<li>

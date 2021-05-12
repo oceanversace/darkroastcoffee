@@ -2,24 +2,28 @@
 	session_start();
 
 	include('config.php');
-	if (isset($_POST["login"])) {
+	// var_dump($_POST);
+	// echo '<br>';
+	// die;
+	if (isset($_POST["submit"])) {
 
-		$username = $_POST["username"];
+		$email = $_POST["email"];
 		$password = $_POST["password"];
-
-		$userRes = mysqli_query($conn, "SELECT * FROM user WHERE username = '$username'");
+		// var_dump($_POST);
+		
+		$userRes = mysqli_query($conn, "SELECT * FROM user WHERE email = '$email'");
 
 		$res = mysqli_fetch_assoc($userRes);
-
+		// die;
 		if($res) {
 			if ( password_verify($password, $res['password']) ) {
 				
 				$_SESSION["login"] = true;
 				$_SESSION["id"] = $res['id'];
-				$_SESSION["username"] = $res['username'];
+				$_SESSION["email"] = $res['email'];
 				echo "<script type='text/javascript'>
     			alert('Login Sukses!');
-    			window.location.replace('index.php')
+    			window.location.replace('home.html')
 				</script>";
 				exit;
 			}
@@ -29,6 +33,6 @@
 	
 	echo "<script type='text/javascript'>
     			alert('Username/passowrd salah.');
-    			window.location.replace('index.php')
+    			window.location.replace('login-rev.html')
 				</script>";
  ?>
