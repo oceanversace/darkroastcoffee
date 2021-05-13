@@ -213,6 +213,9 @@
 		border: none;
 		cursor: pointer;
 	}
+	#hide1{
+		display: none;
+	}
 </style>
 <body>
 	<div id="card">
@@ -230,14 +233,21 @@
    				required />
    		<div class="user">Username</div>
    		<input type="text" id="username" class="user-name" required/>
-   		<label class="pass">Password</label>
+   		<div class="pswd">
+   			<span class="pass">Password</span>
    			<input
   				id="user-password"
    				class="password-user"
    				type="password"
    				name="password"
    				required />
-   			<span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+   			<span class="eye" onclick="myFunction()">
+   				<i id="hide1" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
+				left: 320px; top: 320px;"></i>
+   				<i id="hide2" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
+				left: 350px; top: 320px;"></i>
+   			</span>
+   		</div>
    		<label class="rptpass">Confirm Password</label>
    			<input
    				id="repeat-password"
@@ -258,6 +268,23 @@
   	<span class="iconify" data-inline="false" data-icon="gridicons:cross" style="font-size: 35px;"></span>
   </button>
   <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <script>
+  	 function myFunction(){
+  	 	var x = document.getElementById("user-password");
+  	 	var y = document.getElementById("hide1");
+  	 	var z = document.getElementById("hide2");
+  	 	if(x.type==='password'){
+  	 		x.type="text";
+  	 		y.display="block";
+  	 		z.display="none";
+  	 	}
+  	 	else{
+  	 		x.type="password";
+  	 		y.style.display="none";
+  	 		z.style.display="block";
+  	 	}
+  	 }
+  </script>
 	</div>	
 </body>
 </html>
