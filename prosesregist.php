@@ -1,11 +1,11 @@
 <?php 
 	include("config.php");
 	if( isset($_POST["submit"]) ) {
-
+		
 		$email = strtolower(stripslashes($_POST["email"]));
 		$username = strtolower(stripslashes($_POST["username"]));
 		$nama = strtolower(stripslashes($_POST["nama"]));
-
+		$notelp = strtolower(stripslashes($_POST["nama"]));
 		$password = mysqli_real_escape_string($conn, $_POST["password"]);
 		$konfpassword = mysqli_real_escape_string($conn, $_POST["confirm-password"]);
 
@@ -14,7 +14,7 @@
 		if(mysqli_fetch_assoc($res)) {
 			echo "<script>
 					alert('Email telah terdaftar!');
-					window.location.replace('sign-up.html');
+					window.location.replace('sign-up-page.php');
 				</script>";
 			die;
 		}
@@ -23,7 +23,7 @@
 
 			echo "<script type='text/javascript'>
     			alert('Konfirmasi password tidak sesuai!');
-    			window.location.replace('sign-up.html');
+    			window.location.replace('sign-up-page.php');
 				</script>";
 
 		}
