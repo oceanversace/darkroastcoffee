@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HelloPet</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+<style>
+	#header-background{
+		position: absolute;
+		width: 1360px;
+		height: 397px;
+		left: 0px;
+		top: 0px;
+		opacity: 50%;
+		background: url('dog.png');
+	}
+	.logo{
+		width: 211px;
+		height: 53px;
+		left: 14px;
+		top: 14px;
+		background: url("logo.png");
+	  	background-repeat: no-repeat;
+	  	background-position: center center;
+	  	background-size: cover;
+	  	opacity: 100%;
+	  	position: relative;
+	  	overflow: hidden;
+	}
+	#search-box{
+	 	position: absolute;
+		width: 365.02px;
+		height: 27.4px;
+		left: 357px;
+		top: 34.21px;
+		border: none;
+		background: rgba(0, 0, 0, 0.1);
+		border-radius: 10px;
+	 }
+	 #container{
+	 	position: absolute;
+		width: 1168px;
+		height: 409px;
+		left: 92px;
+		top: 259px;
+
+		background: #FFFFFF;
+		box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.25);
+		border-radius: 30px;
+	 }
+	 .title{
+	 	position: absolute;
+		width: 334px;
+		height: 34px;
+		left: 420px;
+		top: 55px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		line-height: 34px;
+		letter-spacing: 0.12em;
+
+		color: #000000;
+	 }
+	 #line-title{
+	 	position: absolute;
+		width: 151px;
+		height: 0px;
+		left: 500px;
+		top: 100px;
+
+		border: 1px solid #000000;
+	 }
+	 .detail-cancel{
+	 	position: absolute;
+		width: 841px;
+		height: 213px;
+		left: 150px;
+		top: 150px;
+		text-align: justify;
+		font-family: Nunito;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+
+		color: #000000;
+	 }
+	 #foot{
+		position: absolute;
+		width: 1360px;
+		height: 144px;
+		left: 0px;
+		top: 740px;
+		background: #C4C4C4;
+	}
+	.learn{
+		width: 131px;
+	  	color: rgba(0,0,0,1);
+	  	position: absolute;
+	  	top: 20px;
+	  	left: 80px;
+	  	font-family: Roboto;
+	    font-weight: Regular;
+		font-size: 20px;
+		opacity: 1;
+		text-align: left;
+	}
+	.cancel{
+		width: 150px;
+		color: rgba(0,0,0,1);
+		position: absolute;
+		top: 60px;
+		left: 80px;
+		font-family: Roboto;
+		font-weight: Regular;
+		font-size: 16px;
+		opacity: 1;
+		text-align: left;
+	}
+	.safe{
+		width: 50px;
+	  color: rgba(0,0,0,1);
+	  position: absolute;
+	  top: 90px;
+	  left: 80px;
+	  font-family: Roboto;
+	  font-weight: Regular;
+	  font-size: 16px;
+	  opacity: 1;
+	  text-align: left;
+	}
+	.copyright{
+		position: absolute;
+		width: 216.75px;
+		height: 25.62px;
+		left: 910px;
+		top: 60px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+
+		color: #000000;
+	 }
+	 #copyright-logo{
+	 	position: absolute;
+		width: 23px;
+		height: 23px;
+		left: 1075px;
+		top: 58px;
+	 }
+	 .copyright2{
+	 	position: absolute;
+		width: 204px;
+		height: 25.62px;
+		left: 1100px;
+		top: 60px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+
+		color: #000000;
+	 }
+</style>
+<body>
+	<div class="header">
+		<header id="header-background"></header>
+		<div class="logo"></div>
+      	<input type="search" placeholder="  search..." id="search-box">
+	</div>
+	<div id="container">
+		<span class="title">CANCELATION POLICY</span>
+		<div id="line-title"></div>
+		<div class="detail-cancel" id="detail-cancel" name="detail-cancel">
+			<p>We offer a full money-back guarantee for all services purchased on our website with 24 hours of the service. If you are not satisfied with the service that you have purchased from us, you can get your money back no questions asked. You are eligible for a full reimbursement within 24 hours of service.</p>
+			<p>After the 24 hours period you will no longer be eligible and won't be able to receive a refund. We encourage our customers to report any kind of dissatisfaction with the grooming service within 24 hours.</p>
+			<p>If you have any additional questions or would like to request a refund, feel free to contact us.</p>
+		</div>
+	</div>
+	<footer id="foot">
+		<div>
+			<span class="learn">LEARN MORE</span>
+			<a class="cancel" href="cancel.html">Cancelation Policy</a>
+			<a class="safe" href="safety.html">Safety</a>
+			<div class="copyright">HelloPet, Depresso Ltd</div>
+			<img href="#" id="copyright-logo" src="copyright.png">
+			<div class="copyright2">2021, All Rights Reserved</div>
+		</div>
+	</footer>
+</body>
+</html>
