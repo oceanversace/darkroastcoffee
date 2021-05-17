@@ -1,43 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HelloPet</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<title>Cancel HelloPet</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	<link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <style>
 	#header-background{
 		position: absolute;
-		width: 1349px;
+		width: 1360px;
 		height: 397px;
 		left: 0px;
 		top: 0px;
-		opacity: 50%;
 		background: url('dog.png');
 	}
-	.logo{
-		width: 211px;
-		height: 53px;
-		left: 14px;
-		top: 14px;
-		background: url("logo.png");
-	  	background-repeat: no-repeat;
-	  	background-position: center center;
-	  	background-size: cover;
-	  	opacity: 100%;
-	  	position: relative;
-	  	overflow: hidden;
-	}
-	#search-box{
-	 	position: absolute;
-		width: 365.02px;
-		height: 27.4px;
-		left: 357px;
-		top: 34.21px;
-		border: none;
-		background: rgba(0, 0, 0, 0.1);
-		border-radius: 10px;
-	 }
+	/* Navbar */
+.logo{
+	width: 211px;
+	height: 51px;
+	left: 20px;
+	top: 20px;
+	background: url("logo.png");
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size: cover;
+  	opacity: 1;
+  	position: relative;
+  	overflow: hidden;
+}
+
+.nav-link {
+        margin-right: 35px;
+        margin-left: -5px;
+        margin-top: -34px;
+        font-family: century gothic;
+
+    }
+
+.nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #cc7897;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        
+    }
+    
+#search-box{
+	position: absolute;
+	width: 365.02px;
+	height: 32px;
+	left: 357px;
+	top: 30.21px;
+	border: none;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+ }
+ #profile {
+    position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 60px;
+	top: 30px;
+}
+.buttonprofile {
+	border: none;
+	cursor: pointer;
+	border-radius: 12px;
+	  text-decoration: none;
+	  transition: 0.6s;
+}
 	 #container{
 	 	position: absolute;
 		width: 1168px;
@@ -91,7 +134,7 @@
 	 }
 	 #foot{
 		position: absolute;
-		width: 1349px;
+		width: 1360px;
 		height: 144px;
 		left: 0px;
 		top: 740px;
@@ -173,10 +216,24 @@
 </style>
 <body>
 	<div class="header">
-		<header id="header-background"></header>
+		<header id="header-background">
 		<div class="logo"></div>
       	<input type="search" placeholder="  search..." id="search-box">
+          <nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+					<div class="navbar-nav ml-auto">
+					  <a class="nav-item nav-link" href="#">Home</a>
+					  <a class="nav-item nav-link" href="#">Packages</a>
+					  <a class="nav-item nav-link" href="#">About Us</a>
+					  <a class="nav-item nav-link" href="#">Contact Us</a>
+					</div>
+			</div>
+		  </nav>
+		</header>
 	</div>
+		<div>
+			<button class="buttonprofile" id="buttonprofile"><img id="profile" src="profile.png"></img>
+		</div>
 	<div id="container">
 		<span class="title">CANCELATION POLICY</span>
 		<div id="line-title"></div>
@@ -192,7 +249,7 @@
 			<a class="cancel" href="cancel.html">Cancelation Policy</a>
 			<a class="safe" href="safety.html">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
-			<img href="#" id="copyright-logo" src="copyright.png">
+			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>
 		</div>
 	</footer>
