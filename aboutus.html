@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HelloPet</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<title>About Us HelloPet</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	<link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <style>
 #header-background{
 	position: absolute;
-	width: 1349px;
+	width: 1360px;
 	height: 558px;
 	left: 0px;
 	top: 0px;
 	background: url('abus.png');
 }
+/* Navbar */
 .logo{
 	width: 211px;
 	height: 51px;
-	left: 14px;
+	left: 20px;
 	top: 20px;
 	background: url("logo.png");
   	background-repeat: no-repeat;
@@ -26,63 +36,49 @@
   	position: relative;
   	overflow: hidden;
 }
- #search-box{
- 	position: absolute;
+
+.nav-link {
+        margin-right: 35px;
+        margin-left: -5px;
+        margin-top: -34px;
+        font-family: century gothic;
+
+    }
+
+.nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #cc7897;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        
+    }
+    
+#search-box{
+	position: absolute;
 	width: 365.02px;
-	height: 27.4px;
+	height: 32px;
 	left: 357px;
-	top: 34.21px;
+	top: 30.21px;
 	border: none;
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
  }
- ul { 
-  margin: 10px auto 0; 
-  padding: 0; 
-  list-style: none; 
-  display: table;
-  width: 600px;
-  text-align: right;
-  top :-28px;
-  left:350px;
+ #profile {
+    position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 60px;
+	top: 30px;
 }
-li { 
-  display: table-cell; 
-  position: relative; 
-  padding: 7px 0;
-  top:-28px;
-  left:350px;
-}
-head {
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.15em;
-  
-  display: inline-block;
-  padding: 15px 20px;
-  position: relative;
-}
-head:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #fff;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-head:hover:after { 
-  width: 100%; 
-  left: 0; 
-}
-@media screen and (max-height: 300px) {
-	ul {
-		margin-top: 40px;
-	}
+.buttonprofile {
+	border: none;
+	cursor: pointer;
+	border-radius: 12px;
+	  text-decoration: none;
+	  transition: 0.6s;
 }
 #card{
 	position: absolute;
@@ -98,7 +94,7 @@ head:hover:after {
 .kucing{
   width: 606px;
   height: 377px;
-  background: url("kucing.png");
+  background: url("img/kucing.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -150,14 +146,14 @@ head:hover:after {
 }
 #line{
 	position: absolute;
-	width: 1349px;
+	width: 1360px;
 	height: 95px;
 	left: 0px;
 	top: 678px;
 }
 #foot{
 	position: absolute;
-	width: 1349px;
+	width: 1360px;
 	height: 144px;
 	left: 0px;
 	top: 811px;
@@ -240,16 +236,25 @@ head:hover:after {
 
 </style>
 <body>
-	<header id="header-background">
+	<div class="header">
+		<header id="header-background">
 		<div class="logo"></div>
       	<input type="search" placeholder="  search..." id="search-box">
-      	<ul class="head"> 
-  			<li><a href="#">Home</a></li>
-  			<li><a href="packages.html">Packages</a></li>
-  			<li><a href="aboutus.html">About Us</a></li>
-  			<li><a href="#">Contact Us</a></li>
-</ul>
-	</header>
+          <nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+					<div class="navbar-nav ml-auto">
+					  <a class="nav-item nav-link" href="#">Home</a>
+					  <a class="nav-item nav-link" href="#">Packages</a>
+					  <a class="nav-item nav-link active" href="#">About Us <span class="sr-only"></span> </a>
+					  <a class="nav-item nav-link" href="#">Contact Us</a>
+					</div>
+			</div>
+		  </nav>
+		</header>
+	</div>
+		<div>
+			<button class="buttonprofile" id="buttonprofile"><img id="profile" src="profile.png"></img>
+		</div>
 	<div id="card">
 		<span class="title">ABOUT US</span>
 		<div id="line-title"></div>
