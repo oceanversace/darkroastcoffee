@@ -1,3 +1,8 @@
+<?php 
+	session_start();
+	include('config.php');
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +26,7 @@
 		height: 586px;
 		left: 0px;
 		top: 0px;
-		background: url('dog.png');
+		background: url('img/dog.png');
 	}
 /* Navbar */
 .logo{
@@ -350,33 +355,33 @@
 		</header>
 	</div>
 		<div>
-			<button class="buttonprofile" id="buttonprofile"><img id="profile" src="profile.png"></img>
+			<button class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"></img>
 		</div>
 	<div class="container">
 		<span class="safety" id="safety" namae="safety">SAFETY</span>
 		<div id="line-title"></div>
 		<div class="safe1">
-			<img id="wash-logo" src="Wash.png">
+			<img id="wash-logo" src="img/Wash.png">
 			<span class="wash-detail">Wash and sanitize hands before and after grooming</span>
 		</div>
 		<div class="safe2">
-			<img id="shoes-logo" src="Shoes.png">
+			<img id="shoes-logo" src="img/Shoes.png">
 			<span class="shoes-detail">Wear shoe covers</span>
 		</div>
 		<div class="safe3">
-			<img id="distance-logo" src="distance.png">
+			<img id="distance-logo" src="img/distance.png">
 			<span class="distance-detail">Maintan social distance at all times</span>
 		</div>
 		<div class="safe4">
-			<img id="gloves-logo" src="gloves.png">
+			<img id="gloves-logo" src="img/gloves.png">
 			<span class="gloves-detail">Wear gloves while grooming</span>
 		</div>
 		<div class="safe5">
-			<img id="mask-logo" src="Masker.png">
+			<img id="mask-logo" src="img/Masker.png">
 			<span class="mask-detail">Wear face mask</span>
 		</div>
 		<div class="safe6">
-			<img id="steril-logo" src="Steril.png">
+			<img id="steril-logo" src="img/Steril.png">
 			<span class="steril-detail">Sanitize and clean grooming tools before and after service</span>
 		</div>
 	</div>
@@ -384,9 +389,9 @@
 		<div>
 			<span class="learn">LEARN MORE</span>
 			<a class="cancel" href="cancel.html">Cancelation Policy</a>
-			<a class="safe" href="safety.html">Safety</a>
+			<a class="safe" href="safety.php">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
-			<img href="#" id="copyright-logo" src="copyright.png">
+			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>
 		</div>
 	</footer>

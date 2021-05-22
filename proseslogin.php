@@ -23,7 +23,7 @@
 				$_SESSION["email"] = $res['email'];
 				echo "<script type='text/javascript'>
     			alert('Login Sukses!');
-    			window.location.replace('home.html')
+    			window.location.replace('home.php')
 				</script>";
 				exit;
 			}

@@ -35,7 +35,7 @@
 		mysqli_query($conn, "INSERT INTO user VALUES('', '$username', '$password','$nama','$email','','','customer');");
 		echo '<script>
 				alert("Registrasi Sukses!");
-				window.location.replace("home.html");
+				window.location.replace("home.php");
 			</script>';
 	}
  ?>

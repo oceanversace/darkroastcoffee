@@ -1,11 +1,3 @@
-<?php 
-	session_start();
-	include('config.php');
-	if( !isset($_SESSION["login"]) ) {
-    	header('Location: login-rev.php');
-  	}
- ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +7,7 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<title>Home HelloPet</title>
+	<title>HelloPet</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
@@ -46,13 +38,12 @@
 }
 
 .nav-link {
-        margin-right: 35px;
-        margin-left: -5px;
+        margin-right: 169px;
+        margin-left: -141px;
         margin-top: -34px;
         font-family: century gothic;
 
     }
-
 .nav-link:hover::after {
         content: '';
         display: block;
@@ -63,6 +54,60 @@
         margin-bottom: -8px;
         
     }
+    .button4{
+ 	position: absolute;
+	width: 78px;
+	height: 35px;
+	right: 175px;
+	top: 26px;
+	color: #FFFFFF;
+	background: #FD9EBD;
+	border-radius: 12px;
+	border: none;
+	background: -webkit-linear-gradient(bottom, #bebebe 1%, #FD9EBD 10%);
+	background: -moz-linear-gradient(bottom, #bebebe 1%, #FD9EBD 10%);
+	background: linear-gradient(bottom, #bebebe 1%, #FD9EBD 10%);
+	cursor: pointer;
+    font-family: century Gothic;
+	font-style: bold;
+ }
+ .button5{
+ 	position: absolute;
+	width: 78px;
+	height: 35px;
+	right: 57px;
+	top: 26px;
+	color: #FD9EBD;
+	background: #FFFFFF;
+	border-radius: 12px;
+	border: #FD9EBD;
+    background: -webkit-linear-gradient(bottom, #f5d6e6 1%, #FFFFFF 10%);
+	background: -moz-linear-gradient(bottom, #f5d6e6 1%, #FFFFFF 10%);
+	background: linear-gradient(bottom, #f5d6e6 1%, #FFFFFF 10%);
+	cursor: pointer;
+    font-family: century Gothic;
+	font-style: bold;
+ }
+.pack-5{
+	position: relative;
+	width: 300px;
+	height: 60px;
+	left: 220px;
+	top: 320px;
+
+	font-family: 'Indie Flower', cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 27px;
+	text-align: center;
+	letter-spacing: 0.250em;
+	background: -webkit-linear-gradient(bottom, #f5d6e6 1%, #d5eeff 10%);
+	background: -moz-linear-gradient(bottom, #f5d6e6 1%, #d5eeff 10%);
+	background: linear-gradient(bottom, #f5d6e6 1%, #d5eeff 10%);
+
+	color: #cc7897;
+ }
 #search-box{
 	position: absolute;
 	width: 365.02px;
@@ -74,34 +119,6 @@
 	border-radius: 10px;
  }
  
-#profile {
-    position: absolute;
-	width: 30px;
-	height: 30px;
-	right: 60px;
-	top: 30px;
-}
-.buttonprofile {
-	border: none;
-	cursor: pointer;
-	border-radius: 12px;
-	  text-decoration: none;
-	  transition: 0.6s;
-}
-
- .highlight{
- 	width: 479px;
-  	color: rgba(0,0,0,1);
-  	position: absolute;
- 	top: 300px;
-  	left: 300px;
-  	font-family: No Virus;
-  	font-weight: Regular;
-  	font-size: 40px;
-  	opacity: 1;
-  	text-align: left;
-  	color: #000000;
- }
  .pack{
 	position: absolute;
 	width: 251px;
@@ -560,19 +577,7 @@
 	left: 113px;
 	top: 283px;
  }
- .button1{
- 	position: absolute;
-	width: 140px;
-	height: 40px;
-	left: 366px;
-	top: 422px;
-	color: #FFFFFF;
-	background: #FD9EBD;
-	border-radius: 12px;
-	border: none;
-	cursor: pointer;
-	font-style: bold;
- }
+
  #vector4{
  	position: absolute;
 	width: 34px;
@@ -902,31 +907,35 @@
           <nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 					<div class="navbar-nav ml-auto">
-					  <a class="nav-item nav-link active font-weight-bold" href="#">Home <span class="sr-only"></span> </a>
-					  <a class="nav-item nav-link" href="packages.php">Packages</a>
-					  <a class="nav-item nav-link" href="aboutus.php">About Us</a>
-					  <a class="nav-item nav-link" href="#">Contact Us</a>
+					  <a class="nav-item nav-link" href="#">Home</span> </a>
+					  <a class="nav-item nav-link" href="#">Packages</a>
+					  <a class="nav-item nav-link" href="#">About Us</a>
 					</div>
 			</div>
 		  </nav>
+          <div>
+            <button class="button4" id="button4" name="button4" onclick="SignIn.html"><b>Sign In</b></button>
+        </div>
+        <div>
+            <button class="button5" id="button5" name="button5" onclick="SignUp.html"><b>Sign Up</b></button>
+        </div>
 		</header>
 	</div>
-    <div>
-    	<button class="buttonprofile" id="buttonprofile" name="buttonprofile" onclick="window.location.replace('profile.html')"><img id="profile" src="img/profile.png"></img></button>
-    </div>
+    <div class="title">
+		<span class="pack-5 font-weight-bold">WELCOME</span>
 	<div class="title">
 		<span class="pack">HOW IT WORKS</span>
 		<div class="line"></div>
 	<div id="pack2 ml-auto">
 		<div class="grup1">
-			<img id="grup1" src="img/group15.png">
+			<img id="grup1" src="group15.png">
 			<h4 class="groom1 font-weight-bold"><span> Groom It!</span></h4>
 			<div class="text1">Your pet groomer is on their way and your pet will soon be looking and feeling fabulous.</div>
 		</div>
 	</div>
 	<div id="pack3 ml-auto">
 		<div class="grup2">
-			<img id="grup2" src="img/group16.png">
+			<img id="grup2" src="group16.png">
 			<h4 class="groom2 font-weight-bold"><span> Book It!</span></h4>
 			<div class="text2">Schedule an in-home pet grooming appointment for when it is most convenient for you.</div>
 		</div>
@@ -934,14 +943,14 @@
 	<div id="pack1 ml-auto">
 	</div>
 		<div class="grup3">
-			<img id="grup3" src="img/group17.png">
+			<img id="grup3" src="group17.png">
 			<h4 class="groom3 font-weight-bold"><span> Chosee It!</span></h4>
 			<div class="text3">Choose one of our three grooming packages for your dog or cat.</div>
 		</div>
 	</div>
 	<div id="pack4 ml-auto">
 		<div class="grup4">
-			<img id="grup4" src="img/mask.png">
+			<img id="grup4" src="mask.png">
 		</div>
 	</div>
 	<div class="title">
@@ -956,29 +965,25 @@
 	<div class="title">
 		<span class="pack-2 font-weight-bold">What Customers Say About Us</span>
 		<div class="text4">Some testimonials from our Customers</div>
-	<img id="vector1" src="img/Vector-2.png"></img>
-	<img id="vector2" src="img/Gelbiru.png"></img>
-	<img id="vector3" src="img/Hightlight.png"></img>
-	<div>
-		<button class="button1" id="button1" name="button1" onclick="window.location.replace('packages.php')"><b>BOOK NOW</b></button>
-	</div>
+	<img id="vector1" src="Vector-2.png"></img>
+	<img id="vector2" src="Gelbiru.png"></img>
 	<div id="pack5"></div>
 	<div id="pack6"></div>
-	<img id="vector4" src="img/profil.png"></img>
-	<img id="vector5" src="img/profil.png"></img>
+	<img id="vector4" src="profil.png"></img>
+	<img id="vector5" src="profil.png"></img>
 	<div>
 		<div class="text5">Jhon Wick</div>
 			<div class="text7">My dog really love it, HelloPet is the best place to grooming your pet</div>
-			<img id="vector6" src="img/quote.png"></img>
+			<img id="vector6" src="quote.png"></img>
 			<div>
-				<button class="button2" id="button2" name="button2" onclick="window.location.replace('swipe.html')"><img id="swipe" src="img/SWIPE-2.png"></img></button>
+				<button class="button2" id="button2" name="button2" onclick="swipe.html"><img id="swipe" src="SWIPE-2.png"></img></button>
 				 <span class="sr-only">Previous</span>
 			</div>
 		<div class="text6">Ryder</div>
 			<div class="text8">Usually take care of Marshall and Rubble, they like it! Next time i must ensure Rocky to bath properly, hope HelloPet can make my Rocky calm XD.</div>
-			<img id="vector7" src="img/quote.png"></img>
+			<img id="vector7" src="quote.png"></img>
 			<div>
-				<button class="button3" id="button3" name="button3" onclick="window.location.replace('swipe.html')"><img id="swipe-1" src="img/SWIPE.png"></img></button>
+				<button class="button3" id="button3" name="button3" onclick="swipe.html"><img id="swipe-1" src="SWIPE.png"></img></button>
 				<span class="sr-only">Next</span>
 			</div>
 	</div>
@@ -986,10 +991,10 @@
 		<span class="pack-3">FREKUENTLY ASK QUETION</span>
 		<div id="pack7" href="contact.html"></div>
 			<span class="pack-4">NEED HELP?</span>
-			<img id="vector8" src="img/telp.png"></img>
+			<img id="vector8" src="telp.png"></img>
 				<div class="text12">Call us on </div>
 				<div class="text16 font-weight-bold">089138017238</div>
-			<img id="vector9" src="img/email.png"></img>
+			<img id="vector9" src="email.png"></img>
 				<div class="text13">Email us at</div>
 				<div class="text17 font-weight-bold">hellopet@gmail.com</div>
 			<div class="text14">Monday to Friday Saturday & Sunday </div>
@@ -1030,9 +1035,9 @@
 		<div>
 			<span class="learn">LEARN MORE</span>
 			<a class="cancel" href="cancel.html">Cancelation Policy</a>
-			<a class="safe" href="safety.php">Safety</a>
+			<a class="safe" href="safety.html">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
-			<img href="#" id="copyright-logo" src="img/copyright.png">
+			<img href="#" id="copyright-logo" src="copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>
 		</div>
 	</footer>
