@@ -72,6 +72,7 @@
 	border: none;
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
+        padding: 10px;
  }
  
 #profile {
@@ -814,7 +815,7 @@
 }
  #foot{
 	position: absolute;
-	width: 1360px;
+	width: 1349px;
 	height: 144px;
 	left: 0px;
 	top: 2580px;
