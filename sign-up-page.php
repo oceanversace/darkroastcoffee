@@ -34,7 +34,7 @@
 		width: 110px;
 		height: 29px;
 		left: 163px;
-		top: 29px;
+		top: 23px;
 
 		font-family: Roboto;
 		font-style: normal;
@@ -53,8 +53,8 @@
 		position: absolute;
 		width: 80px;
 		height: 19px;
-		left: 50px;
-		top: 82px;
+		left: 49px;
+		top: 75px;
 
 		font-family: Roboto;
 		font-style: normal;
@@ -67,18 +67,19 @@
 	.your-name{
 		position: absolute;
 		width: 327px;
-		height: 30px;
-		left: 50px;
-		top: 103px;
+		height: 20px;
+		left: 45px;
+		top: 98px;
 		border: none;
 		background: #E5EAED;
 		border-radius: 5px;
+		padding: 10px;
 	}
 	.email{
 		position: absolute;
 		width: 40px;
 		height: 19px;
-		left: 51px;
+		left: 49px;
 		top: 149px;
 
 		font-family: Roboto;
@@ -92,19 +93,20 @@
 	.email-user{
 		position: absolute;
 		width: 327px;
-		height: 30px;
-		left: 50px;
+		height: 20px;
+		left: 45px;
 		top: 171px;
 		border: none;
 		background: #E5EAED;
 		border-radius: 5px;
+		padding: 10px;
 	}
 	.user{
 		position: absolute;
 		width: 73px;
 		height: 19px;
-		left: 51px;
-		top: 219px;
+		left: 49px;
+		top: 221px;
 
 		font-family: Roboto;
 		font-style: normal;
@@ -116,19 +118,20 @@
 	.user-name{
 		position: absolute;
 		width: 327px;
-		height: 30px;
-		left: 50px;
-		top: 242px;
+		height: 20px;
+		left: 45px;
+		top: 244px;
 		border: none;
 		background: #E5EAED;
 		border-radius: 5px;
+		padding: 10px;
 	}
 	.pass{
 		position: absolute;
 		width: 71px;
 		height: 19px;
-		left: 50px;
-		top: 291px;
+		left: 49px;
+		top: 295px;
 
 		font-family: Roboto;
 		font-style: normal;
@@ -140,20 +143,20 @@
 	.password-user{
 		position: absolute;
 		width: 327px;
-		height: 30px;
-		left: 50px;
-		top: 314px;
+		height: 20px;
+		left: 45px;
+		top: 319px;
 		border: none;
 		background: #E5EAED;
 		border-radius: 5px;
-
+		padding: 10px;
 	}
 	.rptpass{
 		position: absolute;
 		width: 132px;
 		height: 19px;
-		left: 50px;
-		top: 367px;
+		left: 49px;
+		top: 372px;
 
 		font-family: Roboto;
 		font-style: normal;
@@ -167,19 +170,20 @@
 	.rpt-psw{
 		position: absolute;
 		width: 327px;
-		height: 30px;
-		left: 50px;
-		top: 391px;
+		height: 20px;
+		left: 45px;
+		top: 395px;
 		border: none;
 		background: #E5EAED;
 		border-radius: 5px;
+		padding: 10px;
 	}
 	.phone{
 		position: absolute;
 		width: 107px;
 		height: 19px;
-		left: 50px;
-		top: 441px;
+		left: 49px;
+		top: 448px;
 
 		font-family: Roboto;
 		font-style: normal;
@@ -191,12 +195,13 @@
 	.phone-numb{
 		position: absolute;
 		width: 327px;
-		height: 30px;
-		left: 50px;
-		top: 466px;
+		height: 20px;
+		left: 45px;
+		top: 473px;
 		border: none;
 		background: #E5EAED;
 		border-radius: 5px;
+		padding: 10px;
 	}
 	.registerbtn{
 		color: #FFFFFF;
@@ -251,9 +256,9 @@
    				required />
    			<span class="eye" onclick="myFunction()">
    				<i id="hide1" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
-				left: 320px; top: 320px;"></i>
+				left: 338px; top: 328px; cursor:pointer;"></i>
    				<i id="hide2" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
-				left: 350px; top: 320px;"></i>
+				left: 338px; top: 328px; cursor:pointer;"></i>
    			</span>
    		</div>
    		<div class="pswd">
@@ -266,9 +271,9 @@
    				required/>
    			<span class="eye" onclick="myFunction()">
    				<i id="hide1" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
-				left: 320px; top: 395px;"></i>
+				left: 339px; top: 405px; cursor:pointer;"></i>
    				<i id="hide2" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
-				left: 350px; top: 395px;"></i>
+				left: 339px; top: 405px; cursor:pointer;"></i>
    			</span>
    		</div>
    		<label class="phone">Phone Number</label>
