@@ -73,6 +73,7 @@
 	border: none;
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
+        padding: 10px;
  }
  
 #profile {
@@ -604,7 +605,7 @@
 		<div class="line"></div>
 	<div id="pack2">
 		<label class="packages2" id="packages2" name="packages2">Standard</label>
-		<span class="price2" id="price2" name="price2">Rp 230.000</span>
+		<span class="price2" id="price2" name="price2">IDR 230.000</span>
 		<div class="line2"></div>
 		<img id="checkpk2" src="img/cekpk2.png">
 		<div class="detail2" id="detail2" name="detail2">
@@ -618,7 +619,7 @@
 		<button class="button2" id="button2" name="button2" onclick="window.location.replace('book.html')"><b>BOOK</b></button>
 	<div id="pack3">
 		<label class="packages3" id="packages3" name="packages3">Basic</label>
-		<span class="price3" id="price3" name="price3">Rp 150.000</span>
+		<span class="price3" id="price3" name="price3">IDR 150.000</span>
 		<div class="line3"></div>
 		<img id="checkpk3" src="img/cekpk3.png">
 		<div class="detail3" id="detail3" name="detail3">
@@ -632,7 +633,7 @@
 	<div id="pack1">
 		<div class="square">
 			<label class="packages1" id="packages1" name="packages1">Premium</label>
-			<span class="price1" id="price1" name="price1">Rp 300.000</span>
+			<span class="price1" id="price1" name="price1">IDR 300.000</span>
 			<img id="checkpk1" src="img/cekpk1.png">
 			<div class="detail1" id="detail1" name="detail1">
 				<br><br><br><br><br>
