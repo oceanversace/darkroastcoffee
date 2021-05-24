@@ -22,7 +22,7 @@
 <style>
 	#header-background{
 		position: absolute;
-		width: 1360px;
+		width: 1349px;
 		height: 586px;
 		left: 0px;
 		top: 0px;
@@ -71,6 +71,7 @@
 	border: none;
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
+	padding: 10px;
  }
  #profile {
     position: absolute;
@@ -257,7 +258,7 @@
 	 }
 	 #foot{
 		position: absolute;
-		width: 1360px;
+		width: 1349px;
 		height: 144px;
 		left: 0px;
 		top: 1150px;
