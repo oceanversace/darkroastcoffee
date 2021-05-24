@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HelloPet</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<style>
+	#rectangle{
+		position: absolute;
+		width: 1160px;
+		height: 470px;
+		left: 100px;
+		top: 125px;
+
+		background: #FFFFFF;
+		box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+		border-radius: 12px;
+	}
+	.back{
+		position: absolute;
+		left: 30px;
+		top: 50px;
+		cursor: pointer;
+		background: none;
+		border: none;
+	}
+	#photo-profile{
+		position: absolute;
+		width: 75px;
+		height: 75px;
+		left: 120px;
+		top: 30px;
+	}
+	.name{
+		position: absolute;
+		width: 300px;
+		height: 43px;
+		left: 220px;
+		top: 60px;
+
+		font-family: Roboto;
+		font-size: 16px;
+		line-height: 19px;
+
+		color: #000000;
+	}
+	#line{
+		position: absolute;
+		width: 1060px;
+		height: 0px;
+		left: 45px;
+		top: 130px;
+
+		border: 1px solid #000000;
+	}
+	#review{
+		position: absolute;
+		width: 1060px;
+		height: 216px;
+		left: 47px;
+		top: 160px;
+		text-align: top;
+		border: 1px solid #000000;
+		box-sizing: border-box;
+		padding: 25px;
+	}
+	.button{
+		position: absolute;
+		width: 120px;
+		height: 40px;
+		left: 980px;
+		top: 400px;
+		background: #53B2F2;
+		box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+		border-radius: 10px;
+		border: none;
+		cursor: pointer;
+		color: #FFFFFF;
+		font-size: 16px;
+	}
+	#foot{
+	position: absolute;
+	width: 1349px;
+	height: 144px;
+	left: 0px;
+	top: 690px;
+	background: #C4C4C4;
+}
+.learn{
+	width: 131px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.cancel{
+	width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.safe{
+	width: 50px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 90px;
+  left: 80px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.copyright{
+	position: absolute;
+	width: 216.75px;
+	height: 25.62px;
+	left: 910px;
+	top: 60px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #000000;
+ }
+ #copyright-logo{
+ 	position: absolute;
+	width: 23px;
+	height: 23px;
+	left: 1075px;
+	top: 58px;
+ }
+ .copyright2{
+ 	position: absolute;
+	width: 204px;
+	height: 25.62px;
+	left: 1100px;
+	top: 60px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #000000;
+
+ }
+ 	textarea:focus{
+ 		outline: 1px solid #53B2F2;
+ 	}
+</style>
+<body style="background-color: #F3F6F6;">
+	<form id="rectangle" name="box-form">
+		<button class="back" type="button">
+			<span class="iconify" data-inline="false" data-icon="eva:arrow-back-fill" style="font-size: 40px;"></span>
+		</button>
+		<img id="photo-profile" src="Mask.png"></img>
+		<span class="name"><b>Nam Do San</b></span>
+		<div id="line"></div>
+		<textarea name="review" id="review" class="review" placeholder="Describe your experience with us"></textarea> 
+		<button type="submit" id="send-button" class="button"><b>SEND</b></button>
+	</form>
+	<footer id="foot">
+		<div>
+			<span class="learn">LEARN MORE</span>
+			<a class="cancel" href="cancel.html">Cancelation Policy</a>
+			<a class="safe" href="safety.html">Safety</a>
+			<div class="copyright">HelloPet, Depresso Ltd</div>
+			<img href="#" id="copyright-logo" src="copyright.png">
+			<div class="copyright2">2021, All Rights Reserved</div>
+		</div>
+	</footer>
+	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+</body>
+</html>
