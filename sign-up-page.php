@@ -256,9 +256,9 @@
    				required />
    			<span class="eye" onclick="myFunction()">
    				<i id="hide1" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
-				left: 338px; top: 328px; cursor:pointer;"></i>
+				left: 338px; top: 328px; cursor:pointer; color:#666666;"></i>
    				<i id="hide2" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
-				left: 338px; top: 328px; cursor:pointer;"></i>
+				left: 338px; top: 328px; cursor:pointer; color:#666666;"></i>
    			</span>
    		</div>
    		<div class="pswd">
@@ -271,9 +271,9 @@
    				required/>
    			<span class="eye" onclick="myFunction()">
    				<i id="hide1" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
-				left: 339px; top: 405px; cursor:pointer;"></i>
+				left: 339px; top: 405px; cursor:pointer; color:#666666;"></i>
    				<i id="hide2" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
-				left: 339px; top: 405px; cursor:pointer;"></i>
+				left: 339px; top: 405px; cursor:pointer; color:#666666;"></i>
    			</span>
    		</div>
    		<label class="phone">Phone Number</label>
