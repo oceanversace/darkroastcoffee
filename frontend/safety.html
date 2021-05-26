@@ -10,18 +10,18 @@
 
 	<title> Safety HelloPet</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-
-	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 	<link rel="icon" href="img/logo.png" type="image/x-icon">
 </head>
 <style>
-	#header-background{
+#header-background{
 		position: absolute;
-		width: 1360px;
+		width: 1349px;
 		height: 586px;
 		left: 0px;
 		top: 0px;
-		background: url('dog.png');
+		background: url('img/dog.png');
 	}
 /* Navbar */
 .logo{
@@ -66,6 +66,7 @@
 	border: none;
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
+	padding: 10px;
  }
  #profile {
     position: absolute;
@@ -252,7 +253,7 @@
 	 }
 	 #foot{
 		position: absolute;
-		width: 1360px;
+		width: 1349px;
 		height: 144px;
 		left: 0px;
 		top: 1150px;
@@ -337,12 +338,12 @@
 		<header id="header-background">
 		<div class="logo"></div>
       	<input type="search" placeholder="  search..." id="search-box">
-          <nav class="navbar navbar-expand-lg navbar-light">
+          <nav class="navbar navbar-expand-lg navbar-light"></nav>
 			<div class="container">
 					<div class="navbar-nav ml-auto">
 					  <a class="nav-item nav-link" href="#">Home</a>
 					  <a class="nav-item nav-link" href="#">Packages</a>
-					  <a class="nav-item nav-link active" href="#">About Us <span class="sr-only"></span> </a>
+					  <a class="nav-item nav-link" href="#">About Us</a>
 					  <a class="nav-item nav-link" href="#">Contact Us</a>
 					</div>
 			</div>
@@ -350,43 +351,44 @@
 		</header>
 	</div>
 		<div>
-			<button class="buttonprofile" id="buttonprofile"><img id="profile" src="profile.png"></img>
+			<button type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"></img>
 		</div>
+		
 	<div class="container">
 		<span class="safety" id="safety" namae="safety">SAFETY</span>
 		<div id="line-title"></div>
 		<div class="safe1">
-			<img id="wash-logo" src="Wash.png">
+			<img id="wash-logo" src="img/Wash.png">
 			<span class="wash-detail">Wash and sanitize hands before and after grooming</span>
 		</div>
 		<div class="safe2">
-			<img id="shoes-logo" src="Shoes.png">
+			<img id="shoes-logo" src="img/Shoes.png">
 			<span class="shoes-detail">Wear shoe covers</span>
 		</div>
 		<div class="safe3">
-			<img id="distance-logo" src="distance.png">
+			<img id="distance-logo" src="img/distance.png">
 			<span class="distance-detail">Maintan social distance at all times</span>
 		</div>
 		<div class="safe4">
-			<img id="gloves-logo" src="gloves.png">
+			<img id="gloves-logo" src="img/gloves.png">
 			<span class="gloves-detail">Wear gloves while grooming</span>
 		</div>
 		<div class="safe5">
-			<img id="mask-logo" src="Masker.png">
+			<img id="mask-logo" src="img/Masker.png">
 			<span class="mask-detail">Wear face mask</span>
 		</div>
 		<div class="safe6">
-			<img id="steril-logo" src="Steril.png">
+			<img id="steril-logo" src="img/Steril.png">
 			<span class="steril-detail">Sanitize and clean grooming tools before and after service</span>
 		</div>
 	</div>
 	<footer id="foot">
 		<div>
 			<span class="learn">LEARN MORE</span>
-			<a class="cancel" href="cancel.html">Cancelation Policy</a>
-			<a class="safe" href="safety.html">Safety</a>
+			<a class="cancel" href="img/cancel.html">Cancelation Policy</a>
+			<a class="safe" href="img/safety.html">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
-			<img href="#" id="copyright-logo" src="copyright.png">
+			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>
 		</div>
 	</footer>
