@@ -1,10 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HelloPet</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<title>Review HelloPet</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
 </head>
 <style>
+	/* Navbar */
+.logo{
+	width: 211px;
+	height: 51px;
+	left: 20px;
+	top: 20px;
+	background: url("img/logo.png");
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size: cover;
+  	opacity: 1;
+  	position: relative;
+  	overflow: hidden;
+}
+
+.nav-link {
+        margin-right: 35px;
+        margin-left: -5px;
+        margin-top: -34px;
+        font-family: century gothic;
+
+    }
+
+.nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #cc7897;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        
+    }
+    #profile {
+    position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 60px;
+	top: 30px;
+}
+	.buttonprofile {
+	border: none;
+	cursor: pointer;
+	border-radius: 12px;
+	  text-decoration: none;
+	  transition: 0.6s;
+}
 	#rectangle{
 		position: absolute;
 		width: 1160px;
@@ -165,11 +222,29 @@
  	}
 </style>
 <body style="background-color: #F3F6F6;">
+	<div class="header">
+		<header id="header-background">
+		<div class="logo"></div>
+          <nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+					<div class="navbar-nav ml-auto">
+					  <a class="nav-item nav-link" href="#">Home</a>
+					  <a class="nav-item nav-link" href="#">Packages</a>
+					  <a class="nav-item nav-link" href="#">About Us</a>
+					  <a class="nav-item nav-link" href="#">Contact Us</a>
+					</div>
+			</div>
+		  </nav>
+		</header>
+	</div>
+	<div>
+		<button type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"></img>
+	</div>
 	<form id="rectangle" name="box-form">
 		<button class="back" type="button">
 			<span class="iconify" data-inline="false" data-icon="eva:arrow-back-fill" style="font-size: 40px;"></span>
 		</button>
-		<img id="photo-profile" src="Mask.png"></img>
+		<img id="photo-profile" src="img/Mask.png"></img>
 		<span class="name"><b>Nam Do San</b></span>
 		<div id="line"></div>
 		<textarea name="review" id="review" class="review" placeholder="Describe your experience with us"></textarea> 
@@ -178,10 +253,10 @@
 	<footer id="foot">
 		<div>
 			<span class="learn">LEARN MORE</span>
-			<a class="cancel" href="cancel.html">Cancelation Policy</a>
-			<a class="safe" href="safety.html">Safety</a>
+			<a class="cancel" href="img/cancel.html">Cancelation Policy</a>
+			<a class="safe" href="img/safety.html">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
-			<img href="#" id="copyright-logo" src="copyright.png">
+			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>
 		</div>
 	</footer>
