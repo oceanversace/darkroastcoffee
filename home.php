@@ -922,10 +922,10 @@
 			</div>
 		  </nav>
           <div>
-            <button class="button4" id="button4" name="button4" onclick="window.location.replace('login-rev.php')"><b>Sign In</b></button>
+            <button class="button4" id="button4" name="button4" onclick="window.location.href='login-rev.php'"><b>Sign In</b></button>
         </div>
         <div>
-            <button class="button5" id="button5" name="button5" onclick="window.location.replace('sign-up-page.php')"><b>Sign Up</b></button>
+            <button class="button5" id="button5" name="button5" onclick="window.location.href='sign-up-page.php'"><b>Sign Up</b></button>
         </div>
 		</header>
 	</div>
@@ -984,14 +984,14 @@
 			<div class="text7">My dog really love it, HelloPet is the best place to grooming your pet</div>
 			<img id="vector6" src="img/quote.png"></img>
 			<div>
-				<button class="button2" id="button2" name="button2" onclick="window.location.replace('swipe.html')"><img id="swipe" src="img/SWIPE-2.png"></img></button>
+				<button class="button2" id="button2" name="button2" onclick="window.location.href='swipe.html'"><img id="swipe" src="img/SWIPE-2.png"></img></button>
 				 <span class="sr-only">Previous</span>
 			</div>
 		<div class="text6">Ryder</div>
 			<div class="text8">Usually take care of Marshall and Rubble, they like it! Next time i must ensure Rocky to bath properly, hope HelloPet can make my Rocky calm XD.</div>
 			<img id="vector7" src="img/quote.png"></img>
 			<div>
-				<button class="button3" id="button3" name="button3" onclick="window.location.replace('swipe.html')"><img id="swipe-1" src="img/SWIPE.png"></img></button>
+				<button class="button3" id="button3" name="button3" onclick="window.location.href='swipe.html'"><img id="swipe-1" src="img/SWIPE.png"></img></button>
 				<span class="sr-only">Next</span>
 			</div>
 	</div>

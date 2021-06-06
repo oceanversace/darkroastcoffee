@@ -596,7 +596,7 @@
 		</header>
 	</div>
     <div>
-    <button class="buttonprofile" id="buttonprofile" name="buttonprofile" onclick="window.location.replace('profile.html')"><img id="profile" src="img/profile.png"></img>
+    <button class="buttonprofile" id="buttonprofile" name="buttonprofile" onclick="window.location.href='profile.php'"><img id="profile" src="img/profile.png"></img>
     </div>
 	<img id="vector1" src="img/vector1.png"></img>
 	<img id="vector2" src="img/vector2.png"></img>
@@ -616,7 +616,7 @@
 			Eye Stain Removal
 			Teeth Brushing
 		</div>
-		<button class="button2" id="button2" name="button2" onclick="window.location.replace('book.html')"><b>BOOK</b></button>
+		<button class="button2" id="button2" name="button2" onclick="window.location.href='petdetails.php?pck_id=1'"><b>BOOK</b></button>
 	<div id="pack3">
 		<label class="packages3" id="packages3" name="packages3">Basic</label>
 		<span class="price3" id="price3" name="price3">IDR 150.000</span>
@@ -628,7 +628,7 @@
 		Nail Trimming
 		Teeth Brushing
 		</div>
-		<button class="button3" id="button3" name="button2" onclick="window.location.replace('book.html')"><b>BOOK</b></button>
+		<button class="button3" id="button3" name="button2" onclick="window.location.href='petdetails.php?pck_id=3'"><b>BOOK</b></button>
 	</div>
 	<div id="pack1">
 		<div class="square">
@@ -646,7 +646,7 @@
 				<p>Teeth Brushing</p>
 				<p>Anal Gland Expression</p>
 			</div>
-			<button class="button1" id="button1" name="button1" onclick="window.location.replace('book.html')"><b>BOOK</b></button>
+			<button class="button1" id="button1" name="button1" onclick="window.location.href='petdetails.php?pck_id=2'"><b>BOOK</b></button>
 		</div>
 	</div>
 	<div class="container">

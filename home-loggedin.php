@@ -2,7 +2,7 @@
 	session_start();
 	include('config.php');
 	if( !isset($_SESSION["login"]) ) {
-    	header('Location: login-rev.php');
+    	header('Location: home.php');
   	}
  ?>
 
@@ -913,7 +913,7 @@
 		</header>
 	</div>
     <div>
-    	<button class="buttonprofile" id="buttonprofile" name="buttonprofile" onclick="window.location.replace('profile.html')"><img id="profile" src="img/profile.png"></img></button>
+    	<button class="buttonprofile" id="buttonprofile" name="buttonprofile" onclick="window.location.href='profile.php'"><img id="profile" src="img/profile.png"></img></button>
     </div>
 	<div class="title">
 		<span class="pack">HOW IT WORKS</span>
@@ -961,7 +961,7 @@
 	<img id="vector2" src="img/Gelbiru.png"></img>
 	<img id="vector3" src="img/Hightlight.png"></img>
 	<div>
-		<button class="button1" id="button1" name="button1" onclick="window.location.replace('packages.php')"><b>BOOK NOW</b></button>
+		<button class="button1" id="button1" name="button1" onclick="window.location.href='packages.php'"><b>BOOK NOW</b></button>
 	</div>
 	<div id="pack5"></div>
 	<div id="pack6"></div>
@@ -972,14 +972,14 @@
 			<div class="text7">My dog really love it, HelloPet is the best place to grooming your pet</div>
 			<img id="vector6" src="img/quote.png"></img>
 			<div>
-				<button class="button2" id="button2" name="button2" onclick="window.location.replace('swipe.html')"><img id="swipe" src="img/SWIPE-2.png"></img></button>
+				<button class="button2" id="button2" name="button2" onclick="window.location.href='swipe.html'"><img id="swipe" src="img/SWIPE-2.png"></img></button>
 				 <span class="sr-only">Previous</span>
 			</div>
 		<div class="text6">Ryder</div>
 			<div class="text8">Usually take care of Marshall and Rubble, they like it! Next time i must ensure Rocky to bath properly, hope HelloPet can make my Rocky calm XD.</div>
 			<img id="vector7" src="img/quote.png"></img>
 			<div>
-				<button class="button3" id="button3" name="button3" onclick="window.location.replace('swipe.html')"><img id="swipe-1" src="img/SWIPE.png"></img></button>
+				<button class="button3" id="button3" name="button3" onclick="window.location.href='swipe.html'"><img id="swipe-1" src="img/SWIPE.png"></img></button>
 				<span class="sr-only">Next</span>
 			</div>
 	</div>
