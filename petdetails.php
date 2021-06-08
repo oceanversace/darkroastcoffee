@@ -391,7 +391,7 @@
 		  </nav>
 		</header>
         <div>
-			<a href="#" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
+			<a href="#" type="button" class="buttonprofile" id="buttonprofile" onclick="window.location.href='profile.php'"><img id="profile"><img id="profile" src="img/profile.png"/></a>
 		</div>
 	</div>
         <div id="container">

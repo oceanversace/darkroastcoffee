@@ -37,5 +37,5 @@
 				window.location.replace("index.php");
 			</script>';
 	}
-    echo ' <script> windown.localtion.replace("index.php")</script> ';
+        
  ?>

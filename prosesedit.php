@@ -6,7 +6,7 @@
 		die;
 	}
 
-	$username = $_SESSION['username'];
+	$username = htmlspecialchars($_POST['username']);
 	$nama = htmlspecialchars($_POST['nama']);
 	$email = htmlspecialchars($_POST['email']);
 	$alamat = htmlspecialchars($_POST['alamat']);
@@ -16,7 +16,7 @@
 	$res = mysqli_query($conn, $query);
 	echo "<script type='text/javascript'>
     			alert('Edit Profile Sukses!');
-    			window.location.replace('index.php')
+    			window.location.replace('profile.php')
 				</script>";
 	exit;
  ?>

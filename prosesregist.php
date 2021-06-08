@@ -38,4 +38,5 @@
 				window.location.replace("home.php");
 			</script>';
 	}
+	echo ' <script> windown.localtion.replace("index.php")</script> ';
  ?>
