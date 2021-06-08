@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HelloPet</title>
+	<title>Transaction HelloPet</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
 </head>
 <style>
 	.box{
@@ -180,7 +183,7 @@
 			<span class="trans" id="trans" name="trans">Transaction ID : </span>
 			<span class="id-trans" id="id-trans" name="id-trans" value="<?php echo $transaction['transaction_id']?>"> dika punten ini gua gatau pokonya isinya id-transaksinya ehehe</span>
 			<div class="garis1"></div>
-			<img src="bca.png" value="<?php echo $bank['imgBCA']?>" style="position:absolute; left: 55px; top: 130px;"> <!--ini gambar banknya-->
+			<img src="img/bca.png" value="<?php echo $bank['imgBCA']?>" style="position:absolute; left: 55px; top: 130px;"> <!--ini gambar banknya-->
 			<span value="<?php echo $bank['BCA']?>" style="position :absolute; left: 170px; top: 152px; font-family: Roboto;">Bank BCA</span> <!--ini tulisan Banknya sesuai yang dipilih-->
 			<div class="garis2"></div>
 			<p class="bilnumb" name="bilnumb">Bill Number :</p>
@@ -191,7 +194,7 @@
 			<p class="total">Payment Total</p>
 			<p value="<?php echo $bank['BCA']?>" class="pay" id="pay" name="pay">IDR 300.000,00</p> <!--sesuai total paymentnya-->
 			<p class="cancel-rule">The order will be automatically<span style="color: #FF5353; ">&nbsp canceled &nbsp</span> if you don't make a payment within 1x24 hours</p>
-			<button class="ok" id="ok-button" name="ok-button" href="bookdetail.html"><b>OK</b></button>
+			<button type="submit" class="ok" id="ok-button" name="ok-button" href="bookdetail.html"><b>OK</b></button>
 	</div>
 </body>
 <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>  <!--belom bisa :(-->
