@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HelloPet</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<style>
+	.box{
+		position: absolute;
+		width: 1034px;
+		height: 495px;
+		left: 162px;
+		top: 80px;
+
+		background: #FFFFFF;
+		box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+	}
+	.title{
+		position: absolute;
+		width: 251px;
+		height: 61px;
+		left: 120px;
+		top: 20px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 25px;
+		line-height: 29px;
+		display: flex;
+		align-items: center;
+
+		color: #000000;
+	}
+	.trans{
+		position: absolute;
+		width: 300px;
+		height: 59px;
+		left: 120px;
+		top: 60px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px;
+		display: flex;
+		align-items: center;
+
+		color: #000000;
+	}
+	.id-trans{
+		position: absolute;
+		width: 600px;
+		height: 59px;
+		left: 250px;
+		top: 60px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px;
+		display: flex;
+		align-items: center;
+
+		color: #000000;
+	}
+	.garis1{
+		position: absolute;
+		width: 912px;
+		height: 0px;
+		left: 55px;
+		top: 120px;
+
+		border: 1px solid #000000;
+	}
+	.garis2{
+		position: absolute;
+		width: 403px;
+		height: 0px;
+		left: 55px;
+		top: 200px;
+		border: 1px solid #000000;
+	}
+	.bilnumb{
+		position: absolute;
+		width: 158px;
+		height: 20px;
+		left: 55px;
+		top: 205px;
+
+		font-family: Roboto;
+		font-size: 16px;
+		line-height: 19px;
+		display: flex;
+		align-items: center;
+	}
+	#copy-button:hover{
+		background: #E5E5E5;
+		border-radius: 10px;
+
+	}
+	.garis3{
+		position: absolute;
+		width: 403px;
+		height: 0px;
+		left: 55px;
+		top: 295px;
+
+		border: 1px solid #000000;
+	}
+	.total{
+		position: absolute;
+		width: 112px;
+		height: 20px;
+		left: 55px;
+		top: 300px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		display: flex;
+		align-items: center;
+	}
+	.pay{
+		position: absolute;
+		width: 108px;
+		height: 19px;
+		left: 350px;
+		top: 300px;
+		font-family: Roboto;
+		font-size: 16px;
+		line-height: 19px;
+		display: flex;
+		align-items: center;
+
+	}
+	.cancel-rule{
+		position: absolute;
+		width: 628px;
+		height: 50px;
+		left: 55px;
+		top: 360px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		display: flex;
+		align-items: center;
+	}
+	.ok{
+		position: absolute;
+		width: 112px;
+		height: 45px;
+		left: 850px;
+		top: 415px;
+		cursor: pointer;
+		color: #FFFFFF;
+		font-family: Roboto;
+		font-size: 18px;
+		border: none;
+		background: #53B2F2;
+		border-radius: 10px;
+	}
+	.ok:hover{
+		background : #309BE4;
+	}
+</style>
+<body style="background-color: #F3F6F6;">
+	<div class="box" id="box">
+			<button class="iconify" data-inline="false" data-icon="eva:arrow-back-fill" style="font-size: 40px; position: absolute;
+			left: 50px; top: 50px; cursor: pointer;">
+			</button>
+			<span class="title" id="title" name="title"><b>HelloPet Order</b></span>
+			<span class="trans" id="trans" name="trans">Transaction ID : </span>
+			<span class="id-trans" id="id-trans" name="id-trans" value="<?php echo $transaction['transaction_id']?>"> dika punten ini gua gatau pokonya isinya id-transaksinya ehehe</span>
+			<div class="garis1"></div>
+			<img src="bca.png" value="<?php echo $bank['imgBCA']?>" style="position:absolute; left: 55px; top: 130px;"> <!--ini gambar banknya-->
+			<span value="<?php echo $bank['BCA']?>" style="position :absolute; left: 170px; top: 152px; font-family: Roboto;">Bank BCA</span> <!--ini tulisan Banknya sesuai yang dipilih-->
+			<div class="garis2"></div>
+			<p class="bilnumb" name="bilnumb">Bill Number :</p>
+			<p id="no-bill" style="position: absolute; font-family: Roboto; top: 245px; left: 55px;color: #F85A54;">126 0895 4226 06 3</p> <!--ini nomor rekeningnya-->
+			<button id="copy-button" onclick="copyToClipBoard('#no-bill')" class="iconify" data-icon="fluent:copy-16-regular" style="font-size: 32px; position:absolute; left:430px; top:250px; border: none; cursor: pointer;">
+			</button> <!--belom bisa copy buttonnya :(-->
+			<div class="garis3"></div>
+			<p class="total">Payment Total</p>
+			<p value="<?php echo $bank['BCA']?>" class="pay" id="pay" name="pay">IDR 300.000,00</p> <!--sesuai total paymentnya-->
+			<p class="cancel-rule">The order will be automatically<span style="color: #FF5353; "> canceled </span> if you don't make a payment within 1x24 hours</p>
+			<button class="ok" id="ok-button" name="ok-button" href="bookdetail.html"><b>OK</b></button>
+	</div>
+</body>
+<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>  <!--belom bisa :(-->
+<script>
+	  function copyToClipboard(element) {
+	  var $temp = $("<input>");
+	  $("body").append($temp);
+	  $temp.val($(element).text()).select();
+	  document.execCommand("copy");
+	  $temp.remove();
+	  }
+	
+</script>
+</html>
