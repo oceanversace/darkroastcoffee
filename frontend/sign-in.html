@@ -3,8 +3,6 @@
 <head>
 	<title>Sign In HelloPet</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-	<link rel="icon" href="img/logo.png" type="image/x-icon">
 </head>
 <style>
 	body{
@@ -55,10 +53,10 @@
 	}
 	.user-email{
 		position: absolute;
-		width: 317px;
+		width: 300px;
 		height: 30px;
-		left: 46px;
-		top: 150px;
+		left: 515px;
+		top: 190px;
 		border: none;
 		background: #E5EAED;
 		border-radius: 5px;
@@ -68,8 +66,8 @@
 		position: absolute;
 		width: 71px;
 		height: 19px;
-		left: 48px;
-		top: 222px;
+		left: 517px;
+		top: 260px;
 
 		font-family: Roboto;
 		font-style: normal;
@@ -80,113 +78,43 @@
 	}
 	.user-password{
 		position: absolute;
-		width: 317px;
+		width: 300px;
 		height: 30px;
-		left: 46px;
-		top: 250px;
+		left: 0px;
+		top: 30px;
 		border: none;
 		background: #E5EAED;
 		border-radius: 5px;
 		padding: 10px
 	}
-	#hide1{
-		display: none;
-	}
-	.forgot-password{
-		position: absolute;
-		width: 160px;
-		height: 19px;
-		left: 248px;
-		top: 320px;
-
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 14px;
-		line-height: 19px;
-		text-decoration-line: underline;
-		cursor: pointer;
-		color: #000000;
-	}
-	.detail-overlay{
-		position: absolute;
-		width: 432px;
-		height: 208px;
-		left: -5px;
-		top: 190px;
-		background: #FFFFFF;
-		box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
-		border-radius: 12px;
-		border: none;
-	}
-	.email-sent{
-		position: absolute;
-		width: 111px;
-		height: 27px;
-		left: 160px;
-		top: 24px;
-
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 23px;
-		line-height: 27px;
-		color: #000000;
-	}
-	.detail-email-sent{
-		position: absolute;
-		width: 320px;
-		height: 82px;
-		left: 56px;
-		top: 68px;
-
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 18px;
-		line-height: 21px;
-		text-align: center;
-
-		color: #000000;
-	}
-	.ok{
-		position: absolute;
-		width: 108px;
-		height: 41px;
-		left: 162px;
-		top: 150px;
-		cursor: pointer;
-		border: none;
-		border-radius: 10px;
-		background: #53B2F2;
-		color: #FFFFFF;
-		font-family: Roboto;
-		font-style: bold;
-		font-size: 16px	
-	}
 	.signin-button{
 		position: absolute;
 		width: 113px;
 		height: 39px;
-		left: 150px;
-		top: 449px;
+		left: 625px;
+		top: 480px;
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 16px;
 		color: #FFFFFF;
 		background: #53B2F2;
-		box-shadow: 0px 4px 30px rgba(83, 178, 242, 0.5);
 		border-radius: 10px;
 		border: none;
 		cursor: pointer;
+	}
+	.signin-button:hover{
+		background : #309BE4;
+	}
+	.signin-button:focus{
+		outline: none;
 	}
 	.not-member{
 		position: absolute;
 		width: 110px;
 		height: 19px;
-		left: 111px;
-		top: 524px;
+		left: 580px;
+		top: 544px;
 
 		font-family: Roboto;
 		font-style: normal;
@@ -199,8 +127,8 @@
 		position: absolute;
 		width: 83px;
 		height: 19px;
-		left: 230px;
-		top: 524px;
+		left: 695px;
+		top: 544px;
 
 		font-family: Roboto;
 		font-style: normal;
@@ -211,21 +139,15 @@
 
 		color: #000000;
 	}
-	.button-icon{
-		position: absolute;
-		width: 50px;
-		height: 50px;
-		left: 1302px;
-		top: 21px;
-		background: none;
-		border: none;
-		cursor: pointer;
+	#hide1{
+		display: none;
 	}
 </style>
 <body>
 	<div id="card">
-		<span class="title">SIGN IN</span>
-		<div class="email">Username/Email</div>
+		<p class="title">SIGN IN</p>
+		<form>
+		<label for="user-email" class="email">Username/Email</div>
 		<input
   				id="user-email"
   				class="user-email"
@@ -234,47 +156,28 @@
    				autocomplete="on"
    				required />
    		<div class="pswd">
-   			<span class="pass">Password</span>
+   			<label for="user-password" class="pass">Password</span>
    			<input
   				id="user-password"
    				class="user-password"
    				type="password"
    				name="password"
    				required />
-   			<span class="eye" onclick="myFunction()">
-   				<i id="hide1" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
-				left: 320px; top: 265px; color:#666666; cursor:pointer;"></i>
-   				<i id="hide2" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
-				left: 350px; top: 265px; color:#666666; cursor: pointer;"></i>
+   				<i id="hide1" onclick="myFunction()" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
+				left: 280px; top: 45px; color:#666666; cursor:pointer;"></i>
+   				<i id="hide2" onclick="myFunction()" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
+				left: 280px; top: 45px; color:#666666; cursor: pointer;"></i>
    			</span>
    		</div>
-   		<div class="forgot-pswd">
-   			<a onclick="on()" class="forgot-password">forgot your password?</a>
-   		</div>
-   		<button type="submit" class="signin-button">SIGN IN</button> 
+   		<button type="submit" class="signin-button">SIGN IN</button>
+   		</form> 
    		<span class="not-member">Not a member?</span>
    		<a class="sign-up" href="sign-up.html">Signup now</a>
-   		<div id="overlay">
-	   		<div class="detail-overlay">
-	   			<label class="email-sent">Email Sent</label>
-	   			<div class="detail-email-sent">We sent an email to namdosan@gmail.com with a link to reset your password</div>
-	   			<button onclick="off()" class="ok" id="oke-button">OK</button>
-	   		</div>
-   		</div>
    	</div>
-   	<button type="close-outline" class="button-icon">
-  		<span class="iconify" data-inline="false" data-icon="gridicons:cross" style="font-size: 35px;"></span>
- 	</button>
+   	<a href="home-sebelumlogin.html">
+  		<i class="iconify" data-inline="false" data-icon="gridicons:cross" style="font-size: 35px; position: absolute; top: 30px; left: 1300px; color:#000000"></i>
+ 	</a>
    	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-   	<script>
-		function on() {
-		document.getElementById("overlay").style.display = "block";
-		}
-
-		function off() {
-  		document.getElementById("overlay").style.display = "none";
-		}
-	</script>
 	<script>
   	 function myFunction(){
   	 	var x = document.getElementById("user-password");
@@ -282,8 +185,8 @@
   	 	var z = document.getElementById("hide2");
   	 	if(x.type=='password'){
   	 		x.type="text";
-  	 		y.display="block";
-  	 		z.display="none";
+  	 		y.style.display="block";
+  	 		z.style.display="none";
   	 	}
   	 	else{
   	 		x.type="password";
