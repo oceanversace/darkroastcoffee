@@ -1,8 +1,3 @@
-<?php 
-	session_start();
-	include('config.php');
- ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,22 +8,22 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-	<title> Safety HelloPet</title>
+	<title>Cancel HelloPet</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-
-	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 	<link rel="icon" href="img/logo.png" type="image/x-icon">
 </head>
 <style>
 	#header-background{
 		position: absolute;
 		width: 1349px;
-		height: 586px;
+		height: 397px;
 		left: 0px;
 		top: 0px;
-		background: url('img/dog.png');
+		background: url('img/dog-1.png');
 	}
-/* Navbar */
+	/* Navbar */
 .logo{
 	width: 211px;
 	height: 51px;
@@ -87,24 +82,23 @@
 	  text-decoration: none;
 	  transition: 0.6s;
 }
-/* container */
-	 .container{
+	 #container{
 	 	position: absolute;
-		width: 1156px;
-		height: 806px;
-		left: 101px;
-		top: 265px;
+		width: 1168px;
+		height: 409px;
+		left: 92px;
+		top: 259px;
 
 		background: #FFFFFF;
 		box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.25);
 		border-radius: 30px;
 	 }
-	 .safety{
+	 .title{
 	 	position: absolute;
-		width: 107px;
+		width: 334px;
 		height: 34px;
-		left: 520px;
-		top: 60px;
+		left: 420px;
+		top: 55px;
 
 		font-family: Roboto;
 		font-style: normal;
@@ -115,144 +109,27 @@
 
 		color: #000000;
 	 }
-	 #line-title{	 	
-		position: absolute;
-		width: 50px;
+	 #line-title{
+	 	position: absolute;
+		width: 151px;
 		height: 0px;
-		left: 545px;
+		left: 500px;
 		top: 100px;
 
 		border: 1px solid #000000;
 	 }
-	 #wash-logo{
+	 .detail-cancel{
 	 	position: absolute;
-		width: 128.19px;
-		height: 121.53px;
-		left: 90px;
-		top: 170px;
-	 }
-	 .wash-detail{
-	 	position: absolute;
-		width: 282.02px;
-		height: 68.06px;
-		left: 240px;
-		top: 210px;
-
-		font-family: Roboto;
+		width: 841px;
+		height: 213px;
+		left: 150px;
+		top: 150px;
+		text-align: justify;
+		font-family: Nunito;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 16px;
-		line-height: 19px;
-
-		color: #000000;
-	 }
-	 #shoes-logo{
-	 	position: absolute;
-		width: 128.19px;
-		height: 121.53px;
-		left: 690px;
-		top: 170px;
-	 }
-	 .shoes-detail{
-	 	position: absolute;
-		width: 152px;
-		height: 26px;
-		left: 840px;
-		top: 220px;
-
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 16px;
-		line-height: 19px;
-
-		color: #000000;
-	 }
-	 #distance-logo{
-	 	position: absolute;
-		width: 128.19px;
-		height: 121.53px;
-		left: 90px;
-		top: 400px;
-	 }
-	 .distance-detail{
-	 	position: absolute;
-		width: 282.02px;
-		height: 68.06px;
-		left: 240px;
-		top: 448px;
-
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 16px;
-		line-height: 19px;
-
-		color: #000000;
-	 }
-	 #gloves-logo{
-	 	position: absolute;
-		width: 128.19px;
-		height: 121.53px;
-		left: 690px;
-		top: 400px;
-	 }
-	 .gloves-detail{
-	 	position: absolute;
-		width: 282px;
-		height: 26px;
-		left: 840px;
-		top: 448px;
-
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 16px;
-		line-height: 19px;
-
-		color: #000000;
-	 }
-	 #mask-logo{
-	 	position: absolute;
-		width: 128.19px;
-		height: 121.53px;
-		left: 90px;
-		top: 630px;
-	 }
-	 .mask-detail{
-	 	position: absolute;
-		width: 282.02px;
-		height: 68.06px;
-		left: 240px;
-		top: 678px;
-
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 16px;
-		line-height: 19px;
-
-		color: #000000;
-	 }
-	 #steril-logo{
-	 	position: absolute;
-		width: 128.19px;
-		height: 121.53px;
-		left: 690px;
-		top: 630px;
-	 }
-	 .steril-detail{
-	 	position: absolute;
-		width: 282px;
-		height: 26px;
-		left: 840px;
-		top: 673px;
-
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 16px;
-		line-height: 19px;
+		line-height: 22px;
 
 		color: #000000;
 	 }
@@ -261,7 +138,7 @@
 		width: 1349px;
 		height: 144px;
 		left: 0px;
-		top: 1150px;
+		top: 740px;
 		background: #C4C4C4;
 	}
 	.learn{
@@ -346,9 +223,9 @@
           <nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 					<div class="navbar-nav ml-auto">
-					  <a class="nav-item nav-link" href="#">Home</a>
-					  <a class="nav-item nav-link" href="#">Packages</a>
-					  <a class="nav-item nav-link active" href="#">About Us <span class="sr-only"></span> </a>
+					  <a class="nav-item nav-link" href="home.php">Home</a>
+					  <a class="nav-item nav-link" href="packages.php">Packages</a>
+					  <a class="nav-item nav-link" href="aboutus.php">About Us</a>
 					  <a class="nav-item nav-link" href="#">Contact Us</a>
 					</div>
 			</div>
@@ -356,34 +233,15 @@
 		</header>
 	</div>
 		<div>
-			<button class="buttonprofile" id="buttonprofile" onclick="window.location.href='myprofile.php'"><img id="profile" src="img/profile.png"></img>
+			<a href="myprofile.php" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
 		</div>
-	<div class="container">
-		<span class="safety" id="safety" namae="safety">SAFETY</span>
+	<div id="container">
+		<span class="title">CANCELATION POLICY</span>
 		<div id="line-title"></div>
-		<div class="safe1">
-			<img id="wash-logo" src="img/Wash.png">
-			<span class="wash-detail">Wash and sanitize hands before and after grooming</span>
-		</div>
-		<div class="safe2">
-			<img id="shoes-logo" src="img/Shoes.png">
-			<span class="shoes-detail">Wear shoe covers</span>
-		</div>
-		<div class="safe3">
-			<img id="distance-logo" src="img/distance.png">
-			<span class="distance-detail">Maintan social distance at all times</span>
-		</div>
-		<div class="safe4">
-			<img id="gloves-logo" src="img/gloves.png">
-			<span class="gloves-detail">Wear gloves while grooming</span>
-		</div>
-		<div class="safe5">
-			<img id="mask-logo" src="img/Masker.png">
-			<span class="mask-detail">Wear face mask</span>
-		</div>
-		<div class="safe6">
-			<img id="steril-logo" src="img/Steril.png">
-			<span class="steril-detail">Sanitize and clean grooming tools before and after service</span>
+		<div class="detail-cancel" id="detail-cancel" name="detail-cancel">
+			<p>We offer a full money-back guarantee for all services purchased on our website with 24 hours of the service. If you are not satisfied with the service that you have purchased from us, you can get your money back no questions asked. You are eligible for a full reimbursement within 24 hours of service.</p>
+			<p>After the 24 hours period you will no longer be eligible and won't be able to receive a refund. We encourage our customers to report any kind of dissatisfaction with the grooming service within 24 hours.</p>
+			<p>If you have any additional questions or would like to request a refund, feel free to contact us.</p>
 		</div>
 	</div>
 	<footer id="foot">

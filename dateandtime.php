@@ -4,22 +4,12 @@
 	if( !isset($_SESSION["login"]) ) {
     	header('Location: home.php');
   	}
-?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<form action="">
-		<input type="date" id="date" name="date" ><input type="submit">
-	</form>
-</body>
-</html>
+	$pet = $_GET['pet'];
+	$size = $_GET['size'];
+	$age = $_GET['age'];
+	$gender = $_GET['gender'];
+?>
 
 <!DOCTYPE html>
 <html>
@@ -408,9 +398,9 @@
           <nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 					<div class="navbar-nav ml-auto">
-					  <a class="nav-item nav-link" href="#">Home</a>
-					  <a class="nav-item nav-link" href="#">Packages</a>
-					  <a class="nav-item nav-link" href="#">About Us</a>
+					  <a class="nav-item nav-link" href="home.php">Home</a>
+					  <a class="nav-item nav-link" href="packages.php">Packages</a>
+					  <a class="nav-item nav-link" href="aboutus.php">About Us</a>
 					  <a class="nav-item nav-link" href="#">Contact Us</a>
 					</div>
 			</div>
@@ -425,19 +415,23 @@
 			<div id="idx-calendar">
 				<div id="daysNum"></div>
 					<div>
-						<form action="">
+						<form action="groomingpackages.php" method="GET">
+	 						<input type="hidden" name="pet" value="<?=$pet?>">
+							<input type="hidden" name="size" value="<?=$size?>">
+							<input type="hidden" name="age" value="<?=$age?>">
+							<input type="hidden" name="gender" value="<?=$gender?>">
 							<input type="date" id="date" name="date" >
-							<input type="radio" class="time1" id="time" name="time" style="position: absolute; left: 408px; top: 135px;">
+							<input type="radio" class="time1" id="time" name="time" value="08.00-10.00 WIB" style="position: absolute; left: 408px; top: 135px;">
 							<label for="time1" style="position: absolute; left: 428px; top: 130px; font-family: Roboto;">08.00-10.00 WIB</label>
-							<input type="radio" class="time2" id="time" name="time"  style="position: absolute; left: 408px; top: 175px;">
+							<input type="radio" class="time2" id="time" name="time" value="10.00-12.00 WIB" style="position: absolute; left: 408px; top: 175px;">
 							<label for="time2" style="position: absolute; left: 428px; top: 170px; font-family: Roboto;">10.00-12.00 WIB</label>
-							<input type="radio" class="time3" id="time" name="time"  style="position: absolute; left: 408px; top: 215px;">
+							<input type="radio" class="time3" id="time" name="time" value="13.00-15.00 WIB" style="position: absolute; left: 408px; top: 215px;">
 							<label for="time3" style="position: absolute; left: 428px; top: 210px; font-family: Roboto;">13.00-15.00 WIB</label>
-							<input type="radio" class="time4" id="time" name="time" style="position: absolute; left: 408px; top: 255px;">
+							<input type="radio" class="time4" id="time" name="time" value="15.00-17.00 WIB" style="position: absolute; left: 408px; top: 255px;">
 							<label for="time4" style="position: absolute; left: 428px; top: 250px; font-family: Roboto;">15.00-17.00 WIB</label>
-							<button type="submit" href="#" class="next"><b>NEXT</b></button>
-							<button type="submit" href="#" class="back"><b>BACK</b></button>
+							<button type="submit" class="next"><b>NEXT</b></button>
 						</form>
+						<button onclick="window.location.href='petdetails.php'" class="back"><b>BACK</b></button>
         			</div>
 			</div>
 			</div>

@@ -1,9 +1,12 @@
 <?php 
 	session_start();
-	include('config.php');
-	if( !isset($_SESSION["login"]) && $_SESSION["role"] != "admin") {
-    	header('Location: ../');
+    include('config.php');
+    if( !isset($_SESSION["login"]) ) {
+    	header('Location: adminlogin.php');
   	}
+    else if( $_SESSION["role"] != "admin" ) {
+        header('Location: ../');
+    }
  ?>
 
 

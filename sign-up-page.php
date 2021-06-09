@@ -2,7 +2,7 @@
   session_start();
   include('config.php');
   if( isset($_SESSION["login"]) ) {
-    header('Location: home.html');
+    header('Location: home.php');
   }
  ?>
 

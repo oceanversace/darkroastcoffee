@@ -32,7 +32,7 @@
 		
 		$password = password_hash($password, PASSWORD_DEFAULT);
 
-		mysqli_query($conn, "INSERT INTO user VALUES('', '$username', '$password','$nama','$email','','','customer');");
+		mysqli_query($conn, "INSERT INTO user VALUES('', '$username', '$password','$nama','$email','$notelp','','customer');");
 		echo '<script>
 				alert("Registrasi Sukses!");
 				window.location.replace("home.php");

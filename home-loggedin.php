@@ -913,7 +913,7 @@
 		</header>
 	</div>
     <div>
-    	<button class="buttonprofile" id="buttonprofile" name="buttonprofile" onclick="window.location.href='profile.php'"><img id="profile" src="img/profile.png"></img></button>
+    	<button class="buttonprofile" id="buttonprofile" name="buttonprofile" onclick="window.location.href='myprofile.php'"><img id="profile" src="img/profile.png"></img></button>
     </div>
 	<div class="title">
 		<span class="pack">HOW IT WORKS</span>
@@ -1030,7 +1030,7 @@
 	<footer id="foot">
 		<div>
 			<span class="learn">LEARN MORE</span>
-			<a class="cancel" href="cancel.html">Cancelation Policy</a>
+			<a class="cancel" href="cancel.php">Cancelation Policy</a>
 			<a class="safe" href="safety.php">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
 			<img href="#" id="copyright-logo" src="img/copyright.png">

@@ -996,7 +996,7 @@
 	</div>
 	<div class="title">
 		<span class="pack-3">FREKUENTLY ASK QUETION</span>
-		<div id="pack7" href="contact.html"></div>
+		<div id="pack7" href="contact.php"></div>
 			<span class="pack-4">NEED HELP?</span>
 			<img id="vector8" src="img/telp.png"></img>
 				<div class="text12">Call us on </div>
@@ -1041,7 +1041,7 @@
 	<footer id="foot">
 		<div>
 			<span class="learn">LEARN MORE</span>
-			<a class="cancel" href="cancel.html">Cancelation Policy</a>
+			<a class="cancel" href="cancel.php">Cancelation Policy</a>
 			<a class="safe" href="safety.php">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
 			<img href="#" id="copyright-logo" src="img/copyright.png">

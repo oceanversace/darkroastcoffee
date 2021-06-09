@@ -24,6 +24,11 @@
 <body>
     <h1>Hellopet Admin Page</h1>
     <a href="pending.php">Pending Appointments</a> | 
-    <a href="done.php">Completed Appointments</a>
+    <a href="completed.php">Completed Appointments</a> |
+    <a href="cancelled.php">Cancelled Appointments</a>
+    <br>
+    <a href="adminregist.php">Register New Admin</a>
+    <br>
+    <a href="adminlogout.php">Logout</a>
 </body>
 </html>

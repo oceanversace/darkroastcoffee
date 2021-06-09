@@ -261,7 +261,7 @@
 		</header>
 	</div>
 		<div>
-			<button class="buttonprofile" id="buttonprofile" onclick="window.location.href='profile.php'"><img id="profile"><img id="profile" src="img/profile.png"></img>
+			<button class="buttonprofile" id="buttonprofile" onclick="window.location.href='myprofile.php'"><img id="profile"><img id="profile" src="img/profile.png"></img>
 		</div>
 	<div id="card">
 		<span class="title">ABOUT US</span>
@@ -277,8 +277,8 @@
 	<footer id="foot">
 		<div>
 			<span class="learn">LEARN MORE</span>
-			<a class="cancel" href="cancel.html">Cancelation Policy</a>
-			<a class="safe" href="safety.html">Safety</a>
+			<a class="cancel" href="cancel.php">Cancelation Policy</a>
+			<a class="safe" href="safety.php">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
 			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>

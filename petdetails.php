@@ -391,14 +391,13 @@
 		  </nav>
 		</header>
         <div>
-			<a href="#" type="button" class="buttonprofile" id="buttonprofile" onclick="window.location.href='profile.php'"><img id="profile"><img id="profile" src="img/profile.png"/></a>
+			<a href="#" type="button" class="buttonprofile" id="buttonprofile" onclick="window.location.href='myprofile.php'"><img id="profile"><img id="profile" src="img/profile.png"/></a>
 		</div>
 	</div>
         <div id="container">
 			<form method="GET" action="dateandtime.php">
 				<span class="title">ADD PET DETAILS</span>
 				<label class="title-1">Pet Type:</label>
-					<input type="hidden" id="pack_id" name="pack_id" value="<?=$_GET['pck_id']?>">
 					<input type="radio" class="pet1" id="pet" name="pet" value="anjing" style="position: absolute; left: 150px; top: 140px;">
 					<label for="pet" style="position: absolute; left: 175px; top: 135px; font-family: Roboto;"><b>DOG</b></label>
 						<a href="#" id="button-logo"><img src="img/Dog-2.png"/></a>
@@ -424,15 +423,15 @@
 					<input type="radio" class="gender2" id="gender" name="gender" value="betina" style="position: absolute; left: 430px; top: 315px;">
 					<label for="gender" style="position: absolute; left: 455px; top: 310px; font-family: Roboto;"><b>FEMALE</b></label>
 
-					<button type="submit" href="#" class="next"><b>NEXT</b></button>
+					<button type="submit" class="next"><b>NEXT</b></button>
 			</form>
         </div>
         <img id="cate" src="img/cate.png"></img>
 	<footer id="foot">
 		<div>
 			<span class="learn">LEARN MORE</span>
-			<a class="cancel" href="img/cancel.html">Cancelation Policy</a>
-			<a class="safe" href="img/safety.html">Safety</a>
+			<a class="cancel" href="cancel.php">Cancelation Policy</a>
+			<a class="safe" href="safety.php">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
 			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>

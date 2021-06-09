@@ -8,7 +8,7 @@
     $id = $_SESSION["id"];
     $data = mysqli_query($conn, "SELECT * FROM user WHERE id=$id");
     $res = mysqli_fetch_assoc($data);
-    //var_dump($res);
+    var_dump($res);
  ?>
 
 
