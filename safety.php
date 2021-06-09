@@ -346,8 +346,8 @@
           <nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 					<div class="navbar-nav ml-auto">
-					  <a class="nav-item nav-link" href="#">Home</a>
-					  <a class="nav-item nav-link" href="#">Packages</a>
+					<a class="nav-item nav-link" href="home.php">Home</a>
+					  <a class="nav-item nav-link" href="packages.php">Packages</a>
 					  <a class="nav-item nav-link active" href="#">About Us <span class="sr-only"></span> </a>
 					  <a class="nav-item nav-link" href="#">Contact Us</a>
 					</div>

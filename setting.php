@@ -5,6 +5,9 @@
     	header('Location: home.php');
   	}
 
+	  $id = $_SESSION["id"];
+	  $data = mysqli_query($conn, "SELECT * FROM user WHERE id=$id");
+	  $res = mysqli_fetch_assoc($data);
  ?>
 
 
@@ -353,7 +356,7 @@
 	<div class="box1">
 		<div class="box2">
 			<img name="user-profile" id="user-profile" src="img/profile-1.png">
-			<p class="username" id="username" name="username" value=" ">namdodol</p> <!--username disesuaikan-->
+			<p class="username" id="username" name="username" value=" "><?=$res['username'];?></p> <!--username disesuaikan-->
 			<a class="prl" href="myprofile.php" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp  Profile</b></a>
 			<a class="myorder" href="myorder.php" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp My Order</b></a>
 			<a class="stg" href="setting.php" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp Setting</b></a>

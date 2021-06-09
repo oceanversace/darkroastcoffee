@@ -440,8 +440,8 @@
 	<footer id="foot">
 		<div>
 			<span class="learn">LEARN MORE</span>
-			<a class="cancel" href="img/cancel.html">Cancelation Policy</a>
-			<a class="safe" href="img/safety.html">Safety</a>
+			<a class="cancel" href="cancel.php">Cancelation Policy</a>
+			<a class="safe" href="safety.php">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
 			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>

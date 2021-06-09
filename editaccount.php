@@ -12,7 +12,6 @@
 	$res = mysqli_fetch_assoc($userRes);
  ?>
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +22,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-	<title>Setting Profile HelloPet</title>
+	<title>Setting Account HelloPet</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 	<link rel="icon" href="img/logo.png" type="image/x-icon">
@@ -79,7 +78,7 @@
 	.box1{
 		position: absolute;
 		width: 1164px;
-		height: 600px;
+		height: 500px;
 		left: 98px;
 		top: 105px;
 
@@ -90,7 +89,7 @@
 	.box2{
 		position: absolute;
 		width: 293px;
-		height: 600px;
+		height: 500px;
 		left: 0px;
 		top: 0px;
 
@@ -102,7 +101,7 @@
 	width: 1349px;
 	height: 144px;
 	left: 0px;
-	top: 770px;
+	top: 670px;
 	background: #C4C4C4;
 	}
 	.learn{
@@ -201,7 +200,7 @@
 		display: flex;
 		align-items: center;
 	 }
-.prl{
+	 .prl{
 	 	position: absolute;
 		width: 294px;
 		height: 48px;
@@ -269,118 +268,107 @@
 
 		border: 1px solid #000000;
 	 }
-	 .nama{
+	 .logout{
 	 	position: absolute;
-	 	left: 355px;
-		top: 160px;
+		width: 209px;
+		height: 47px;
+		left: 283px;
+		top: 140px;
 		font-family: Roboto;
 		font-size: 18px;
+		line-height: 21px;
+		cursor: pointer;
+		border: none;
+		background: none;
+		color: #036FB9;
 	 }
-	 .input1{
-	    position: absolute;
-	    width: 300px;
-	    height: 31px;
-	    left: 795px;
-	    top: 160px;
-	    padding: 10px;
-	    background: #FFFFFF;
-	    border: 1px solid #C6D4D7;
-	    box-sizing: border-box;
-   	}
-   .input1:focus{
-	    outline: 1px solid #53B2F2;
-	} 
-	.uname{
+	 .logout:focus{
+	 	outline: none;
+	 }
+	.garis1{
 	 	position: absolute;
-	 	left: 355px;
+		width: 740px;
+		height: 0px;
+		left: 355px;
+		top: 200px;
+
+		border: 1px solid #E7E7E7;
+	 }
+	 .delete{
+	 	position: absolute;
+		width: 209px;
+		height: 47px;
+		left: 313px;
 		top: 215px;
 		font-family: Roboto;
 		font-size: 18px;
-	}
-	.input2{
-	   position: absolute;
-	    width: 300px;
-	    height: 31px;
-	    left: 795px;
-	    top: 215px;
-	    padding: 10px;
-	    background: #FFFFFF;
-	    border: 1px solid #C6D4D7;
-	    box-sizing: border-box;
-   	}
-   .input2:focus{
-	    outline: 1px solid #53B2F2;
-	} 
-	.uemail{
+		line-height: 21px;
+		cursor: pointer;
+		border: none;
+		background: none;
+		color: #036FB9;
+	 }
+	 .delete:focus{
+	 	outline: none;
+	 }
+	 .garis2{
 	 	position: absolute;
-	 	left: 355px;
-		top: 270px;
+		width: 740px;
+		height: 0px;
+		left: 355px;
+		top: 275px;
+
+		border: 1px solid #E7E7E7;
+	 }
+
+	 .logout-overlay{
+	 	position: fixed;
+		width: 432px;
+		height: 208px;
+		top:250px;
+		left:490px;
+		background: #FFFFFF;
+		box-shadow: 0px 4px 32px 700px rgba(0, 0, 0, 0.4);
+		border-radius: 12px;
+	 }
+	 .surement{
+	 	position: absolute;
+		width: 320px;
+		height: 36px;
+		left: 57px;
+		top: 58px;
 		font-family: Roboto;
 		font-size: 18px;
-	}
-	.input3{
-	    position: absolute;
-	    width: 300px;
-	    height: 31px;
-	    left: 795px;
-	    top: 270px;
-	    padding: 10px;
-	    background: #FFFFFF;
-	    border: 1px solid #C6D4D7;
-	    box-sizing: border-box;
-   	}
-   .input3:focus{
-	    outline: 1px solid #53B2F2;
-	} 
-	.uphone{
-		position: absolute;
-	 	left: 355px;
-		top: 330px;
+		line-height: 21px;
+		text-align: center;
+
+		color: #000000;
+
+	 }
+	 #no-button{
+	 	position: absolute;
+		left: 70px;
+		top: 120px;
+		bottom: 20px;
+		width: 108px;
+		height: 41px;
+		background: #FFFFFF;
+		border: 1px solid #53B2F2;
+		box-sizing: border-box;
+		border-radius: 10px;
+		cursor: pointer;
 		font-family: Roboto;
-		font-size: 18px;
-	}
-	.input4{
-		position: absolute;
-	    width: 300px;
-	    height: 31px;
-	    left: 795px;
-	    top: 330px;
-	    padding: 10px;
-	    background: #FFFFFF;
-	    border: 1px solid #C6D4D7;
-	    box-sizing: border-box;
-	}
-	.input4:focus{
-	    outline: 1px solid #53B2F2;
-	} 
-	.uaddress{
-		position: absolute;
-	 	left: 355px;
-		top: 390px;
-		font-family: Roboto;
-		font-size: 18px;
-	}
-	.input5{
-		position: absolute;
-	    width: 300px;
-	    height: 80px;
-	    left: 795px;
-	    top: 390px;
-	    padding: 10px;
-	    background: #FFFFFF;
-	    border: 1px solid #C6D4D7;
-	    box-sizing: border-box;
-	}
-	.input5:focus{
-	    outline: 1px solid #53B2F2;
-	} 
-	.button-submit:hover{
+	 }
+	 #no-button:focus{
+	 	outline: none;
+	 }
+	 #yes-button:hover{
 	 	background : #309BE4;
-	}
-	.button-submit{
+	 }
+	 #yes-button{
 	 	position: absolute;
-		left: 987px;
-		top: 520px;
+		left: 260px;
+		top: 120px;
 		bottom: 20px;
 		width: 108px;
 		height: 41px;
@@ -391,11 +379,77 @@
 		color: #FFFFFF;
 		font-family: Roboto;
 	 }
-	 .button-submit:focus{
+	 #yes-button:focus{
 	 	outline: none;
 	 }
- </style>
- <body>
+	 #no-button:hover{
+	 	background : #E7E7E7;
+	 }
+	 .delete-overlay{
+	 	position: fixed;
+		width: 432px;
+		height: 208px;
+		left: 490px;
+		top: 250px;
+		background: #FFFFFF;
+		box-shadow: 0px 4px 32px 700px rgba(0, 0, 0, 0.4);
+		border-radius: 12px;
+	 }
+	 .sure-delete{
+	 	position: absolute;
+		width: 250px;
+		height: 160px;
+		left: 90px;
+		top: 30px;
+		font-family: Roboto;
+		font-size: 18px;
+		line-height: 21px;
+		text-align: center;
+
+		color: #000000;
+	 }
+	 #no-delete{
+	 	position: absolute;
+		left: 67px;
+		top: 140px;
+		bottom: 20px;
+		width: 108px;
+		height: 41px;
+		background: #FFFFFF;
+		border: 1px solid #53B2F2;
+		box-sizing: border-box;
+		border-radius: 10px;
+		cursor: pointer;
+		font-family: Roboto;
+	 }
+	 #yes-delete{
+	 	position: absolute;
+		left: 260px;
+		top: 140px;
+		bottom: 20px;
+		width: 108px;
+		height: 41px;
+		background: #53B2F2;
+		border-radius: 10px;
+		border: none;
+		cursor: pointer;
+		color: #FFFFFF;
+		font-family: Roboto;
+	 }
+	 #no-delete:focus{
+	 	outline: none;
+	 }
+	 #yes-delete:hover{
+	 	background : #309BE4;
+	 }
+	 #yes-delete:focus{
+	 	outline: none;
+	 }
+	 #no-delete:hover{
+	 	background : #E7E7E7;
+	 }
+</style>
+<body>
 	<div class="header">
 		<header id="header-background">
 		<div class="logo"></div>
@@ -410,6 +464,7 @@
 			</div>
 		 	</nav>
 		</header>
+	</div>
 	<div class="box1">
 		<div class="box2">
 			<img name="user-profile" id="user-profile" src="img/profile-1.png">
@@ -419,22 +474,13 @@
 			<a class="stg" href="setting.php" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp Setting</b></a>
 		</div>
 		<a  href="setting.php"><i class="iconify" data-inline="false" data-icon="eva:arrow-back-fill" style="font-size: 37px; position: absolute; left: 350px; top: 50px; cursor: pointer; color: #000000;"></i></a>
-		<p class="title"><b>PERSONAL DATA</b></p>
+		<p class="title"><b>ACCOUNT</b></p>
 		<div class="line"></div>
-		<form action="prosesedit.php" method="POST">
-			<input type="hidden" name="id" value="<?= $res["id"]?>">
-			<label for="name" class="nama">Nama</label>
-			<input type="text" id="name" name="nama" required value="<?php echo $res['nama']?>"class="input1" />
-			<label for="username" class="uname">Username</label>
-			<input type="text" id="username" name="username" value="<?=$res['username']?>" class="input2"/>
-			<label for="email" class="uemail">Email</label>
-	      	<input type="email" name="email" id="email" value="<?=$res['email'];?>" class="input3"/>
-	      	<label for="no_telp" class="uphone">Phone</label>
-	      	<input type="phone" name="no_telp" id="no_telp" value="<?=$res['no_telp'];?>" class="input4"/>
-	      	<label for="alamat" class="uaddress">Address</label>
-	      	<textarea type="text" id="alamat" class="input5" name="alamat"><?=$res['alamat'];?></textarea>
-	      	<button type="submit" id="submit" name="submit" class="button-submit"><b>SAVE</b></button>
-		</form>
+		<button onclick="muncul()" class="logout" id="logout" name="logout">Log out</button>
+		<div class="garis1"></div>
+		<button onclick="on()" class="delete" id="delete" name="delete">Delete Account</button>
+		<div class="garis2"></div>
+</div>
 	</div>
 	<footer id="foot">
 		<div>
@@ -446,6 +492,40 @@
 			<div class="copyright2">2021, All Rights Reserved</div>
 		</div>
 	</footer>
-	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+	
 </body>
 </html>
+<div id="overlay1">
+	   		<div class="logout-overlay">
+	   			<p class="surement">Log out your HelloPet account?</p>
+	   		<form>	<button class="yes" id="yes-button"><b>YES</b></button></form>
+	   			<button onclick="tutup()" class="no" id="no-button"><b>NO</b></button>
+	   		</div>
+   		</div>
+   		<div id="overlay2">
+	   		<div class="delete-overlay">
+	   			<div class="sure-delete">You are about to delete your HelloPet account.
+					<p>Are you sure?</p></div>
+	   		<form><button class="yes" id="yes-delete"><b>YES</b></button></form>
+	   			<button onclick="off()" class="no" id="no-delete"><b>NO</b></button>
+	   		</div>
+   		</div>
+	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+	<script>
+		function muncul() {
+		document.getElementById("overlay1").style.display = "block";
+		}
+
+		function tutup() {
+  		document.getElementById("overlay1").style.display = "none";
+		}
+	</script> 
+	<script>
+		function on() {
+		document.getElementById("overlay2").style.display = "block";
+		}
+
+		function off() {
+  		document.getElementById("overlay2").style.display = "none";
+		}
+	</script> 
