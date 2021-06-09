@@ -1,0 +1,194 @@
+<br>
+<center>
+<h2><u>WHAT THEY SAY ABOUT US<u></h2>
+</center>
+<br>
+
+<style>
+
+.box1{
+width:150px;
+height:100px;
+background:#F3F6F6;
+border-radius: 5px;
+    }
+
+.box2{
+width:150px;
+height:100px;
+background:#F3F6F6;
+border-radius: 5px;
+    }
+    
+.box3{
+width:150px;
+height:100px;
+background:#F3F6F6;
+border-radius: 5px;
+    }
+
+.box4{
+width:150px;
+height:100px;
+background:#F3F6F6;
+border-radius: 5px;
+    }
+    
+.box5{
+width:150px;
+height:100px;
+background:#F3F6F6;
+border-radius: 5px;
+    }
+    
+.box6{
+width:150px;
+height:100px;
+background:#F3F6F6;
+border-radius: 5px;
+    }
+ 
+<style>
+position: absolute;
+width: 320px;
+height: 68px;
+left: 520px;
+top: 139px;
+
+@font-face{
+font-family: Roboto;
+src: url ('Roboto-Regular.ttf');
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+}
+
+</style>
+
+<style>
+
+.box1{
+/* Comment 2 */
+
+position: absolute;
+width: 378px;
+height: 217px;
+left: 47px;
+top: 234px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box2{
+/* Comment 10 */
+
+position: absolute;
+width: 378px;
+height: 217px;
+left: 48px;
+top: 499px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box3{
+/* Comment 11 */
+
+position: absolute;
+width: 378px;
+height: 217px;
+left: 491px;
+top: 499px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box4{
+/* Comment 12 */
+
+position: absolute;
+width: 378px;
+height: 217px;
+left: 929px;
+top: 499px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box5{
+/* Comment 7 */
+
+position: absolute;
+width: 378px;
+height: 217px;
+left: 926px;
+top: 234px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box6{
+/* Comment 9 */
+
+position: absolute;
+width: 378px;
+height: 217px;
+left: 490px;
+top: 234px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Line 37 */
+
+position: absolute;
+width: 145.03px;
+height: 0px;
+left: 603.98px;
+top: 180.5px;
+
+border: 1px solid #000000;
+
+</style>
+
+<br>
+<body>
+<div class="box1">ayam berkokok</div>
+</br>
+
+<br>
+<div class="box2">zebra lari</div>
+</br>
+
+<br>
+<div class="box3">hiu makan</div>
+</br>
+
+<body>
+<div class="box4">kupu-kupu cans</div>
+</br>
+
+<body>
+<div class="box5">burung bawel</div>
+</br>
+
+<body>
+<div class="box6">katak lucu</div>
+</br>
+
+</body>
+
+<style>
+/* Line 37 */
+
+position: absolute;
+width: 145.03px;
+height: 0px;
+left: 603.98px;
+top: 180.5px;
+
+border: 1px solid #000000;
+</style>
