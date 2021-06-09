@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<title>Settings HelloPet</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+<style>
+	/* Navbar */
+	.logo{
+		width: 211px;
+		height: 51px;
+		left: 20px;
+		top: 20px;
+		background: url("img/logo.png");
+	  	background-repeat: no-repeat;
+	  	background-position: center center;
+	  	background-size: cover;
+	  	opacity: 1;
+	  	position: relative;
+	  	overflow: hidden;
+	}
+	#search-box{
+		position: absolute;
+		width: 365.02px;
+		height: 32px;
+		left: 357px;
+		top: 30.21px;
+		border: none;
+		background: rgba(0, 0, 0, 0.1);
+		border-radius: 10px;
+		padding: 10px;
+ 	}
+	#profile {
+	    position: absolute;
+		width: 30px;
+		height: 30px;
+		right: 60px;
+		top: 30px;
+	}
+	.buttonprofile {
+		border: none;
+		cursor: pointer;
+		border-radius: 12px;
+		  text-decoration: none;
+		  transition: 0.6s;
+	}
+	.notification {
+	  background-color: #555;
+	  left: 1160px;
+	  top: -45px;
+	  color: white;
+	  text-decoration: none;
+	  padding: 5px 10px;
+	  position: relative;
+	  display: inline-block;
+	  border-radius: 5px;
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.notification:hover {
+	  background: red;
+	}
+
+	.notification .badge {
+	  position: absolute;
+	  top: -10px;
+	  right: -10px;
+	  padding: 5px 10px;
+	  border-radius: 50%;
+	  background-color: red;
+	  color: white;
+	}
+	.box1{
+		position: absolute;
+		width: 900px;
+		height: 550px;
+		left: 63px;
+		top: 184px;
+
+		background: #FFFFFF;
+		box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+		border-radius: 12px;
+	}
+	.title{
+	 	position: absolute;
+		width: 450px;
+		height: 34px;
+		left: 80px;
+		top: 135px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		line-height: 34px;
+		letter-spacing: 0.12em;
+
+		color: #000000;
+	 }
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0 -16px;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-50 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #0084B4;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #9edffd;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+#idx-calendar {
+		margin: 0 auto;
+		margin-top: -525px;
+		margin-left: 946px;
+		width: 300px;
+		height: 270px;
+		text-align: center;
+	} 
+#idx-calendar div > ul {
+		list-style: none ;
+		background-color: #ffffff;
+		box-shadow: 0px 4px 4px rgba(121, 98, 77, 0.5);
+		margin: 0;
+		padding: 0 5px;
+	}
+#idx-calendar #dayNames > ul {
+		background-color: #ffffff;
+	}
+#idx-calendar ul li {
+		color: #000000;
+		float: left;
+		font-family: Tahoma;
+		font-weight: inherit;
+	}
+#dayNames ul li {
+		font-weight: bold;
+		margin: 1% 0;
+		padding: 1% 0;
+		width: 14.2857%;
+	}
+#daysNum ul li:hover {
+		color: #ffffff !important;
+		background-color: #0084B4;
+		border-radius: 40%;
+	}
+#daysNum ul li {
+		padding: 2.5% 0;
+		width: 14.2857%;
+	}
+#dayNames,#daysNum {
+		clear: both;
+		width: 100%;
+	}
+#dayNames:after,#daysNum:after,#idx-calendar div > ul:after  {
+		content: "";
+		display: table;
+		clear: both;
+	}
+#idx-calendar div > ul li:first-child {
+		color: #F05558;
+		font-weight: bold;
+	}
+#idx-calendar li.dayNow {
+		color: #ffffff !important;
+		font-weight: bold;
+		background-color: #0084B4;
+		border-radius: 40%;
+		position: relative;
+		z-index: 2;
+	}
+	.monthNow {
+			color: #0084B4;
+			font-family: arial;
+			font-size: 40px;
+			text-align: left;
+		}
+#monthNow {
+		background-color:#d8d8d8;
+		box-shadow: 0px 1px 1px rgba(121, 98, 77, 0.5);
+		font-family: verdana;
+		font-weight: bold;
+		color: #000000;
+		padding: 20px;
+		text-transform: uppercase;
+	}
+#calendar-control {
+		position: relative;
+	}
+#nextMonth, #prevMonth {
+		transition:0.5s;
+		background-color: #ffffff;
+		color: #FFFFFF;
+		font-family: verdana;
+		height: 0%;
+		position: absolute;
+		right: 0;
+		text-transform: uppercase;
+		top: 0;
+		width: 60px;
+	}
+#prevMonth{
+		left: 0;            
+	}
+#prevMonth:before, #nextMonth:before {
+		background-color: #d8d8d8;
+		border-radius: 50%;
+		transition:0.5s;
+		border-right: 1px solid #000000;
+		border-top: 1px solid #000000;
+		content: "";
+		display: block;
+		height: 20px;
+		left: 20px;
+		position: relative;
+		top: 18px;
+		transform: rotate(45deg);
+		width: 20px;
+	}
+#prevMonth:before{
+		transform: rotate(-135deg);
+	}
+#nextMonth:hover, #prevMonth:hover{
+		background-color: transparent;
+	}
+#nextMonth:hover:before, #prevMonth:hover:before{
+		border-radius: 0%;
+	}
+</style>
+<body>
+	<div class="header">
+		<header id="header-background">
+		<input type="search" placeholder="  search..." id="search-box">
+		<div class="logo"></div>
+		</header>
+	</div>
+		<div>
+			<a href="#" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
+		</div>
+	<a href="#" class="notification">
+	  <span>Inbox</span>
+	  <span class="badge">3</span>
+	</a>
+	<span class="title font-weight-bold">Settings</span>
+	<div class="box1">
+	<form action="/action_page.php">
+        <div class="row">
+          <div class="col-50">
+            <h3>Administrator</h3>
+              <div class="row">
+	              <div class="col-50">
+	                <label for="fname">Full Name</label>
+	                <input type="text" id="state" name="state" placeholder="John M. Doe">
+	              </div>
+	              <div class="col-50">
+	                <label for="zip">Email</label>
+	                <input type="text" id="email" name="email" placeholder="john@example.com">
+	              </div>
+              </div>
+             <div class="row">
+ 				<div class="col-50">
+                <label for="adr">Address</label>
+                <input type="text" id="address" name="address" placeholder="542 W. 15th Street">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-50">
+                <label for="password">Current Password</label>
+                <input type="text" id="password" name="pasword" placeholder="">
+              </div>
+              <div class="col-50">
+                <label for="password">New Password</label>
+                <input type="text" id="pasword" name="pasword" placeholder="">
+              </div>
+               <div class="col-50">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" placeholder="+62 8121-6670-1987">
+              </div>
+              <div class="col-50">
+                <label for="gender">Gender</label>
+                <input type="text" id="gender" name="gender" placeholder="Male or Female">
+              </div>
+            </div>
+          </div>
+        <input type="submit" value="Save" class="btn">
+      </form>
+
+	</div>
+			<div id="idx-calendar">
+				<div id="calendar-control">
+					<div id="monthNow">Januari 2021</div>
+					<div id="nextMonth"></div>
+					<div id="prevMonth"></div>
+				</div>
+				<div id="dayNames">
+				 <ul>
+					<li>Su</li>
+					<li>Mo</li>
+					<li>Tu</li>
+					<li>We</li>
+					<li>Th</li>
+					<li>Fr</li>
+					<li>Sa</li>
+					</ul>
+				</div>
+				<div id="daysNum"></div>
+			</div>
+	<script>
+        function displayCalendar(month, year){
+    
+    var monthNow = new Date().getMonth();
+    var yearNow = new Date().getFullYear();;
+    var nextMonth = month+1;
+    var prevMonth = month-1;
+    var day = 0;
+    
+    if((month == monthNow)&&(year == yearNow)){
+        var day = new Date().getDate();
+    }
+    
+    var htmlContent ="";
+    var FebNumberOfDays ="";
+    var counter = 1;
+    var Nameday = 1;
+    
+    if (month == 1){
+        if ( (year%100!=0) && (year%4==0) || (year%400==0)){
+            FebNumberOfDays = 29;
+            }else{
+            FebNumberOfDays = 28;
+        }
+    }
+    
+    var monthNames = ["January","February","March","April","May","June","July","August","September","October","November", "December"];
+    var monthNum = ["1","2","3","4","5","6","7","8","9","10","11", "12"];
+    var dayNames = ["Sunday","Monday","Tuesday","Wednesday","Thrusday","Friday", "Saturday"];
+    var dayPerMonth = ["31", ""+FebNumberOfDays+"","31","30","31","30","31","31","30","31","30","31"]
+    var nextDate = new Date(nextMonth +' 1 ,'+year);
+    var weekdays = nextDate.getDay();
+    var weekdays2 = weekdays
+    var numOfDays = dayPerMonth[month];
+                                    
+    while (weekdays>0){
+    htmlContent += "<li style='padding:1 0 0;'></li>";
+        weekdays--;
+    }
+    
+    while (counter <= numOfDays){
+        
+        if (weekdays2 > 6){
+            weekdays2 = 0;
+            htmlContent += "</ul><ul>";
+        }
+        if (counter == day){
+            htmlContent +="<li class='dayNow'>"+counter+"</li>";
+            Nameday = counter;
+            }else{
+            htmlContent +="<li>"+counter+"</li>";
+        }
+        weekdays2++;
+        counter++;
+    }
+    
+    document.getElementById("monthNow").innerHTML= monthNames[month]+" "+ year ;
+    document.getElementById("daysNum").innerHTML= "<ul id="+monthNum[month]+" class="+year+">"+htmlContent+"</ul>";
+		}
+
+
+		(function() {
+			var dateNow = new Date();
+			var month = dateNow.getMonth();
+			var year = dateNow.getFullYear();
+			displayCalendar(month,year)
+		})(window);
+
+
+		document.getElementById("nextMonth").onclick = function(){
+			var idmonth = document.getElementById("daysNum");
+			var month = idmonth.getElementsByTagName("ul")[0].id;
+			var nextYear = idmonth.getElementsByTagName("ul")[0].className;
+			var nextMonth = Number(month);
+			if(nextMonth == 12){
+				nextMonth = 0;
+				nextYear = Number(nextYear) + 1
+			}
+			displayCalendar(nextMonth,nextYear);
+		}
+
+
+		document.getElementById("prevMonth").onclick = function(){
+			var idmonth = document.getElementById("daysNum");
+			var month = idmonth.getElementsByTagName("ul")[0].id;
+			var prevYear = idmonth.getElementsByTagName("ul")[0].className;
+			var prevMonth = Number(month) - 2;
+			if(prevMonth < 0 ){
+				prevMonth = 11;    
+				prevYear = Number(prevYear) - 1
+			}
+			displayCalendar(prevMonth,prevYear);
+		}
+   </script>
+</body>
+</html>
