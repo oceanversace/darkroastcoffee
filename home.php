@@ -916,7 +916,7 @@
 			<div class="container">
 					<div class="navbar-nav ml-auto">
 					  <a class="nav-item nav-link" href="#">Home</span> </a>
-					  <a class="nav-item nav-link" href="aboutus.php">About Us</a>
+					  <a class="nav-item nav-link" href="aboutus-nologin.php">About Us</a>
 					</div>
 			</div>
 		  </nav>
