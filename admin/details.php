@@ -57,7 +57,7 @@ body{
 #pack{
     position: absolute;
     width: 600px;
-    height: 630px;
+    height: 620px;
     left: 390px;
     top: 10px;
     border-radius: 12px;
@@ -65,6 +65,20 @@ body{
     box-shadow: 0px 4px 20px rgba(121, 98, 77, 0.5);
     background: url('dog.png');
  }
+ .scroll{
+  width: 300px;
+  background: orange;
+  padding: 10px;
+  overflow: scroll;
+  height: 300px;
+  scrollbar-face-color: #CE7E00; 
+  scrollbar-shadow-color: #FFFFFF; 
+  scrollbar-highlight-color: #6F4709; 
+  scrollbar-3dlight-color: #11111; 
+  scrollbar-darkshadow-color: #6F4709; 
+  scrollbar-track-color: #FFE8C1; 
+  scrollbar-arrow-color: #6F4709;
+}
  .title {
     font-family: Raboto;
     text-align: center;
@@ -103,7 +117,7 @@ body{
 }
 </style>
 <body>
-    <div id="pack">
+    <div class="scroll" id="pack">
     <button class="back" onclick="window.history.back();">Kembali</button>
     <header class="title">
         <h1>Order Details</h1>
