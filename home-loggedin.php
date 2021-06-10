@@ -24,7 +24,7 @@
 <style>
 #header-background{
 	position: absolute;
-	width: 1360px;
+	width: 1349px;
 	height: 666.6px;
 	left: 0px;
 	top: 0px;
@@ -72,7 +72,7 @@
 	border: none;
 	background: rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
-        padding: 10px;
+	padding: 10px;
  }
  
 #profile {
@@ -533,6 +533,28 @@
 
 	color: #000000;
  }
+ .set {
+	position: absolute;
+	left: 208px;
+	top: 1927px;
+	color: #FFFFFF;
+	background: #FD9EBD;
+	border-radius: 12px;
+	border: none;
+	padding: 12px;
+	margin: 0;
+	margin-left: 0px;
+	border: none;
+	width: 10%;
+	border-radius: 8px;
+	cursor: pointer;
+  	font-family: Roboto;
+  	font-size: 17px;
+
+}
+.set:hover {
+  background-color: #0084B4;
+}
  #grup4{
  	position: absolute;
 	width: 466px;
@@ -542,14 +564,14 @@
  }
  #vector1{
  	position: absolute;
-	width: 1360px;
+	width: 1349px;
 	height: 106px;
 	left: 0px;
 	top: 1609px;
  }
  #vector2{
  	position: absolute;
-	width: 1360px;
+	width: 1349px;
 	height: 608px;
 	left: 0px;
 	top: 1517px;
@@ -637,20 +659,7 @@
 	left: 827px;
 	top: 1915px;
  }
- #swipe{
- 	position: absolute;
-	width: 34px;
-	height: 34px;
-	left: 510px;
-	top: 1850px;
- }
- .button2{
-	border: none;
-	cursor: pointer;
-	border-radius: 12px;
-	  text-decoration: none;
-	  transition: 0.6s;
-}
+
  #pack6{
  	position: absolute;
 	width: 362px;
@@ -724,24 +733,11 @@
 	left: 886px;
 	top: 2355px;
  }
- #swipe-1{
- 	position: absolute;
-	width: 34px;
-	height: 34px;
-	left: 1288px;
-	top: 1850px;
- }
- .button3{
-	border: none;
-	cursor: pointer;
-	border-radius: 12px;
-	  text-decoration: none;
-	  transition: 0.6s;
-}
+
 /* FAQ LEFT */
 .faq{
 	width:1100px;
-	margin-top: 2095px;
+	margin-top: 2146px;
     margin-left: 43px;
 	overflow:visible;
 }
@@ -904,8 +900,8 @@
 			<div class="container">
 					<div class="navbar-nav ml-auto">
 					  <a class="nav-item nav-link active font-weight-bold" href="#">Home <span class="sr-only"></span> </a>
-					  <a class="nav-item nav-link" href="packages.php">Packages</a>
-					  <a class="nav-item nav-link" href="aboutus.php">About Us</a>
+					  <a class="nav-item nav-link" href="#">Packages</a>
+					  <a class="nav-item nav-link" href="#">About Us</a>
 					  <a class="nav-item nav-link" href="#">Contact Us</a>
 					</div>
 			</div>
@@ -913,7 +909,7 @@
 		</header>
 	</div>
     <div>
-    	<button class="buttonprofile" id="buttonprofile" name="buttonprofile" onclick="window.location.href='myprofile.php'"><img id="profile" src="img/profile.png"></img></button>
+    	<a href="#" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
     </div>
 	<div class="title">
 		<span class="pack">HOW IT WORKS</span>
@@ -954,15 +950,19 @@
 		<div class="text10">Pets are subject to feel less anxious and stressed in the familiar environment of their home. Creating a better experience for both pet owners and their pets during a grooming session.</div>
 		<h4 class="groom6 font-weight-bold"><span> Hands on Experience</span></h4>
 		<div class="text11">Personalized individual attention is given to each pet and expert care from our groomers throughout the grooming process. Pet Parents are able to constantly communicate and observe with professionals throughout the appointment.</div>
-	<div class="title">
-		<span class="pack-2 font-weight-bold">What Customers Say About Us</span>
-		<div class="text4">Some testimonials from our Customers</div>
+
 	<img id="vector1" src="img/Vector-2.png"></img>
 	<img id="vector2" src="img/Gelbiru.png"></img>
+		<div class="title">
+		<span class="pack-2 font-weight-bold">What Customers Say About Us</span>
+		<div class="text4">Some testimonials from our Customers</div>
+		<div>
+			<button class="set" onclick="window.location.href='review-show.html?id=<?=$id?>'">View More</button>
+		</div>
 	<img id="vector3" src="img/Hightlight.png"></img>
-	<div>
-		<button class="button1" id="button1" name="button1" onclick="window.location.href='packages.php'"><b>BOOK NOW</b></button>
-	</div>
+	<form>
+		<button class="button1" id="button1" name="button1" onclick="book.html"><b>BOOK NOW</b></button>
+	</form>
 	<div id="pack5"></div>
 	<div id="pack6"></div>
 	<img id="vector4" src="img/profil.png"></img>
@@ -971,21 +971,13 @@
 		<div class="text5">Jhon Wick</div>
 			<div class="text7">My dog really love it, HelloPet is the best place to grooming your pet</div>
 			<img id="vector6" src="img/quote.png"></img>
-			<div>
-				<button class="button2" id="button2" name="button2" onclick="window.location.href='swipe.html'"><img id="swipe" src="img/SWIPE-2.png"></img></button>
-				 <span class="sr-only">Previous</span>
-			</div>
 		<div class="text6">Ryder</div>
 			<div class="text8">Usually take care of Marshall and Rubble, they like it! Next time i must ensure Rocky to bath properly, hope HelloPet can make my Rocky calm XD.</div>
 			<img id="vector7" src="img/quote.png"></img>
-			<div>
-				<button class="button3" id="button3" name="button3" onclick="window.location.href='swipe.html'"><img id="swipe-1" src="img/SWIPE.png"></img></button>
-				<span class="sr-only">Next</span>
-			</div>
 	</div>
 	<div class="title">
-		<span class="pack-3">FREKUENTLY ASK QUETION</span>
-		<div id="pack7" href="contact.html"></div>
+		<span class="pack-3">FREQUENTLY ASK QUETION</span>
+		<div id="pack7" href="img/contact.html"></div>
 			<span class="pack-4">NEED HELP?</span>
 			<img id="vector8" src="img/telp.png"></img>
 				<div class="text12">Call us on </div>
@@ -1030,8 +1022,8 @@
 	<footer id="foot">
 		<div>
 			<span class="learn">LEARN MORE</span>
-			<a class="cancel" href="cancel.php">Cancelation Policy</a>
-			<a class="safe" href="safety.php">Safety</a>
+			<a class="cancel" href="img/cancel.html">Cancelation Policy</a>
+			<a class="safe" href="img/safety.html">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
 			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>
