@@ -616,7 +616,7 @@
 	height: 221px;
 	left: 524px;
 	top: 1754px;
-
+	border-radius: 12px;
 	background: #FFFFFF;
 	box-shadow: 0px 4px 28px rgba(121, 98, 77, 0.5);
  }
@@ -666,7 +666,7 @@
 	height: 221px;
 	left: 945px;
 	top: 1754px;
-
+	border-radius: 12px;
 	background: #FFFFFF;
 	box-shadow: 0px 4px 28px rgba(121, 98, 77, 0.5);
  }
