@@ -41,13 +41,27 @@ body{
     position: absolute;
     width: 1200px;
     height: 580px;
-    left: 80px;
-    top: 50px;
+    left: 70px;
+    top: 30px;
     border-radius: 12px;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(121, 98, 77, 0.5);
     background: url('gropack.png');
  }
+ .scroll{
+  width: 300px;
+  background: orange;
+  padding: 10px;
+  overflow: scroll;
+  height: 300px;
+  scrollbar-face-color: #CE7E00; 
+  scrollbar-shadow-color: #FFFFFF; 
+  scrollbar-highlight-color: #6F4709; 
+  scrollbar-3dlight-color: #11111; 
+  scrollbar-darkshadow-color: #6F4709; 
+  scrollbar-track-color: #FFE8C1; 
+  scrollbar-arrow-color: #6F4709;
+}
  .title {
     font-family: Raboto;
     text-align: center;
@@ -75,7 +89,7 @@ body{
 }
 </style>
 <body>
-    <div id="pack">
+    <div class="scroll" id="pack">
         <header class="title">
             <h1>Cancelled Orders</h1>
         </header>
