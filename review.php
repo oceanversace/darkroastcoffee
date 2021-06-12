@@ -254,7 +254,7 @@
 	<div>
 		<a href="editprofile.php" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
 	</div>
-	<form id="rectangle" name="box-form">
+	<form action="review-insert.php" method="POST" id="rectangle" name="box-form">
 		<button onclick="window.history.back()" class="back" type="button">
 			<span class="iconify" data-inline="false" data-icon="eva:arrow-back-fill" style="font-size: 40px;"></span>
 		</button>
