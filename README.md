@@ -84,6 +84,9 @@ Target pengguna dari HelloPet adalah orang yang memiliki hewan peliharaan (anjin
 - Sebagai customer, saya ingin memberikan penilaian setelah pelayanan, agar saya dapat memberi masukan kepada pembuat aplikasi
 - Sebagai pengguna yang telah log out, saya ingin log in kembali dengan email dan password, agar saya dapat kembali melakukan aktivitas pada web
 
+## Fitur
+
+
 ## Use Case Diagram
 > customer
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607f78bcb5f70f711e786d84/0b33c1e6e8771cb28d0c01bd5cee136d/UseCaseCust.png" width="500" height="400" />
@@ -112,5 +115,8 @@ Target pengguna dari HelloPet adalah orang yang memiliki hewan peliharaan (anjin
 ## Saran untuk Pengembangan Selanjutnya
 
 ## Ucapan Terima Kasih
-
+Puji syukur kami panjatkan kepada Allah SWT atas rahmat-Nya yang telah membuat kelompok kami dapat menyelesaikan pembuatan aplikasi berbasis web bernama HelloPet dari mata kuliah Rekayasa Perangkat Lunak (KOM331). Ucapan terima kasih juga kami sampaikan kepada semua pihak yang memberi kami kesempatan dan selalu membantu kami dalam pembuatan aplikasi HelloPet, diantaranya:
+1. Bapak/Ibu Dosen Ilmu Komputer IPB University
+2. Kakak Asisten Praktikum Rekayasa Perangkat Lunak
+Selama pembuatan aplikasi ini, kami mendapatkan banyak pengalaman dan ilmu yang dapat membangun kami di masa yang akan datang. Mohon maaf atas segala kekurangan dari kelompok kami. Semoga laporan yang kelompok kami buat bermanfaat bagi semua pihak. 
 
