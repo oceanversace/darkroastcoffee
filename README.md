@@ -9,9 +9,9 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 - Kelompok 2
 
 ## Dibimbing oleh
--x
--x
--x
+- x
+- x
+- x
 
 ## Team
 <table>
@@ -32,6 +32,13 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
       <td>G64190020</td>
       <td>Back-end Developer</td>
      </tr> 
+    
+## Latar Belakang
+Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan masyarakat baik di dalam maupun di luar negeri. Aktivitas  memelihara  hewan  bukan  hanya  sekedar  hobi  yang  tidak  bermanfaat. Menurut Setianingrum (2012) dengan melakukan aktivitas  memelihara  hewan,  seseorang  dapat  mendapatkan  tiga  manfaat,  yaitu:  (1) membantu  untuk  memulihkan  kesehatan  dengan  cara  menerapkan  gaya  hidup  sehat seperti  mengajak  jalan-jalan  ataupun  bermain,  (2)  membantu  mengatasi  stres  dengan menganggap hewan  sebagai  hiburan  dan  teman  bermain,  (3)  bersosialisasi  dengan lingkungan    dan    orang-orang    baru  (Nurlayli dan Hidayati 2014).
+    Perawatan hewan peliharaan merupakan hal yang sangat penting untuk menjaga kesehatan hewan peliharaan, salah satunya adalah melakukan grooming. Pet grooming adalah proses pembersihan dan perawatan terhadap pet berupa penyikatan, pembersihan telinga, pembersihan mata, menyikat gigi, memandikan pet dan pemangkasan kuku (Patricia 2019).
+    Di masa pandemi ini, seluruh masyarakat diperintahkan untuk melakukan PSBB (Pembatasan Sosial Berskala Besar) guna mencegah penyebaran virus COVID-19 yang tak kunjung reda. Hal ini menimbulkan berbagai keresahan di kalangan masyarakat, salah satunya pemilik hewan peliharaan. Bukan hanya mereka yang harus menjaga kesehatannya tetapi juga hewan peliharaan mereka membutuhkan perawatan khusus agar tetap senantiasa sehat. Seiring perkembangan zaman dan teknologi, keresahan tersebut dapat ditangani dengan adanya perangkat lunak yang menyediakan layanan home service pet grooming . Groomers yang dipastikan sehat akan datang ke rumah pelanggan dan melakukan grooming sesuai pemesanan. Proses pet grooming ini dapat dilihat langsung oleh pelanggan sehingga dapat memberikan kepercayaan tersendiri terkait penanganan hewan peliharaannya.
+    
+## Ruang Lingkup
      <tr>
       <td>3</td>
       <td>Reru Dharmastiawan Palentino</td>
