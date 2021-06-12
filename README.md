@@ -110,6 +110,7 @@ Target pengguna dari HelloPet adalah orang yang memiliki hewan peliharaan (anjin
 [Github](https://github.com/oceanversace/darkroastcoffee)
 
 ## Saran untuk Pengembangan Selanjutnya
-         
+
+## Ucapan Terima Kasih
 
 
