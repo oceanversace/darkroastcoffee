@@ -13,41 +13,268 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <table>
-        <tr>
-            <td>Name</td>
-            <td>Packages</td>
-            <td>Order Date</td>
-            <td>Order Time</td>
-        </tr>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <?php while( $res = mysqli_fetch_assoc($data) ) :
-            $usr_id = $res['user_id'];
-            $pck_id = $res['package_id'];
-            $data2 = mysqli_query($conn, "SELECT nama FROM user WHERE id=$usr_id;");
-            $data3 = mysqli_query($conn, "SELECT pname FROM package WHERE id=$pck_id;");
-            $res2 = mysqli_fetch_assoc($data2);
-            $res3 = mysqli_fetch_assoc($data3);            
-            $usr_nama = $res2['nama'];
-            $pck_name = $res3['pname'];
-            ?>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<title>My Order HelloPet</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+<style>
+	/* Navbar */
+	.logo{
+		width: 211px;
+		height: 51px;
+		left: 20px;
+		top: 20px;
+		background: url("img/logo.png");
+	  	background-repeat: no-repeat;
+	  	background-position: center center;
+	  	background-size: cover;
+	  	opacity: 1;
+	  	position: relative;
+	  	overflow: hidden;
+	}
+
+	.nav-link {
+	        margin-right: 35px;
+	        margin-left: -5px;
+	        margin-top: -34px;
+	        font-family: century gothic;
+
+	    }
+
+	.nav-link:hover::after {
+	        content: '';
+	        display: block;
+	        border-bottom: 3px solid #cc7897;
+	        width: 50%;
+	        margin: auto;
+	        padding-bottom: 5px;
+	        margin-bottom: -8px;
+	        
+	    }
+	#profile {
+	    position: absolute;
+		width: 30px;
+		height: 30px;
+		right: 60px;
+		top: 30px;
+	}
+	.buttonprofile {
+		border: none;
+		cursor: pointer;
+		border-radius: 12px;
+		  text-decoration: none;
+		  transition: 0.6s;
+	}
+	.box1{
+		position: absolute;
+		width: 1164px;
+		height: 500px;
+		left: 98px;
+		top: 105px;
+		background: #FFFFFF;
+		box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+		border-radius: 12px;
+		overflow-x: hidden;
+		overflow-y: scroll; 
+	}
+	.box2{
+		position: fixed;
+		width: 293px;
+		height: 500px;
+		left: 98px;
+		top: 105px;
+		background: #D5EEFF;
+		border-radius: 12px 0px 0px 12px;
+	}
+	 #user-profile{
+	 	position: absolute;
+		width: 105px;
+		height: 105px;
+		left: 85px;
+		top: 50px;
+	 }
+	 .username{
+	 	position: absolute;
+		width: 293px;
+		height: 25px;
+		left: 30%;
+		top: 170px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+	 }
+ 	.prl{
+	 	position: absolute;
+		width: 294px;
+		height: 48px;
+		left: 0px;
+		top: 220px;
+		font-family: Roboto;
+		font-size: 18px;
+		line-height: 21px;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		border: none;
+		background: none;
+		color: #000000;
+	 }
+	 .myorder{
+	 	position: absolute;
+		width: 293px;
+		height: 48px;
+		left: 0px;
+		top: 268px;
+		color: #000000;
+		font-family: Roboto;
+		font-size: 18px;
+		line-height: 21px;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		border: none;
+		background: #FFFFFF;
+	 }
+	 .stg{
+	 	position: absolute;
+		width: 293px;
+		height: 48px;
+		left: 0px;
+		top: 316px;
+		color: #000000;
+		font-family: Roboto;
+		font-size: 18px;
+		line-height: 21px;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		border: none;
+		background: none;
+	 }
+	 .title{
+	 	position: absolute;
+		width: 356px;
+		height: 68px;
+		left: 355px;
+		top: 50px;
+
+		font-family: Roboto;
+		font-size: 30px;
+		line-height: 35px;
+	 }
+	 .line{
+	 	position: absolute;
+		width: 740px;
+		height: 0px;
+		left: 355px;
+		top: 120px;
+
+		border: 1px solid #000000;
+	 }
+	 table{
+	 	position: absolute;
+	 	left: 355px;
+		top: 150px;
+		width: 64.5%;
+	 }
+	 th{
+	 	position: relative;
+	 	left: 0px;
+		background:#53B2F2;
+		border-radius: 5px;
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+		font-family: Roboto;
+		font-size: 16px;
+		padding: 10px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	tr:nth-child(even){
+		background: #F3F6F6;
+	}
+	td{
+		text-align: center;
+		font-family: Roboto;
+		font-size: 16px;
+		padding: 15px;
+		position: relative;
+		left: 0px;	
+		border-bottom: 2px solid #E7E7E7;
+	}
+</style>
+<body>
+	<div class="header">
+		<header id="header-background">
+		<div class="logo"></div>
+          	<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+					<div class="navbar-nav ml-auto">
+					  <a class="nav-item nav-link" href="#">Home</a>
+					  <a class="nav-item nav-link" href="#">Packages</a>
+					  <a class="nav-item nav-link" href="#">About Us </a>
+					  <a class="nav-item nav-link" href="#">Contact Us</a>
+					</div>
+			</div>
+		 	</nav>
+	</header>
+	<div class="box1">
+		<p class="title"><b>MY ORDER</b></p>
+		<div class="line"></div>
+		<table>
             <tr>
-                <td><?=$usr_nama?></td>
-                <td><?=$pck_name?></td>
-                <td><?=$res['order_date']?></td>
-                <td><?=$res['order_time']?></td>
-            </tr>
+	            <th>Name</th>
+	            <th>Packages</th>
+	            <th>Order Date</th>
+	            <th>Order Time</th>
+	            <th>Detail</th>
+	        </tr>
+            <?php while( $res = mysqli_fetch_assoc($data) ) :
+                $usr_id = $res['user_id'];
+                $pck_id = $res['package_id'];
+                $data2 = mysqli_query($conn, "SELECT nama FROM user WHERE id=$usr_id;");
+                $data3 = mysqli_query($conn, "SELECT pname FROM package WHERE id=$pck_id;");
+                $res2 = mysqli_fetch_assoc($data2);
+                $res3 = mysqli_fetch_assoc($data3);            
+                $usr_nama = $res2['nama'];
+                $pck_name = $res3['pname'];
+                $apt_id = $res['id'];
+                ?>
+                <tr>
+                    <td><?=$usr_nama?></td>
+                    <td><?=$pck_name?></td>
+                    <td><?=$res['order_date']?></td>
+                    <td><?=$res['order_time']?></td>
+                    <td><a href="detail-booking.php?pck_id=<?=$apt_id?>">order detail</a>
+                </tr>
 
         <?php endwhile; ?>
-
-    </table>
+	        
+	    </table>
+	</div>
+		<div class="box2">
+			<img name="user-profile" id="user-profile" src="img/profile-1.png">
+			<p class="username" id="username" name="username">namdodol</p><!--username disesuaikan-->
+			<a class="prl" href="myprofile.html" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp  Profile</b></a>
+			<a class="myorder" href="myorder.html" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp My Order</b></a>
+			<a class="stg" href="setting.html" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp Setting</b></a>
+		</div>
 </body>
 </html>
+
+
