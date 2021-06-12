@@ -260,7 +260,7 @@
                     <td><?=$pck_name?></td>
                     <td><?=$res['order_date']?></td>
                     <td><?=$res['order_time']?></td>
-                    <td><a href="detail-booking.php?pck_id=<?=$apt_id?>">order detail</a>
+                    <td><a href="bookingdetails.php?id=<?=$apt_id?>">order detail</a>
                 </tr>
 
         <?php endwhile; ?>
