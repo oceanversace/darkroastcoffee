@@ -9,6 +9,7 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 - Kelompok 2
 
 ## Asisten Praktikum
+- Levina Siatono **G64180019**
 - Ali Naufal Amrullah **G64180080**
 - Muhammad Fauzan Ramadhan **G64180117**
 
