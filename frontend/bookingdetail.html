@@ -74,86 +74,124 @@
 
 #pack{
     position: absolute;
-    width: 700px;
+    width: 900px;
     height: 800px;
-    left: 320px;
+    left: 240px;
     top: 100px;
     border-radius: 12px;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(121, 98, 77, 0.5);
-    background: url('dog.png');
+    background: #FFFFFF;
  }
  .scroll{
   width: 300px;
-  background: orange;
-  padding: 10px;
+  padding: 15px;
+  padding-bottom: 20px;
   overflow: scroll;
   height: 300px;
-  scrollbar-face-color: #CE7E00; 
-  scrollbar-shadow-color: #FFFFFF; 
-  scrollbar-highlight-color: #6F4709; 
-  scrollbar-3dlight-color: #11111; 
-  scrollbar-darkshadow-color: #6F4709; 
-  scrollbar-track-color: #FFE8C1; 
-  scrollbar-arrow-color: #6F4709;
+  overflow-x: hidden;
+  overflow-y: scroll; 
 }
  .title {
-    text-align: center;
+    position: relative;
+    left: 180px;
     font-size: 30px;
     font-weight: bold;
 }
 .title1{
-  text-align: center;
   font-size: 20px;
+  position: relative;
+  left: 185px;
 }
 .line-1{
   position: absolute;
-  width: 670px;
+  width: 735px;
   height: 0px;
   margin-top: 10px;
-
   border: 1px solid #000000;
+  left : 70px;
+ }
+ .line{
+  border: 1px solid #E7E7E7;
+  width: 730px;
+  height: 0px;
  }
 .text{
-    margin-left: 20px;
+    margin-left: 60px;
     margin-top: 30px;
+    font-family: Roboto;
+    font-size: 16px;
 }
 .back:hover {
   background-color: #90000d;
 }
 .set {
-  background-color: #0084B4;
+  background-color: #FDADC7;
   color: white;
-  padding: 12px;
-  margin: 0;
+  padding: 10px;
   margin-left:450px;
   margin-top: 0px;
   border: none;
-  width: 20%;
+  width: 18%;
   font-weight: bold;
   border-radius: 12px;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 16px;
+  position: relative;
+  left: 190px;
 }
 .set:hover {
-  background-color: #45a049;
+  background-color: #DE7F9E;
 }
 .review {
-  background-color: #FD9EBD;
+  background-color: #53B2F2;
   padding: 12px;
   margin: 0;
-  margin-left:250px;
   margin-top: 30px;
   color: white;
   border: none;
-  width: 20%;
+  width: 18%;
   font-weight: bold;
   border-radius: 12px;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 16px;
+  position: relative;
+  left: 220px;
 }
 .review:hover {
-  background-color: #45a049;
+  background-color: #309BE4;
+}
+.cancel-button{
+  background-color: #FFFFFF;
+  padding: 12px;
+  color: black;
+  border: 1px solid #53B2F2;
+  width: 18%;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  left: 350px;
+}
+.cancel-button:hover{
+    background : #E7E7E7;
+}
+.complete{
+  background-color: #53B2F2;
+  padding: 12px;
+  color: white;
+  border: none;
+  width: 15%;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  left: 70px;
+}
+.complete:hover {
+  background-color: #309BE4;
 }
 #foot{
     position: absolute;
@@ -162,6 +200,7 @@
     left: 0px;
     top: 950px;
     background: #C4C4C4;
+    bottom: 0px;
   }
   .learn{
     width: 131px;
@@ -214,7 +253,7 @@
 
     color: #000000;
    }
-#copyright-logo{
+  #copyright-logo{
     position: absolute;
     width: 23px;
     height: 23px;
@@ -236,8 +275,161 @@
 
     color: #000000;
    }
+   h4{
+    color: #0084B4;
+   }
+   #overlay {
+      position: fixed;
+      display: none;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 2;
+      cursor: pointer;
+    }
+   .cancel-overlay{
+    position: fixed;
+    width: 432px;
+    height: 208px;
+    left: 460px;
+    top: 220px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px 700px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+   }
+   .surement{
+    position: absolute;
+    width: 320px;
+    height: 36px;
+    left: 57px;
+    top: 58px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+
+   }
+   #no-button{
+    position: absolute;
+    left: 70px;
+    top: 120px;
+    bottom: 20px;
+    width: 108px;
+    height: 41px;
+    background: #FFFFFF;
+    border: 1px solid #53B2F2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Roboto;
+   }
+   #no-button:focus{
+    outline: none;
+   }
+   #yes-button:hover{
+    background : #309BE4;
+   }
+   #yes-button{
+    position: absolute;
+    left: 260px;
+    top: 120px;
+    bottom: 20px;
+    width: 108px;
+    height: 41px;
+    background: #53B2F2;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Roboto;
+   }
+   #yes-button:focus{
+    outline: none;
+   }
+   #no-button:hover{
+    background : #E7E7E7;
+   }
+   .complete-overlay{
+    position: fixed;
+    width: 432px;
+    height: 208px;
+    left: 460px;
+    top: 220px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px 700px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+   }
+   .sure-complete{
+    position: absolute;
+    width: 250px;
+    height: 160px;
+    left: 90px;
+    top: 30px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+   }
+   #overlay1 {
+      position: fixed;
+      display: none;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 2;
+      cursor: pointer;
+    }
+   #no-complete{
+    position: absolute;
+    left: 67px;
+    top: 140px;
+    bottom: 20px;
+    width: 108px;
+    height: 41px;
+    background: #FFFFFF;
+    border: 1px solid #53B2F2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Roboto;
+   }
+   #yes-complete{
+    position: absolute;
+    left: 260px;
+    top: 140px;
+    bottom: 20px;
+    width: 108px;
+    height: 41px;
+    background: #53B2F2;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Roboto;
+   }
+   #yes-complete:hover{
+    background : #309BE4;
+   }
+   #no-complete:hover{
+    background : #E7E7E7;
+   }
+   button:focus{
+      outline: none;
+   }
 </style>
-  <body>
+  <body style="background: url(bgbiru.png)">
     <footer id="foot">
       <div>
         <span class="learn">LEARN MORE</span>
@@ -267,54 +459,87 @@
       </div>
     </div>
     <div class="scroll" id="pack">
-    <header class="title">
-        <span>Thank You for Choosing HelloPet</span>
-        <br>
-    </header>
-    <header class="title1">
-        <span>Your Pet Grooming Service has been Booked with Us</span>
-        <br>
-        <div class="line-1"></div>
-    </header>
+        <header class="title">
+            <span>Thank You for Choosing HelloPet</span>
+            <br>
+        </header>
+        <header class="title1">
+            <span>Your Pet Grooming Service has been Booked with Us</span>
+            <br>
+        </header>
+            <div class="line-1"></div>
 
-    <div class="text">
-        <h4>Pet Details</h4>
-        <ul>
-            <li>Pet Type : <?php if( $pet=='anjing' ) echo 'Dog'; else echo 'Kucing';?></li>
-            <li>Pet Size : <?php if( $size=='kecil' ) echo 'Small'; else if( $size=='sedang' ) echo 'Medium'; else echo 'Besar';?></li>
-            <li>Pet Age : <?=$age?> &nbsp month</li>
-            <li>Pet Gender : <?php if( $gender=='jantan' ) echo 'Male'; else echo 'Female'?></li>
-        </ul>
-
-        <h4>Customer Details</h4>
-        <ul>
-            <li>Name : <?=$nama?></li>
-            <li>Email : <?=$email?></li>
-            <li>Phone : <?=$phone?></li>
-            <li>Adress : <?=$address?></li>
-            <li>Appointment : <?=$date,", ", $time?></li>
-        </ul>
-
-        <h4>Package Details</h4>
-        <ul>
-            <li>Packages name : <?=$pname?></li>
-            <li>Packages price : <?=$price?></li>
-        </ul>
-
-        <h4>Payment Details</h4>
-        <ul>
-            <li>Payment method : <?php if( $payment=='transfer' ) echo 'Transfer'; else echo 'Pay After Service';?></li>
-            <li>Status : <?php if( $status_bayar=='sudah bayar' ) echo 'Paid'; else echo 'Not yet paid';?></li>
-            <?php if( $status_bayar!='sudah bayar' ) : ?>
-            <?php endif;?>
-            <li>Total : <?=$total?></li>
-        </ul>
-        </pre>
-        <button class="set" onclick="window.location.href='#?id=<?=$id?>'">PAY NOW</button>
-        <button class="review" onclick="window.location.href='review.html?id=<?=$id?>'">REVIEW</button>
+        <div class="text">
+            <h4>Pet Details</h4>
+            <ul>
+                <li>Pet Type : <?php if( $pet=='anjing' ) echo 'Dog'; else echo 'Kucing';?></li>
+                <li>Pet Size : <?php if( $size=='kecil' ) echo 'Small'; else if( $size=='sedang' ) echo 'Medium'; else echo 'Besar';?></li>
+                <li>Pet Age : <?=$age?> &nbsp month</li>
+                <li>Pet Gender : <?php if( $gender=='jantan' ) echo 'Male'; else echo 'Female'?></li>
+            </ul>
+            <div class="line"></div><br>
+            <h4>Customer Details</h4>
+            <ul>
+                <li>Name : <?=$nama?></li>
+                <li>Email : <?=$email?></li>
+                <li>Phone : <?=$phone?></li>
+                <li>Adress : <?=$address?></li>
+                <li>Appointment : <?=$date,", ", $time?></li>
+            </ul>
+            <div class="line"></div><br>
+            <h4>Package Details</h4>
+            <ul>
+                <li>Packages name : <?=$pname?></li>
+                <li>Packages price : <?=$price?></li>
+            </ul>
+            <div class="line"></div><br>
+            <h4>Payment Details</h4>
+            <ul>
+                <li>Payment method : <?php if( $payment=='transfer' ) echo 'Transfer'; else echo 'Pay After Service';?></li>
+                <li>Status : <?php if( $status_bayar=='sudah bayar' ) echo 'Paid'; else echo 'Not yet paid';?></li>
+                <?php if( $status_bayar!='sudah bayar' ) : ?>
+                <?php endif;?>
+                <li>Total : <?=$total?></li>
+            </ul>
     </div>
-    <div>
-     
+    <button class="set" onclick="window.location.href='transaction.html?id=<?=$id?>'">PAY NOW</button>
+    <br><br><br>
+    <button onclick="on()" class="complete">COMPLETE</button>
+    <button class="review" onclick="window.location.href='review.html?id=<?=$id?>'">REVIEW</button>
+    <button onclick="muncul()" class="cancel-button">CANCEL</button>  
   </div>
+  <div id="overlay">
+        <div class="cancel-overlay">
+          <p class="surement">Are you sure to cancel your order?</p>
+          <button onclick="window.location.href='cancel-detail.html?id=<?=$id?>'"class="yes" id="yes-button"><b>YES</b></button></form>
+          <button onclick="tutup()" class="no" id="no-button"><b>NO</b></button>
+        </div>
+  </div>
+  <div id="overlay1">
+        <div class="complete-overlay">
+          <p class="sure-complete">Are you sure to complete your order?</p>
+          <button class="yes" id="yes-complete"><b>YES</b></button></form>
+          <button onclick="off()" class="no" id="no-complete"><b>NO</b></button>
+        </div>
+  </div>
+
+  <script>
+    function muncul() {
+    document.getElementById("overlay").style.display = "block";
+    }
+
+    function tutup() {
+      document.getElementById("overlay").style.display = "none";
+    }
+  </script> 
+  <script>
+    function on() {
+    document.getElementById("overlay1").style.display = "block";
+    }
+
+    function off() {
+      document.getElementById("overlay1").style.display = "none";
+    }
+  </script>
 </body>
 </html>
