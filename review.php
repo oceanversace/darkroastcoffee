@@ -259,7 +259,7 @@
 			<span class="iconify" data-inline="false" data-icon="eva:arrow-back-fill" style="font-size: 40px;"></span>
 		</button>
 		<img id="photo-profile" src="img/Mask.png"></img>
-		<span class="name"><b><?=$res['nama']?></b></span>
+		<span class="name"><b><?=$res['nama'];?></b></span>
 		<div id="line"></div>
 		<textarea name="review" id="review" class="review" placeholder="Describe your experience with us"></textarea> 
 		<button type="submit" id="send-button" class="button"><b>SEND</b></button>

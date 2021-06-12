@@ -544,7 +544,7 @@
     </div>
     <button class="set" onclick="window.location.href='transaction.php?id=<?=$id?>'">PAY NOW</button>
     <br><br><br>
-    <button onclick="on()" class="complete">COMPLETE</button>
+    <button onclick="on();" class="complete">COMPLETE</button>
     <button class="review" onclick="window.location.href='review.php'">REVIEW</button>
     <button onclick="muncul()" class="cancel-button">CANCEL</button>  
   </div>
