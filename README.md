@@ -77,7 +77,15 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 - Menyediakan layanan “panggil ke rumah”, sehigga pemilik tidak perlu repot untuk pergi ke luar rumah.
 - Menyediakan layanan grooming yang sesuai dengan jenis dan kebutuhan hewan peliharaan tersebut.
 
-# Project Documentations
+## User Stories
+- Sebagai pemilik hewan, saya ingin mengetahui perawatan apa saja yang tersedia, agar saya dapat memesan perawatan yang sesuai dengan kebutuhan hewan saya
+- Sebagai pengunjung, saya ingin mencari keyword tertentu, agar saya dapat menemukan keyword yang saya maksud dengan mudah
+- Sebagai seorang customer, saya ingin melihat kembali history pemesanan, agar saya dapat mengetahui pemesanan yang dilakukan sebelumnya
+- Sebagai calon pengguna, saya ingin membuat akun dengan data diri, email, dan password, agar saya dapat melakukan aktivitas pada web
+- Sebagai customer, saya ingin memberikan penilaian setelah pelayanan, agar saya dapat memberi masukan kepada pembuat aplikasi
+- Sebagai pengguna yang telah log out, saya ingin log in kembali dengan email dan password, agar saya dapat kembali melakukan aktivitas pada web
+- 
+## Project Documentations
 - [trello]
   (https://trello.com/b/oWXYobb6/hellopetteam-depresso)
    
