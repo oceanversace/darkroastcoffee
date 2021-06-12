@@ -72,7 +72,7 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 - Memudahkan pelanggan untuk merawat dan mempercantik hewan peliharaannya.
 - Menyediakan layanan “panggil ke rumah”, sehigga pemilik tidak perlu repot untuk pergi ke luar rumah.
 - Menyediakan layanan grooming yang sesuai dengan jenis dan kebutuhan hewan peliharaan tersebut.
-- 
+
 ## User Profile
 *Target...*
 
@@ -83,6 +83,18 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 - Sebagai calon pengguna, saya ingin membuat akun dengan data diri, email, dan password, agar saya dapat melakukan aktivitas pada web
 - Sebagai customer, saya ingin memberikan penilaian setelah pelayanan, agar saya dapat memberi masukan kepada pembuat aplikasi
 - Sebagai pengguna yang telah log out, saya ingin log in kembali dengan email dan password, agar saya dapat kembali melakukan aktivitas pada web
+
+## Use Case Diagram
+*menghadeh*
+
+## Use Case Description
+*T.T*
+
+## Activity Diagram
+*bzz*
+
+## ERD
+*dead*
 
 ## Project Documentations
 - [trello]
