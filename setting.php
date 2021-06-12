@@ -364,7 +364,7 @@
 		<p class="title"><b>SETTING</b></p>
 		<div class="line"></div>
 		<span class="iconify" data-icon="bi:file-earmark-medical" style="font-size: 28px; position: absolute; left: 355px; top: 150px" ></span>
-		<a class="person-data" id="person-data" name="person-data" href="editprofile.php" style="text-decoration: none;"><b>Personal Data</b></a>
+		<a class="person-data" id="person-data" name="person-data" href="myprofile.php" style="text-decoration: none;"><b>Personal Data</b></a>
 		<div class="garis1"></div>
 		<span class="iconify" data-inline="false" data-icon="codicon:key" style="color: #000; font-size: 28px; position: absolute; left: 355px; top: 223px"></span>
 		<a class="password" id="password" name="password" href="editpassword.php" style="text-decoration: none;"><b>Password</b></a>
