@@ -13,7 +13,42 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 - x
 - x
 
-
+## Team
+<table>
+  <thead>
+      <th></th>
+      <th>NAMA</th>
+      <th>NIM</th>
+      <th>ROLE</th>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Herdika Shidqi Wibowo</td>
+      <td>G64190020</td>
+      <td>Back-end Developer</td>
+     </tr> 
+    tr>
+      <td>3</td>
+      <td>Reru Dharmastiawan Palentino</td>
+      <td>G64190041</td>
+      <td>Front-end Developer</td>
+     </tr>
+     <tr>
+      <td>3</td>
+      <td>Tiara Putri Bellini</td>
+      <td>G64190044</td>
+      <td>Project Manager</td>
+     </tr>
+    <tr>
+      <td>4</td>
+      <td>WIka Fauziah</td>
+      <td>G64190047</td>
+      <td>UI/UX Designer</td>
+     </tr>
+    </tbody>
+</table> 
     
 ## Latar Belakang
 <br> Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan masyarakat baik di dalam maupun di luar negeri. Aktivitas  memelihara  hewan  bukan  hanya  sekedar  hobi  yang  tidak  bermanfaat. Menurut Setianingrum (2012) dengan melakukan aktivitas  memelihara  hewan,  seseorang  dapat  mendapatkan  tiga  manfaat,  yaitu:  (1) membantu  untuk  memulihkan  kesehatan  dengan  cara  menerapkan  gaya  hidup  sehat seperti  mengajak  jalan-jalan  ataupun  bermain,  (2)  membantu  mengatasi  stres  dengan menganggap hewan  sebagai  hiburan  dan  teman  bermain,  (3)  bersosialisasi  dengan lingkungan    dan    orang-orang    baru  (Nurlayli dan Hidayati 2014). </br>
