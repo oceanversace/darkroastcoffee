@@ -94,7 +94,7 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 *bzz*
 
 ## ERD
-*dead*
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607ad0194e80172b2e1cbb4e/11b6ed7c04ccc6a89ec3ed1b21163734/image.png" width="500" height="270" />
 
 ## Project Documentations 
 [Trello](https://trello.com/b/oWXYobb6/hellopetteam-depresso)
