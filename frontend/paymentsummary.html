@@ -101,8 +101,8 @@
         position: absolute;
         width: 450px;
         height: 34px;
-        left: 118px;
-        top: 300px;
+        left: 150px;
+        top: 250px;
 
         font-family: Roboto;
         font-style: normal;
@@ -113,14 +113,19 @@
         position: absolute;
         width: 450px;
         height: 34px;
-        left: 118px;
-        top: 80px;
+        left: 150px;
+        top: 30px;
         margin-top: 45px;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
      }
+    .border{
+        position: absolute;
+        width: 200px;
+        height: 120px;
+    }
      .method{
         cursor: pointer;
      }
@@ -130,7 +135,7 @@
         height: 35px;
         height: 35px;
         left: 362px;
-        top: 80px;
+        top: 130px;
         color: #ffffff;
         background: #9edffd;
         border-radius: 12px;
@@ -142,6 +147,24 @@
         font-family: century Gothic;
         font-style: bold;
     }
+    .back{
+        position: absolute;
+        width: 78px;
+        height: 35px;
+        left: 0px;
+        top: 130px;
+        color: #000000;
+        background: #cccccc;
+        border-radius: 12px;
+        border: #FD9EBD;
+        background: -webkit-linear-gradient(bottom, #f5d6e6 1%, #d3d3d3 10%);
+        background: -moz-linear-gradient(bottom, #f5d6e6 1%, #d3d3d3 10%);
+        background: linear-gradient(bottom, #f5d6e6 1%, #d3d3d3 10%);
+        cursor: pointer;
+        font-family: century Gothic;
+        font-style: bold;
+    }
+    
      #cate{
         position: absolute;
         width: 584px;
@@ -254,23 +277,32 @@
     <div class="box" id="box">
         <span class="title">PAYMENT SUMMARY</span>
     <div class="summary">
-    <p>Package Fee  &nbsp &nbsp  &nbsp &nbsp: <?=$pck_price?></p>
-    <p>Taxes  &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp: <?=$tax?></p>
-    <p>Total  &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp : <?=$pck_price?></p>
+        <table class="border" border="hidden">
+        <p><tr><td>Package Fee </td><td>:</td><td><?=$pck_price?></td></tr></p>
+        <p><tr><td>Taxes  </td><td>:</td><td><?=$tax?></td></tr></p>
+        <p><tr><td>Total   </td><td>:</td><td><?=$pck_price?></td></tr></p>
+        </table>
     </div>
 
     <form class="payment" action="prosespayment.php">
         <input type="hidden" name="pet" value="<?=$pet?>">
-		<input type="hidden" name="size" value="<?=$size?>">
-		<input type="hidden" name="age" value="<?=$age?>">
-		<input type="hidden" name="gender" value="<?=$gender?>">
+        <input type="hidden" name="size" value="<?=$size?>">
+        <input type="hidden" name="age" value="<?=$age?>">
+        <input type="hidden" name="gender" value="<?=$gender?>">
         <input type="hidden" name="date" value="<?=$date?>">
         <input type="hidden" name="time" value="<?=$time?>">
         <input type="hidden" name="pck_id" value="<?=$pck_id?>">
-        <label for="payment">Payment Method : </label> &nbsp &nbsp
-        <input type="radio" id="payment" class="method" name="payment" value="transfer">&nbsp Transfer &nbsp &nbsp
-        <input type="radio" id="payment" class="method" name="payment" value="after service"> &nbspAfter service
+        <label for="payment">Payment Method : </label>
+        <br>
+        <input type="radio" id="payment" class="method" name="payment" value="transfer">
+        <img src="img/credit.png" for="payment" style="cursor: pointer;">
+        <label for="payment" style=" font-family: Roboto; cursor: pointer;"> Transfer &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+        <input type="radio" id="payment1" class="method" name="payment" value="after service">
+        <img src="img/money.png" for="payment1" style="cursor: pointer;">
+        <label for="payment1" style=" font-family: Roboto; cursor: pointer;"> After Service</label>
         <button type="submit" href="#" class="next"><b>NEXT</b></button>
+        <button type="submit" href="#" class="back"><b>BACK</b></button>
+
     </form> 
 </div>
 <img id="cate" src="img/cate.png"></img>
