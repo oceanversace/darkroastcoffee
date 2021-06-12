@@ -271,9 +271,9 @@
  
  .pack-3{
 	position: absolute;
-	width: 416px;
+	width: 500px;
 	height: 27px;
-	left: 133px;
+	left: 100px;
 	top: 2125px;
 
 	font-family: Roboto;
@@ -900,8 +900,8 @@
 			<div class="container">
 					<div class="navbar-nav ml-auto">
 					  <a class="nav-item nav-link active font-weight-bold" href="#">Home <span class="sr-only"></span> </a>
-					  <a class="nav-item nav-link" href="#">Packages</a>
-					  <a class="nav-item nav-link" href="#">About Us</a>
+					  <a class="nav-item nav-link" href="packages.php">Packages</a>
+					  <a class="nav-item nav-link" href="aboutus.php">About Us</a>
 					  <a class="nav-item nav-link" href="#">Contact Us</a>
 					</div>
 			</div>
@@ -957,11 +957,11 @@
 		<span class="pack-2 font-weight-bold">What Customers Say About Us</span>
 		<div class="text4">Some testimonials from our Customers</div>
 		<div>
-			<button class="set" onclick="window.location.href='review-show.html?id=<?=$id?>'">View More</button>
+			<button class="set" onclick="window.location.href='review-show.php'">View More</button>
 		</div>
 	<img id="vector3" src="img/Hightlight.png"></img>
 	<form>
-		<button class="button1" id="button1" name="button1" onclick="book.html"><b>BOOK NOW</b></button>
+		<button class="button1" id="button1" name="button1" onclick="book.php"><b>BOOK NOW</b></button>
 	</form>
 	<div id="pack5"></div>
 	<div id="pack6"></div>
@@ -976,8 +976,8 @@
 			<img id="vector7" src="img/quote.png"></img>
 	</div>
 	<div class="title">
-		<span class="pack-3">FREQUENTLY ASK QUETION</span>
-		<div id="pack7" href="img/contact.html"></div>
+		<span class="pack-3">FREQUENTLY ASK QUETIONS</span>
+		<div id="pack7" href="img/contact.php"></div>
 			<span class="pack-4">NEED HELP?</span>
 			<img id="vector8" src="img/telp.png"></img>
 				<div class="text12">Call us on </div>
@@ -1022,8 +1022,8 @@
 	<footer id="foot">
 		<div>
 			<span class="learn">LEARN MORE</span>
-			<a class="cancel" href="img/cancel.html">Cancelation Policy</a>
-			<a class="safe" href="img/safety.html">Safety</a>
+			<a class="cancel" href="cancel.php">Cancelation Policy</a>
+			<a class="safe" href="safety.php">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
 			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>

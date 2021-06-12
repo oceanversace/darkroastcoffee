@@ -19,24 +19,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order Details | Hellopet</title>
+    <title>Pending Orders | Hellopet</title>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <style>
 body{
-    background: url('gropack.png');
+    background: url('dog-1.png');
 }
+    table {
+         border: 1px solid black;
+          border-collapse: collapse;
+          width: 100%;
+        }
+
+    th, td {
+          padding: 14px;
+          border: 1px solid black;
+        }
 #pack{
     position: absolute;
-    width: 600px;
-    height: 620px;
-    left: 390px;
-    top: 10px;
+    width: 1200px;
+    height: 580px;
+    left: 70px;
+    top: 30px;
     border-radius: 12px;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(121, 98, 77, 0.5);
-    background: url('dog.png');
+    background: url('gropack.png');
  }
  .scroll{
   width: 300px;
@@ -56,78 +66,64 @@ body{
     font-family: Raboto;
     text-align: center;
 }
-.text{
-    margin-left: 20px;
+.mrg{
+    padding-right: 10px;
+    padding-left: 10px;
 }
-.back {
+.btn {
   background-color: #0084B4;
   color: white;
   padding: 12px;
-  margin: 0;
+  margin: 10px 0;
   border: none;
-  width: 15%;
+  width: 6.5%;
   border-radius: 3px;
   cursor: pointer;
   font-size: 17px;
 }
-.back:hover {
-  background-color: #90000d;
+.text{
+    color: white;
 }
-.set {
-  background-color: #0084B4;
-  color: white;
-  padding: 12px;
-  margin: 0;
-  margin-left: -18px;
-  border: none;
-  width: 30%;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 17px;
-}
-.set:hover {
+.btn:hover {
   background-color: #45a049;
 }
 </style>
 <body>
     <div class="scroll" id="pack">
-    <button class="back" onclick="window.history.back();">Kembali</button>
-    <header class="title">
-        <h1>Order Details</h1>
-    </header>
-    <div class="text">
-        <h3>Pet Details</h3>
-        <ul>
-            <li>Pet Type : <?php if( $pet=='anjing' ) echo 'Dog'; else echo 'Kucing';?></li>
-            <li>Pet Size : <?php if( $size=='kecil' ) echo 'Small'; else if( $size=='sedang' ) echo 'Medium'; else echo 'Besar';?></li>
-            <li>Pet Age : <?=$age?> month</li>
-            <li>Pet Gender : <?php if( $gender=='jantan' ) echo 'Male'; else echo 'Female'?></li>
-        </ul>
+        <header class="title">
+            <h1>Completed Orders</h1>
+        </header>
+        <div class="mrg">
+            <div class="btn">  
+                <a href="index.php" class="text">Dashboard</a>
+            </div> 
+            <table>
+                <tr>
+                    <td>Id</td>
+                    <td>Nama Customer</td>
+                    <td>Paket</td>
+                    <td>Order Date</td>
+                    <td>Order Time</td>
+                </tr>
 
-        <h3>Customer Details</h3>
-        <ul>
-            <li>Name : <?=$nama?></li>
-            <li>Email : <?=$email?></li>
-            <li>Phone : <?=$phone?></li>
-            <li>Adress : <?=$address?></li>
-            <li>Appointment : <?=$date,", ", $time?></li>
-        </ul>
-
-        <h3>Package Details</h3>
-        <ul>
-            <li>Package : <?=$pname?></li>
-            <li>Cost : <?=$price?></li>
-        </ul>
-
-        <h3>Payment Details</h3>
-        <ul>
-            <li>Method : <?php if( $payment=='transfer' ) echo 'Transfer'; else echo 'Pay After Service';?></li>
-            <li>Status : <?php if( $status_bayar=='sudah bayar' ) echo 'Paid'; else echo 'Not yet paid';?></li>
-            <?php if( $status_bayar!='sudah bayar' ) : ?>
-                <li><button class="set" onclick="window.location.href='paid.php?id=<?=$id?>'">Set to Paid</button></li>
-            <?php endif;?>
-        </ul>
+                <?php while( $res1 = mysqli_fetch_assoc($data1) ) :
+                    $usr_id=$res1['user_id'];
+                    $data2 = mysqli_query($conn, "SELECT nama FROM user WHERE id=$usr_id");
+                    $res2 = mysqli_fetch_assoc($data2);
+                    $pck_id = $res1['package_id'];
+                    $data3 = mysqli_query($conn, "SELECT pname FROM package WHERE id=$pck_id");
+                    $res3 = mysqli_fetch_assoc($data3);
+                    ?>
+                    <tr>
+                        <td><?=$res1['id']?></td>
+                        <td><?=$res2['nama'];?></td>
+                        <td><?=$res3['pname'];?></td>
+                        <td><?=$res1['order_date']?></td>
+                        <td><?=$res1['order_time']?></td>
+                    </tr>
+                <?php endwhile;?>
+            </table>
+        </div>
     </div>
-    
 </body>
 </html>

@@ -912,14 +912,12 @@
 			<div class="container">
 					<div class="navbar-nav ml-auto">
 					  <a class="nav-item nav-link" href="#">Home</span> </a>
-					  <a class="nav-item nav-link" href="#">About Us</a>
+					  <a class="nav-item nav-link" href="aboutus-nologin.php">About Us</a>
 					</div>
 			</div>
 		  </nav>
-		<form>
-			<button type="submit" href="#" class="signin"><b>Sign In</b></button>
-			<button type="submit" href="#" class="signup"><b>Sign Up</b></button>
-		</form>
+			<button type="submit" onclick="window.location.href='login-rev.php'" class="signin"><b>Sign In</b></button>
+			<button type="submit" onclick="window.location.href='sign-up-page.php'" class="signup"><b>Sign Up</b></button>
 		</header>
 	</div>
     <div class="title">
@@ -970,7 +968,7 @@
 		<span class="pack-2 font-weight-bold">What Customers Say About Us</span>
 		<div class="text4">Some testimonials from our Customers</div>
 		<div>
-			<button class="set" onclick="window.location.href='review-show.html?id=<?=$id?>'">View More</button>
+			<button class="set" onclick="window.location.href='review-show.php?id=<?=$id?>'">View More</button>
 		</div>
 	<div id="pack5"></div>
 	<div id="pack6"></div>
@@ -986,7 +984,7 @@
 	</div>
 	<div class="title">
 		<span class="pack-3">FREQUENTLY ASK QUETION</span>
-		<div id="pack7" href="img/contact.html"></div>
+		<div id="pack7" href="contact.php"></div>
 			<span class="pack-4">NEED HELP?</span>
 			<img id="vector8" src="img/telp.png"></img>
 				<div class="text12">Call us on </div>
@@ -1031,8 +1029,8 @@
 	<footer id="foot">
 		<div>
 			<span class="learn">LEARN MORE</span>
-			<a class="cancel" href="img/cancel.html">Cancelation Policy</a>
-			<a class="safe" href="img/safety.html">Safety</a>
+			<a class="cancel" href="cancel.php">Cancelation Policy</a>
+			<a class="safe" href="safety.php">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
 			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>
