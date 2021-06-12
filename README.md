@@ -54,12 +54,31 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 </table> 
     
 ## Latar Belakang
-Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan masyarakat baik di dalam maupun di luar negeri. Aktivitas  memelihara  hewan  bukan  hanya  sekedar  hobi  yang  tidak  bermanfaat. Menurut Setianingrum (2012) dengan melakukan aktivitas  memelihara  hewan,  seseorang  dapat  mendapatkan  tiga  manfaat,  yaitu:  (1) membantu  untuk  memulihkan  kesehatan  dengan  cara  menerapkan  gaya  hidup  sehat seperti  mengajak  jalan-jalan  ataupun  bermain,  (2)  membantu  mengatasi  stres  dengan menganggap hewan  sebagai  hiburan  dan  teman  bermain,  (3)  bersosialisasi  dengan lingkungan    dan    orang-orang    baru  (Nurlayli dan Hidayati 2014).
+<br> Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan masyarakat baik di dalam maupun di luar negeri. Aktivitas  memelihara  hewan  bukan  hanya  sekedar  hobi  yang  tidak  bermanfaat. Menurut Setianingrum (2012) dengan melakukan aktivitas  memelihara  hewan,  seseorang  dapat  mendapatkan  tiga  manfaat,  yaitu:  (1) membantu  untuk  memulihkan  kesehatan  dengan  cara  menerapkan  gaya  hidup  sehat seperti  mengajak  jalan-jalan  ataupun  bermain,  (2)  membantu  mengatasi  stres  dengan menganggap hewan  sebagai  hiburan  dan  teman  bermain,  (3)  bersosialisasi  dengan lingkungan    dan    orang-orang    baru  (Nurlayli dan Hidayati 2014). </br>
 <br> Perawatan hewan peliharaan merupakan hal yang sangat penting untuk menjaga kesehatan hewan peliharaan, salah satunya adalah melakukan grooming. Pet grooming adalah proses pembersihan dan perawatan terhadap pet berupa penyikatan, pembersihan telinga, pembersihan mata, menyikat gigi, memandikan pet dan pemangkasan kuku (Patricia 2019). </br>
 <br> Di masa pandemi ini, seluruh masyarakat diperintahkan untuk melakukan PSBB (Pembatasan Sosial Berskala Besar) guna mencegah penyebaran virus COVID-19 yang tak kunjung reda. Hal ini menimbulkan berbagai keresahan di kalangan masyarakat, salah satunya pemilik hewan peliharaan. Bukan hanya mereka yang harus menjaga kesehatannya tetapi juga hewan peliharaan mereka membutuhkan perawatan khusus agar tetap senantiasa sehat. Seiring perkembangan zaman dan teknologi, keresahan tersebut dapat ditangani dengan adanya perangkat lunak yang menyediakan layanan home service pet grooming . Groomers yang dipastikan sehat akan datang ke rumah pelanggan dan melakukan grooming sesuai pemesanan. Proses pet grooming ini dapat dilihat langsung oleh pelanggan sehingga dapat memberikan kepercayaan tersendiri terkait penanganan hewan peliharaannya. </br>
     
 ## Ruang Lingkup
-   
+<br>
+Perangkat Keras :
+- Laptop    : Vivobook K413FQ
+- RAM       : 8GB
+- Processor : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+</br>
+<br>
+Perangkat Lunak :
+- Database    : MySQL
+- Server      : Apache
+- Front-end   : HTML, CSS, PHP
+- Text Editor : Sublime Text, Visual Studio Code
+</br>
+<br>
+Lainnya         :
+Version Control dan Collaboration Platform  : Github
+Project Management Tools                    : Trello
+</br>
+ 
+ ## Tujuan
     
          
 
