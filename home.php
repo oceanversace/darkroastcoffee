@@ -968,7 +968,7 @@
 		<span class="pack-2 font-weight-bold">What Customers Say About Us</span>
 		<div class="text4">Some testimonials from our Customers</div>
 		<div>
-			<button class="set" onclick="window.location.href='review-show.php?id=<?=$id?>'">View More</button>
+			<button class="set" onclick="window.location.href='review-show.php'">View More</button>
 		</div>
 	<div id="pack5"></div>
 	<div id="pack6"></div>

@@ -337,7 +337,7 @@
 					  <a class="nav-item nav-link" href="home.php">Home</a>
 					  <a class="nav-item nav-link" href="packages.php">Packages</a>
 					  <a class="nav-item nav-link active font-weight-bold" href="#">About Us <span class="sr-only"></span> </a>
-					  <a class="nav-item nav-link" href="#">Contact Us</a>
+					  <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
 					</div>
 			</div>
 		  </nav>

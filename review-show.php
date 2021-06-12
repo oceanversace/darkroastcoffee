@@ -2,7 +2,7 @@
 	session_start();
 	include('config.php');
 	if( !isset($_SESSION["login"]) ) {
-    	header('Location: home.php');
+    	header('Location: login-rev.php');
   	}
 
     $data = mysqli_query($conn, "SELECT username, feedback FROM user, feedback WHERE user.id=cust_id;");
@@ -113,10 +113,10 @@
           	<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 					<div class="navbar-nav ml-auto">
-					  <a class="nav-item nav-link" href="#">Home</a>
-					  <a class="nav-item nav-link" href="#">Packages</a>
-					  <a class="nav-item nav-link" href="#">About Us </a>
-					  <a class="nav-item nav-link" href="#">Contact Us</a>
+					  <a class="nav-item nav-link" href="home.php">Home</a>
+					  <a class="nav-item nav-link" href="packages.php">Packages</a>
+					  <a class="nav-item nav-link" href="aboutus.php">About Us</a>
+					  <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
 					</div>
 			</div>
 		 	</nav>
