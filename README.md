@@ -29,8 +29,7 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
       <td>G64190020</td>
       <td>Back-end Developer</td>
      </tr> 
-    tr>
-      <td>3</td>
+      <td>2</td>
       <td>Reru Dharmastiawan Palentino</td>
       <td>G64190041</td>
       <td>Front-end Developer</td>
