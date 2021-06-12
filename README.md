@@ -16,13 +16,12 @@ Kelompok 2
 ## Team
 <table>
   <thead>
-    
     <tr>
       <th></th>
       <th>NAMA</th>
       <th>NIM</th>
       <th>ROLE</th>
-     <tr>
+     </tr>
        
   </thead>
   
