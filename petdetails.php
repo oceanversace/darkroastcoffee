@@ -1,4 +1,4 @@
-<? php 
+<?php 
 	session_start();
 	include('config.php');
 	if( !isset($_SESSION["login"]) ) {
@@ -398,21 +398,21 @@
 			<form method="GET" action="dateandtime.php">
 				<span class="title">ADD PET DETAILS</span>
 				<label class="title-1">Pet Type:</label>
-					<input type="radio" class="pet1" id="pet" name="pet" value="anjing" style="position: absolute; left: 150px; top: 140px;">
-					<label for="pet" style="position: absolute; left: 175px; top: 135px; font-family: Roboto;"><b>DOG</b></label>
+					<input type="radio" class="pet1" id="dog" name="pet" value="anjing" style="position: absolute; left: 150px; top: 140px;">
+					<label for="dog" style="position: absolute; left: 175px; top: 135px; font-family: Roboto;"><b>DOG</b></label>
 						<a href="#" id="button-logo"><img src="img/Dog-2.png"/></a>
 						
-					<input type="radio" class="pet2" id="pet" name="pet" value="kucing" style="position: absolute; left: 365px; top: 140px;">
-					<label for="pet" style="position: absolute; left: 390px; top: 135px; font-family: Roboto;"><b>CAT</b></label>
+					<input type="radio" class="pet2" id="cat" name="pet" value="kucing" style="position: absolute; left: 365px; top: 140px;">
+					<label for="cat" style="position: absolute; left: 390px; top: 135px; font-family: Roboto;"><b>CAT</b></label>
 						<a href="#" id="button1-logo"><img src="img/Dog-3.png"/></a>
 
 				<label class="title-2">Pet Size:</label>
-					<input type="radio" class="size1" id="size" name="size" value="kecil" style="position: absolute; left: 150px; top: 230px;">
-					<label for="size" style="position: absolute; left: 175px; top: 225px; font-family: Roboto;"><b>Small</b></label>
-					<input type="radio" class="size2" id="size" name="size" value="sedang" style="position: absolute; left: 280px; top: 230px;">
-					<label for="size" style="position: absolute; left: 305px; top: 225px; font-family: Roboto;"><b>Medium</b></label>
-					<input type="radio" class="size3" id="size" name="size" value="besar" style="position: absolute; left: 410px; top: 230px;">
-					<label for="size" style="position: absolute; left: 430px; top: 225px; font-family: Roboto;"><b>Large</b></label>
+					<input type="radio" class="size1" id="kecil" name="size" value="kecil" style="position: absolute; left: 150px; top: 230px;">
+					<label for="kecil" style="position: absolute; left: 175px; top: 225px; font-family: Roboto;"><b>Small</b></label>
+					<input type="radio" class="size2" id="sedang" name="size" value="sedang" style="position: absolute; left: 280px; top: 230px;">
+					<label for="sedang" style="position: absolute; left: 305px; top: 225px; font-family: Roboto;"><b>Medium</b></label>
+					<input type="radio" class="size3" id="besar" name="size" value="besar" style="position: absolute; left: 410px; top: 230px;">
+					<label for="besar" style="position: absolute; left: 430px; top: 225px; font-family: Roboto;"><b>Large</b></label>
 
 					<label class="title-3">Pet Age</label>
 						<input type="number" class="age" name="age">
@@ -420,8 +420,8 @@
 				<span class="title-4">Pet Gender:</span>
 					<input type="radio" class="gender1" id="gender" name="gender" value="jantan" style="position: absolute; left: 300px; top: 315px;">
 					<label for="gender" style="position: absolute; left: 325px; top: 310px; font-family: Roboto;"><b>MALE</b></label>
-					<input type="radio" class="gender2" id="gender" name="gender" value="betina" style="position: absolute; left: 430px; top: 315px;">
-					<label for="gender" style="position: absolute; left: 455px; top: 310px; font-family: Roboto;"><b>FEMALE</b></label>
+					<input type="radio" class="gender2" id="female" name="gender" value="betina" style="position: absolute; left: 430px; top: 315px;">
+					<label for="female" style="position: absolute; left: 455px; top: 310px; font-family: Roboto;"><b>FEMALE</b></label>
 
 					<button type="submit" class="next"><b>NEXT</b></button>
 			</form>

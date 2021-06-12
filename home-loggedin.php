@@ -960,9 +960,7 @@
 			<button class="set" onclick="window.location.href='review-show.php'">View More</button>
 		</div>
 	<img id="vector3" src="img/Hightlight.png"></img>
-	<form>
-		<button class="button1" id="button1" name="button1" onclick="book.php"><b>BOOK NOW</b></button>
-	</form>
+		<button class="button1" id="button1" name="button1" onclick="window.location.href='packages.php'"><b>BOOK NOW</b></button>
 	<div id="pack5"></div>
 	<div id="pack6"></div>
 	<img id="vector4" src="img/profil.png"></img>
