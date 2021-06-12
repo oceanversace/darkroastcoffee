@@ -69,8 +69,8 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 - Front-end   : HTML, CSS, PHP
 - Text Editor : Sublime Text, Visual Studio Code
 ### Lainnya         :
-Version Control dan Collaboration Platform  : Github
-Project Management Tools                    : Trello
+- Version Control dan Collaboration Platform  : Github
+- Project Management Tools                    : Trello
  
  ## Tujuan
 - Memudahkan pelanggan untuk merawat dan mempercantik hewan peliharaannya.
