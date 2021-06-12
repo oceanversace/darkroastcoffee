@@ -4,6 +4,16 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 # Logo
 <img src="https://pasteboard.co/K6fcGx6.png" width="500" height="250" />
 
-#Laporan Akhir Projek
+# Laporan Akhir Projek
+KOM331-P1 Rekayasa Perangkat Lunak
+Kelompok 2
+
+## Dibimbing oleh
+-x
+-x
+-x
+
+## Team
+
 
 
