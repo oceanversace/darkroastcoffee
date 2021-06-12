@@ -24,6 +24,10 @@
     $gender = $res['pet_gender'];
     $status_bayar = $res['status_bayar'];
 
+    if ( $status == 'cancelled' ) {
+      header('Location:bookingdetails-cancelled.php?id=' . $id);
+    }
+
 
     $data1 = mysqli_query($conn, "SELECT * from user where id=$usr_id");
     $res1 = mysqli_fetch_assoc($data1);
@@ -235,6 +239,19 @@
 }
 .complete:hover {
   background-color: #309BE4;
+}
+.completed{
+  background-color: #32CD32;
+  padding: 12px;
+  color: white;
+  border: none;
+  width: 15%;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  left: 70px;
 }
 #foot{
     position: absolute;
@@ -498,7 +515,7 @@
         </nav>
       </header>
             <div>
-        <a href="#" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
+        <a href="editprofile.php" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
       </div>
     </div>
     <div class="scroll" id="pack">
@@ -542,23 +559,31 @@
                 <li>Status : <?php if( $status_bayar=='sudah bayar' ) echo 'Paid'; else echo 'Not yet paid';?></li>
             </ul>
     </div>
+    <?php if( $status != 'completed' && $status_bayar != 'sudah bayar' ) :?>
     <button class="set" onclick="window.location.href='transaction.php?id=<?=$id?>'">PAY NOW</button>
+    <?php endif; ?>
     <br><br><br>
+    <?php if( $status != 'completed' ) :?>
     <button onclick="on();" class="complete">COMPLETE</button>
+    <?php else : ?>
+      <medium class="completed">COMPLETED</medium>
+    <?php endif; ?>
     <button class="review" onclick="window.location.href='review.php'">REVIEW</button>
+    <?php if( $status != 'completed' ) :?>
     <button onclick="muncul()" class="cancel-button">CANCEL</button>  
+    <?php endif; ?>
   </div>
   <div id="overlay">
         <div class="cancel-overlay">
           <p class="surement">Are you sure to cancel your order?</p>
-          <button onclick="window.location.href='cancel-detail.php?id=<?=$id?>'"class="yes" id="yes-button"><b>YES</b></button></form>
+          <button onclick="window.location.href='cancelapt.php?id=<?=$id?>'"class="yes" id="yes-button"><b>YES</b></button></form>
           <button onclick="tutup()" class="no" id="no-button"><b>NO</b></button>
         </div>
   </div>
   <div id="overlay1">
         <div class="complete-overlay">
           <p class="sure-complete">Are you sure to complete your order?</p>
-          <button class="yes" id="yes-complete"><b>YES</b></button></form>
+          <button onclick="window.location.href='completeapt.php?id=<?=$id?>'" class="yes" id="yes-complete"><b>YES</b></button></form>
           <button onclick="off()" class="no" id="no-complete"><b>NO</b></button>
         </div>
   </div>

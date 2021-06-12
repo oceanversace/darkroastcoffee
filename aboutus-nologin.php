@@ -280,9 +280,7 @@
 			<button type="submit" onclick="window.location.href='sign-up-page.php'" class="signup"><b>Sign Up</b></button>
 		</header>
 	</div>
-		<div>
-			<a href="#" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
-		</div>
+		
 	<div id="card">
 		<span class="title">ABOUT US</span>
 		<div id="line-title"></div>

@@ -9,6 +9,9 @@
 	$id = $_SESSION['id'];
     $data = mysqli_query($conn, "SELECT * FROM appointment WHERE user_id=$id;");
 
+	$data1 = mysqli_query($conn, "SELECT username FROM user WHERE id=$id;");
+	$res = mysqli_fetch_assoc($data1);
+	$username = $res['username'];
  ?>
 
 
@@ -225,9 +228,9 @@
           	<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 					<div class="navbar-nav ml-auto">
-					  <a class="nav-item nav-link" href="#">Home</a>
-					  <a class="nav-item nav-link" href="#">Packages</a>
-					  <a class="nav-item nav-link" href="#">About Us </a>
+					<a class="nav-item nav-link" href="home.php">Home</a>
+					  <a class="nav-item nav-link" href="packages.php">Packages</a>
+					  <a class="nav-item nav-link" href="aboutus.php">About Us </a>
 					  <a class="nav-item nav-link" href="#">Contact Us</a>
 					</div>
 			</div>
@@ -269,10 +272,10 @@
 	</div>
 		<div class="box2">
 			<img name="user-profile" id="user-profile" src="img/profile-1.png">
-			<p class="username" id="username" name="username">namdodol</p><!--username disesuaikan-->
-			<a class="prl" href="myprofile.html" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp  Profile</b></a>
-			<a class="myorder" href="myorder.html" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp My Order</b></a>
-			<a class="stg" href="setting.html" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp Setting</b></a>
+			<p class="username" id="username" name="username"><?=$username?></p><!--username disesuaikan-->
+			<a class="prl" href="myprofile.php" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp  Profile</b></a>
+			<a class="myorder" href="myorder.php" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp My Order</b></a>
+			<a class="stg" href="setting.php" style="text-decoration: none;"><b>&nbsp &nbsp &nbsp &nbsp &nbsp Setting</b></a>
 		</div>
 </body>
 </html>

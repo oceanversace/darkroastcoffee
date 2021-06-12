@@ -2,25 +2,25 @@
     session_start();
     include('config.php');
     if( !isset($_SESSION["login"]) ) {
-    	header('Location: adminlogin.php');
+    	header('Location:home.php');
   	}
-    else if( $_SESSION["role"] != "admin" ) {
-        header('Location: ../');
-    }
 
+    if ( !isset($_GET['id'])  ) {
+        header('Location:home.php');
+    }
     $id = $_GET['id'];
-    $data = mysqli_query($conn, "UPDATE appointment SET status = 'completed', status_bayar = 'sudah bayar' WHERE id=1;");
+    $data = mysqli_query($conn, "UPDATE appointment SET status = 'cancelled' WHERE id=$id;");
     var_dump($data);
 
     if ($data) {
         echo "<script type='text/javascript'>
-    		alert('Complete Order Berhasil!');
+    		alert('Cancel Order Berhasil!');
     		window.history.back();
 			</script>";
     }
     else {
         echo "<script type='text/javascript'>
-    		alert('Complete Order Gagal!');
+    		alert('Cancel Order Gagal!');
     		window.history.back();
 			</script>";
     }
