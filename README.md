@@ -97,8 +97,7 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 *dead*
 
 ## Project Documentations
-- [trello]
-  (https://trello.com/b/oWXYobb6/hellopetteam-depresso)
+- [trello](https://trello.com/b/oWXYobb6/hellopetteam-depresso)
    
          
 
