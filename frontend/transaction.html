@@ -166,7 +166,7 @@
 </style>
 <body style="background-color: #F3F6F6;">
   <div class="box" id="box">
-      <a class="back" href="#" type="button">
+      <a class="back" onclick="window.location.href='bookingdetail.html?id=<?=$id?>'" type="button">
         <span class="iconify" data-inline="false" data-icon="eva:arrow-back-fill" style="font-size: 40px;"></span>
       </a>
       <span class="title" id="title" name="title"><b>HelloPet Order</b></span>
@@ -214,7 +214,7 @@
         <br>
         <label for="atasnama" style="position: absolute; font-family: Roboto; width: 300px; font-size: 12px; height: 31px; left: 730px; top: 205px;">"Proof of Transfer send to WhatsApp number <span style="font-weight: bold;">(+6285212332730)</span> for verification"</label>
 
-        <button type="submit" class="next"><b>OK</b></button>
+        <button type="submit" class="next" onclick="window.location.href='bookingdetail.html?id=<?=$id?>'"><b>OK</b></button>
         </form>
     </div>
   </div>
