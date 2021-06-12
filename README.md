@@ -14,6 +14,49 @@ Kelompok 2
 -x
 
 ## Team
-
+<table>
+  <thead>
+    
+    <tr>
+      <th></th>
+      <th>NAMA</th>
+      <th>NIM</th>
+      <th>ROLE</th>
+     <tr>
+       
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Herdika Shidqi Wibowo</td>
+      <td>G64190020</td>
+      <td>Back-end Developer</td>
+     </tr>
+    
+     <tr>
+      <td>3</td>
+      <td>Reru Dharmastiawan Palentino</td>
+      <td>G64190041</td>
+      <td>Front-end Developer</td>
+     </tr>
+    
+     <tr>
+      <td>3</td>
+      <td>Tiara Putri Bellini</td>
+      <td>G64190044</td>
+      <td>Project Manager</td>
+     </tr>
+    
+    <tr>
+      <td>4</td>
+      <td>WIka Fauziah</td>
+      <td>G64190047</td>
+      <td>UI/UX Designer</td>
+     </tr>
+    </tbody>
+</table>    
+    
+         
 
 
