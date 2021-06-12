@@ -9,9 +9,9 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 - Kelompok 2
 
 ## Dibimbing oleh
-- x
-- x
-- x
+- Ali Naufal Amrullah **G64180080**
+- Muhammad Fauzan Ramadhan **G64180117**
+- 
 
 ## Team
 <table>
