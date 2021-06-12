@@ -5,8 +5,8 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 <img src="https://pasteboard.co/K6fcGx6.png" width="500" height="250" />
 
 # Laporan Akhir Projek
-KOM331-P1 Rekayasa Perangkat Lunak
-Kelompok 2
+- KOM331-P1 Rekayasa Perangkat Lunak
+- Kelompok 2
 
 ## Dibimbing oleh
 -x
@@ -31,22 +31,19 @@ Kelompok 2
       <td>Herdika Shidqi Wibowo</td>
       <td>G64190020</td>
       <td>Back-end Developer</td>
-     </tr>
-    
+     </tr> 
      <tr>
       <td>3</td>
       <td>Reru Dharmastiawan Palentino</td>
       <td>G64190041</td>
       <td>Front-end Developer</td>
      </tr>
-    
      <tr>
       <td>3</td>
       <td>Tiara Putri Bellini</td>
       <td>G64190044</td>
       <td>Project Manager</td>
      </tr>
-    
     <tr>
       <td>4</td>
       <td>WIka Fauziah</td>
