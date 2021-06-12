@@ -86,7 +86,7 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 
 ## Use Case Diagram
 > customer
-<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607f78bcb5f70f711e786d84/0b33c1e6e8771cb28d0c01bd5cee136d/UseCaseCust.png" width="500" height="250" />
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607f78bcb5f70f711e786d84/0b33c1e6e8771cb28d0c01bd5cee136d/UseCaseCust.png" width="500" height="400" />
 
 ## Use Case Description
 *T.T*
@@ -95,7 +95,7 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 *bzz*
 
 ## ERD
-<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607ad0194e80172b2e1cbb4e/11b6ed7c04ccc6a89ec3ed1b21163734/image.png" width="450" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607ad0194e80172b2e1cbb4e/11b6ed7c04ccc6a89ec3ed1b21163734/image.png" width="500" height="400" />
 
 ## Project Documentations 
 [Trello](https://trello.com/b/oWXYobb6/hellopetteam-depresso)
