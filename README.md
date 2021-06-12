@@ -59,16 +59,16 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 <br> Di masa pandemi ini, seluruh masyarakat diperintahkan untuk melakukan PSBB (Pembatasan Sosial Berskala Besar) guna mencegah penyebaran virus COVID-19 yang tak kunjung reda. Hal ini menimbulkan berbagai keresahan di kalangan masyarakat, salah satunya pemilik hewan peliharaan. Bukan hanya mereka yang harus menjaga kesehatannya tetapi juga hewan peliharaan mereka membutuhkan perawatan khusus agar tetap senantiasa sehat. Seiring perkembangan zaman dan teknologi, keresahan tersebut dapat ditangani dengan adanya perangkat lunak yang menyediakan layanan home service pet grooming . Groomers yang dipastikan sehat akan datang ke rumah pelanggan dan melakukan grooming sesuai pemesanan. Proses pet grooming ini dapat dilihat langsung oleh pelanggan sehingga dapat memberikan kepercayaan tersendiri terkait penanganan hewan peliharaannya. </br>
     
 ## Ruang Lingkup
-Perangkat Keras :
+### Perangkat Keras :
 - Laptop    : Vivobook K413FQ
 - RAM       : 8GB
 - Processor : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
-Perangkat Lunak :
+### Perangkat Lunak :
 - Database    : MySQL
 - Server      : Apache
 - Front-end   : HTML, CSS, PHP
 - Text Editor : Sublime Text, Visual Studio Code
-Lainnya         :
+### Lainnya         :
 Version Control dan Collaboration Platform  : Github
 Project Management Tools                    : Trello
  
