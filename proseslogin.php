@@ -20,6 +20,7 @@
 				
 				$_SESSION["login"] = true;
 				$_SESSION["id"] = $res['id'];
+				$_SESSION["username"] = $res['username'];
 				$_SESSION["email"] = $res['email'];
 				echo "<script type='text/javascript'>
     			alert('Login Sukses!');

@@ -909,7 +909,7 @@
 		</header>
 	</div>
     <div>
-    	<a href="#" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
+    	<a href="editprofile.php" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
     </div>
 	<div class="title">
 		<span class="pack">HOW IT WORKS</span>
