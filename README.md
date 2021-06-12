@@ -96,9 +96,12 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 ## ERD
 *dead*
 
-## Project Documentations
-- [trello](https://trello.com/b/oWXYobb6/hellopetteam-depresso)
-   
+## Project Documentations 
+[Trello](https://trello.com/b/oWXYobb6/hellopetteam-depresso)
+[Figma](https://www.figma.com/file/furUw4CzGsUYrucQHiXPW3/HelloPet?node-id=0%3A1)
+[Google Sites](https://sites.google.com/apps.ipb.ac.id/hellopet)
+[Github](https://github.com/oceanversace/darkroastcoffee)
+
          
 
 
