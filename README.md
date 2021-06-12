@@ -78,7 +78,8 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 - Menyediakan layanan grooming yang sesuai dengan jenis dan kebutuhan hewan peliharaan tersebut.
 
 # Project Documentations
-- [trello] (https://trello.com/b/oWXYobb6/hellopetteam-depresso)
+- [trello]
+  (https://trello.com/b/oWXYobb6/hellopetteam-depresso)
    
          
 
