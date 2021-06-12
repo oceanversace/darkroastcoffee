@@ -85,7 +85,8 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 - Sebagai pengguna yang telah log out, saya ingin log in kembali dengan email dan password, agar saya dapat kembali melakukan aktivitas pada web
 
 ## Use Case Diagram
-*menghadeh*
+> customer
+<img src="https://trello.com/c/pRhqtpRA/67-use-case-diagram" width="500" height="250" />
 
 ## Use Case Description
 *T.T*
