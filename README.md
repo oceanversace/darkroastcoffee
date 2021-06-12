@@ -8,10 +8,10 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 - **KOM331-P1** Rekayasa Perangkat Lunak
 - Kelompok 2
 
-## Dibimbing oleh
+## Asisten Praktikum
+- Levina Siatono **G64180019**
 - Ali Naufal Amrullah **G64180080**
 - Muhammad Fauzan Ramadhan **G64180117**
-- 
 
 ## Team
 <table>
@@ -74,7 +74,7 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 - Menyediakan layanan grooming yang sesuai dengan jenis dan kebutuhan hewan peliharaan tersebut.
 
 ## User Profile
-*Target...*
+Target pengguna dari HelloPet adalah orang yang memiliki hewan peliharaan (anjing dan kucing).
 
 ## User Stories
 - Sebagai pemilik hewan, saya ingin mengetahui perawatan apa saja yang tersedia, agar saya dapat memesan perawatan yang sesuai dengan kebutuhan hewan saya
@@ -97,6 +97,9 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 ## Activity Diagram
 *bzz*
 
+## Fungsi CRUD
+*otw*
+
 ## ERD
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607ad0194e80172b2e1cbb4e/11b6ed7c04ccc6a89ec3ed1b21163734/image.png" width="500" height="270" />
 
@@ -106,6 +109,8 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 [Google Sites](https://sites.google.com/apps.ipb.ac.id/hellopet)
 [Github](https://github.com/oceanversace/darkroastcoffee)
 
-         
+## Saran untuk Pengembangan Selanjutnya
+
+## Ucapan Terima Kasih
 
 
