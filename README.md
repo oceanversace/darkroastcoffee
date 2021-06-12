@@ -16,13 +16,10 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 ## Team
 <table>
   <thead>
-    <tr>
       <th></th>
       <th>NAMA</th>
       <th>NIM</th>
       <th>ROLE</th>
-     </tr>
-       
   </thead>
   
   <tbody>
@@ -84,7 +81,7 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 - Sebagai calon pengguna, saya ingin membuat akun dengan data diri, email, dan password, agar saya dapat melakukan aktivitas pada web
 - Sebagai customer, saya ingin memberikan penilaian setelah pelayanan, agar saya dapat memberi masukan kepada pembuat aplikasi
 - Sebagai pengguna yang telah log out, saya ingin log in kembali dengan email dan password, agar saya dapat kembali melakukan aktivitas pada web
-- 
+
 ## Project Documentations
 - [trello]
   (https://trello.com/b/oWXYobb6/hellopetteam-depresso)
