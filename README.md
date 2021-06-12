@@ -5,7 +5,7 @@ HelloPet adalah aplikasi berbasis web yang berjalan di bidang jasa. HelloPet san
 <img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60484dd8c5e3835753f1af0b/e96564383ea967db983e7295a33678e9/HELLOPETFIX.png" width="500" height="270" />
 
 # Laporan Akhir Projek
-- KOM331-P1 Rekayasa Perangkat Lunak
+- **KOM331-P1** Rekayasa Perangkat Lunak
 - Kelompok 2
 
 ## Dibimbing oleh
