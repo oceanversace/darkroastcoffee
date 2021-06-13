@@ -93,8 +93,9 @@ Pemilik hewan peliharaan kucing atau anjing yang ingin memandikan dan merawat ke
 
 ### Booking
 #### Pet Details
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/be5e666acb135a1769545c74bfe64684/Pet_details.png" width="1360" height="570" />
 User dapat mengisi detail hewan peliharaannya yang ingin melakukan service grooming.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/be5e666acb135a1769545c74bfe64684/Pet_details.png" width="1360" height="570" />
+
 ##### Pet Type
 User dapat memilih hewan peliharaannya berjenis anjing atau kucing.
 ##### Pet Age
