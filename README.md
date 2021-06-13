@@ -200,5 +200,6 @@ Puji syukur kami panjatkan kepada Allah SWT atas rahmat-Nya yang telah membuat k
 - Bapak/Ibu Dosen Ilmu Komputer IPB University
 - Kakak Asisten Praktikum Rekayasa Perangkat Lunak
 </br>
-Selama pembuatan aplikasi ini, kami mendapatkan banyak pengalaman dan ilmu yang dapat membangun kami di masa yang akan datang. Mohon maaf atas segala kekurangan dari kelompok kami. Semoga laporan yang kelompok kami buat bermanfaat bagi semua pihak. 
+Selama pembuatan aplikasi ini, kami mendapatkan banyak pengalaman dan ilmu yang dapat membangun kami di masa yang akan datang. Mohon maaf atas segala kekurangan dari kelompok kami. Semoga laporan yang kelompok kami buat bermanfaat bagi semua pihak.
+
 > *Sincerely, depresso.*
