@@ -395,7 +395,7 @@
 		</div>
 	</div>
         <div id="container">
-			<form method="GET" action="dateandtime.php">
+			<form method="POST" action="dateandtime.php">
 				<span class="title">ADD PET DETAILS</span>
 				<label class="title-1">Pet Type:</label>
 					<input type="radio" class="pet1" id="dog" name="pet" value="anjing" style="position: absolute; left: 150px; top: 140px;">

@@ -5,12 +5,16 @@
     	header('Location: home.php');
   	}
 
-    $pet = $_GET['pet'];
-    $size = $_GET['size'];
-    $age = $_GET['age'];
-    $gender = $_GET['gender'];
-    $date = $_GET['date'];
-    $time = $_GET['time'];
+      if ( !isset($_POST['pet']) ) {
+		header('Location: home.php');
+	}
+
+    $pet = $_POST['pet'];
+    $size = $_POST['size'];
+    $age = $_POST['age'];
+    $gender = $_POST['gender'];
+    $date = $_POST['date'];
+    $time = $_POST['time'];
  ?>
 
 
@@ -336,7 +340,7 @@
 					<div class="navbar-nav ml-auto">
 					  <a class="nav-item nav-link" href="home.php">Home</a>
 					  <a class="nav-item nav-link" href="packages.php">Packages</a>
-					  <a class="nav-item nav-link active font-weight-bold" href="#">About Us <span class="sr-only"></span> </a>
+					  <a class="nav-item nav-link" href="#">About Us <span class="sr-only"></span> </a>
 					  <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
 					</div>
 			</div>
@@ -349,7 +353,7 @@
     <div class="container" id="container">
         <span class="title">GROOMING PACKAGES</span>
         <div class="acc">
-            <form action="payment.php">
+            <form action="payment.php" method="POST">
                 <nav class="accordion arrows">
                     <input type="hidden" name="pet" value="<?=$pet?>">
 					<input type="hidden" name="size" value="<?=$size?>">

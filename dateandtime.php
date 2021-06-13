@@ -5,10 +5,14 @@
     	header('Location: home.php');
   	}
 
-	$pet = $_GET['pet'];
-	$size = $_GET['size'];
-	$age = $_GET['age'];
-	$gender = $_GET['gender'];
+	if ( !isset($_POST['pet']) ) {
+		header('Location: home.php');
+	}
+
+	$pet = $_POST['pet'];
+	$size = $_POST['size'];
+	$age = $_POST['age'];
+	$gender = $_POST['gender'];
 ?>
 
 <!DOCTYPE html>
@@ -415,7 +419,7 @@
 			<div id="idx-calendar">
 				<div id="daysNum"></div>
 					<div>
-						<form action="groomingpackages.php" method="GET">
+						<form action="groomingpackages.php" method="POST">
 	 						<input type="hidden" name="pet" value="<?=$pet?>">
 							<input type="hidden" name="size" value="<?=$size?>">
 							<input type="hidden" name="age" value="<?=$age?>">

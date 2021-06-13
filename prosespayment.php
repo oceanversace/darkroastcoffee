@@ -4,16 +4,18 @@
 	if( !isset($_SESSION["login"]) ) {
     	header('Location: home.php');
   	}
-
-    // var_dump($_GET);
-    $pet = $_GET['pet'];
-    $size = $_GET['size'];
-    $age = $_GET['age'];
-    $gender = $_GET['gender'];
-    $date = $_GET['date'];
-    $time = $_GET['time'];
-    $pck_id = $_GET['pck_id'];
-    $payment = $_GET['payment'];
+    if ( !isset($_POST['pet']) ) {
+		header('Location: home.php');
+	}
+    // var_dump($_POST); die;
+    $pet = $_POST['pet'];
+    $size = $_POST['size'];
+    $age = $_POST['age'];
+    $gender = $_POST['gender'];
+    $date = $_POST['date'];
+    $time = $_POST['time'];
+    $pck_id = $_POST['pck_id'];
+    $payment = $_POST['payment'];
 
     // var_dump($_SESSION);
     $usr_id = $_SESSION['id'];

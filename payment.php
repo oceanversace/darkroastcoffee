@@ -5,14 +5,17 @@
     	header('Location: home.php');
   	}
 
-    var_dump($_GET);
-    $pet = $_GET['pet'];
-	$size = $_GET['size'];
-	$age = $_GET['age'];
-	$gender = $_GET['gender'];
-    $date = $_GET['date'];
-    $time = $_GET['time'];
-    $pck_id = $_GET['pck_id'];
+    if ( !isset($_POST['pet']) ) {
+		header('Location: home.php');
+	}
+    var_dump($_POST);
+    $pet = $_POST['pet'];
+	$size = $_POST['size'];
+	$age = $_POST['age'];
+	$gender = $_POST['gender'];
+    $date = $_POST['date'];
+    $time = $_POST['time'];
+    $pck_id = $_POST['pck_id'];
 
     var_dump($_SESSION);
     $usr_id = $_SESSION['id'];
@@ -23,6 +26,330 @@
     $tax = 0;
 
  ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Payment Summary HelloPet</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    #header-background{
+    position: absolute;
+    width: 1349px;
+    height: 658px;
+    left: 0px;
+    top: 0px;
+    background: url('img/gropack.png');
+}
+/* Navbar */
+    .logo{
+        width: 211px;
+        height: 51px;
+        left: 20px;
+        top: 20px;
+        background: url("img/logo.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        position: relative;
+        overflow: hidden;
+    }
+    .nav-link {
+            margin-right: 35px;
+            margin-left: -5px;
+            margin-top: -34px;
+            font-family: century gothic;
+        }
+
+    .nav-link:hover::after {
+            content: '';
+            display: block;
+            border-bottom: 3px solid #cc7897;
+            width: 50%;
+            margin: auto;
+            padding-bottom: 5px;
+            margin-bottom: -8px;      
+        }
+    #profile {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: 60px;
+        top: 30px;
+    }
+    .buttonprofile {
+            border: none;
+            cursor: pointer;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: 0.6s;
+        }
+        .box{
+        position: absolute;
+        width: 665px;
+        height: 450px;
+        left: 480px;
+        top: 110px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 4px 32px rgba(170, 170, 170, 0.25);
+        border-radius: 30px;
+     }
+    .title{
+        position: absolute;
+        width: 450px;
+        height: 34px;
+        left: 190px;
+        top: 20px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 34px;
+        letter-spacing: 0.12em;
+
+        color: #000000;
+     }
+    .payment{
+        position: absolute;
+        width: 450px;
+        height: 34px;
+        left: 150px;
+        top: 250px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+     }
+     .summary{
+        position: absolute;
+        width: 450px;
+        height: 34px;
+        left: 150px;
+        top: 30px;
+        margin-top: 45px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+     }
+    .border{
+        position: absolute;
+        width: 200px;
+        height: 120px;
+    }
+     .method{
+        cursor: pointer;
+     }
+    .next{
+        position: absolute;
+        width: 78px;
+        height: 35px;
+        height: 35px;
+        left: 362px;
+        top: 130px;
+        color: #ffffff;
+        background: #9edffd;
+        border-radius: 12px;
+        border: none;
+        background: -webkit-linear-gradient(bottom, #bebebe 1%, #7f8cff 10%);
+        background: -moz-linear-gradient(bottom, #bebebe 1%, #7f8cff 10%);
+        background: linear-gradient(bottom, #bebebe 1%, #7f8cff 10%);
+        cursor: pointer;
+        font-family: century Gothic;
+        font-style: bold;
+    }
+    .back{
+        position: absolute;
+        width: 78px;
+        height: 35px;
+        left: 0px;
+        top: 130px;
+        color: #000000;
+        background: #cccccc;
+        border-radius: 12px;
+        border: #FD9EBD;
+        background: -webkit-linear-gradient(bottom, #f5d6e6 1%, #d3d3d3 10%);
+        background: -moz-linear-gradient(bottom, #f5d6e6 1%, #d3d3d3 10%);
+        background: linear-gradient(bottom, #f5d6e6 1%, #d3d3d3 10%);
+        cursor: pointer;
+        font-family: century Gothic;
+        font-style: bold;
+    }
+    
+     #cate{
+        position: absolute;
+        width: 584px;
+        height: 482px;
+        left: 50px;
+        top: 85px;
+    }
+    #foot{
+        position: absolute;
+        width: 1349px;
+        height: 144px;
+        left: 0px;
+        top: 593px;
+        background: #C4C4C4;
+    }
+    .learn{
+        width: 131px;
+        color: rgba(0,0,0,1);
+        position: absolute;
+        top: 20px;
+        left: 80px;
+        font-family: Roboto;
+        font-weight: Regular;
+        font-size: 20px;
+        opacity: 1;
+        text-align: left;
+    }
+    .cancel{
+        width: 150px;
+        color: rgba(0,0,0,1);
+        position: absolute;
+        top: 60px;
+        left: 80px;
+        font-family: Roboto;
+        font-weight: Regular;
+        font-size: 16px;
+        opacity: 1;
+        text-align: left;
+    }
+    .safe{
+        width: 50px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 90px;
+      left: 80px;
+      font-family: Roboto;
+      font-weight: Regular;
+      font-size: 16px;
+      opacity: 1;
+      text-align: left;
+    }
+    .copyright{
+        position: absolute;
+        width: 216.75px;
+        height: 25.62px;
+        left: 910px;
+        top: 60px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #000000;
+     }
+     #copyright-logo{
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 1075px;
+        top: 58px;
+     }
+     .copyright2{
+        position: absolute;
+        width: 204px;
+        height: 25.62px;
+        left: 1100px;
+        top: 60px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #000000;
+     }
+</style>
+<body>
+
+    <div class="header">
+        <header id="header-background">
+        <div class="logo"></div>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                    <div class="navbar-nav ml-auto">
+                      <a class="nav-item nav-link" href="home.php">Home</a>
+					  <a class="nav-item nav-link" href="packages.php">Packages</a>
+					  <a class="nav-item nav-link" href="#">About Us <span class="sr-only"></span> </a>
+					  <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
+                    </div>
+            </div>
+          </nav>
+        </header>
+            <div>
+            <a href="#" type="button" class="buttonprofile" id="buttonprofile"><img id="profile" src="img/profile.png"/></a>
+        </div>
+
+    <div class="box" id="box">
+        <span class="title">PAYMENT SUMMARY</span>
+    <div class="summary">
+        <table class="border" border="hidden">
+        <p><tr><td>Package Fee </td><td>:</td><td><?=$pck_price?></td></tr></p>
+        <p><tr><td>Taxes  </td><td>:</td><td><?=$tax?></td></tr></p>
+        <p><tr><td>Total   </td><td>:</td><td><?=$pck_price?></td></tr></p>
+        </table>
+    </div>
+
+    <form class="payment" action="prosespayment.php" method="post">
+        <input type="hidden" name="pet" value="<?=$pet?>">
+		<input type="hidden" name="size" value="<?=$size?>">
+		<input type="hidden" name="age" value="<?=$age?>">
+		<input type="hidden" name="gender" value="<?=$gender?>">
+        <input type="hidden" name="date" value="<?=$date?>">
+        <input type="hidden" name="time" value="<?=$time?>">
+        <input type="hidden" name="pck_id" value="<?=$pck_id?>">
+        <label for="payment">Payment Method : </label>
+        <br>
+        <input type="radio" id="payment" class="method" name="payment" value="transfer">
+        <img src="img/credit.png" for="payment" style="cursor: pointer;">
+        <label for="payment" style=" font-family: Roboto; cursor: pointer;"> Transfer &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+        <input type="radio" id="payment1" class="method" name="payment" value="after service">
+        <img src="img/money.png" for="payment1" style="cursor: pointer;">
+        <label for="payment1" style=" font-family: Roboto; cursor: pointer;"> After Service</label>
+        <button type="submit" href="#" class="next"><b>NEXT</b></button>
+        <button type="button" onclick="window.history.back();" class="back"><b>BACK</b></button>
+    </form> 
+    
+</div>
+<img id="cate" src="img/cate.png"></img>
+
+    <footer id="foot">
+        <div>
+            <span class="learn">LEARN MORE</span>
+            <a class="cancel" href="cancel.php">Cancelation Policy</a>
+            <a class="safe" href="safety.php">Safety</a>
+            <div class="copyright">HelloPet, Depresso Ltd</div>
+            <img href="#" id="copyright-logo" src="img/copyright.png">
+            <div class="copyright2">2021, All Rights Reserved</div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
 
 
 <!DOCTYPE html>
