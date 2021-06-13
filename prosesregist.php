@@ -5,7 +5,7 @@
 		$email = strtolower(stripslashes($_POST["email"]));
 		$username = strtolower(stripslashes($_POST["username"]));
 		$nama = strtolower(stripslashes($_POST["nama"]));
-		$notelp = strtolower(stripslashes($_POST["nama"]));
+		$notelp = strtolower(stripslashes($_POST["notelp"]));
 		$password = mysqli_real_escape_string($conn, $_POST["password"]);
 		$konfpassword = mysqli_real_escape_string($conn, $_POST["confirm-password"]);
 

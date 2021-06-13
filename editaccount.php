@@ -43,6 +43,7 @@
 	  	overflow: hidden;
 	}
 
+	
 	.nav-link {
 	        margin-right: 35px;
 	        margin-left: -5px;
@@ -320,7 +321,19 @@
 
 		border: 1px solid #E7E7E7;
 	 }
-
+	 #overlay {
+		  position: fixed;
+		  display: none;
+		  width: 100%;
+		  height: 100%;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  background-color: rgba(0,0,0,0.5);
+		  z-index: 2;
+		  cursor: pointer;
+		}
 	 .logout-overlay{
 	 	position: fixed;
 		width: 432px;
@@ -408,6 +421,19 @@
 
 		color: #000000;
 	 }
+	 #overlay1 {
+		  position: fixed;
+		  display: none;
+		  width: 100%;
+		  height: 100%;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  background-color: rgba(0,0,0,0.5);
+		  z-index: 2;
+		  cursor: pointer;
+		}
 	 #no-delete{
 	 	position: absolute;
 		left: 67px;
@@ -456,7 +482,7 @@
           	<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 					<div class="navbar-nav ml-auto">
-					  <a class="nav-item nav-link" href="home.php">Home</a>
+						<a class="nav-item nav-link" href="home.php">Home</a>
 					  <a class="nav-item nav-link" href="packages.php">Packages</a>
 					  <a class="nav-item nav-link" href="aboutus.php">About Us</a>
 					  <a class="nav-item nav-link" href="contactus.html">Contact Us</a>
@@ -488,44 +514,44 @@
 			<a class="cancel" href="cancel.php">Cancelation Policy</a>
 			<a class="safe" href="safety.php">Safety</a>
 			<div class="copyright">HelloPet, Depresso Ltd</div>
-			<img href="#" id="copyright-logo" src="copyright.png">
+			<img href="#" id="copyright-logo" src="img/copyright.png">
 			<div class="copyright2">2021, All Rights Reserved</div>
 		</div>
 	</footer>
-	
-</body>
-</html>
-<div id="overlay1">
+	<div id="overlay">
 	   		<div class="logout-overlay">
 	   			<p class="surement">Log out your HelloPet account?</p>
-	   		<form>	<button class="yes" id="yes-button"><b>YES</b></button></form>
+	   		<button onclick="window.location.href='proseslogout.php'" class="yes" id="yes-button"><b>YES</b></button>
 	   			<button onclick="tutup()" class="no" id="no-button"><b>NO</b></button>
 	   		</div>
    		</div>
-   		<div id="overlay2">
+   		<div id="overlay1">
 	   		<div class="delete-overlay">
-	   			<div class="sure-delete">You are about to delete your HelloPet account.
+	   			<div class="sure-delete">You are about sure to delete your HelloPet account.
 					<p>Are you sure?</p></div>
-	   		<form><button class="yes" id="yes-delete"><b>YES</b></button></form>
+	   		<button onclick="window.location.href='prosesdelete.php'" class="yes" id="yes-delete"><b>YES</b></button>
 	   			<button onclick="off()" class="no" id="no-delete"><b>NO</b></button>
 	   		</div>
    		</div>
 	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 	<script>
 		function muncul() {
-		document.getElementById("overlay1").style.display = "block";
+		document.getElementById("overlay").style.display = "block";
 		}
 
 		function tutup() {
-  		document.getElementById("overlay1").style.display = "none";
+  		document.getElementById("overlay").style.display = "none";
 		}
 	</script> 
 	<script>
 		function on() {
-		document.getElementById("overlay2").style.display = "block";
+		document.getElementById("overlay1").style.display = "block";
 		}
 
 		function off() {
-  		document.getElementById("overlay2").style.display = "none";
+  		document.getElementById("overlay1").style.display = "none";
 		}
 	</script> 
+</body>
+</html>
+
