@@ -103,24 +103,24 @@ User dapat memilih hewan peliharaannya berjenis kelamin laki-laki atau perempuan
 
 #### Appointment Date and Time
 User dapat memilih tanggal dan juga waktu grooming untuk hewan peliharaan kesayangannya.
-Terdapat 4 pilihan waktu, yaitu:
-8.00-10.00 WIB
-10.00-12.00 WIB
-13.00-15.00 WIB
-15.00-17.00 WIB
+Terdapat 4 pilihan waktu, yaitu: 
+- 8.00-10.00 WIB
+- 10.00-12.00 WIB
+- 13.00-15.00 WIB
+- 15.00-17.00 WIB
 
 #### Grooming Packages
 User dapat memilih paket grooming apa yang diinginkan.
 Terdapat 3 pilihan package, yaitu:
-Premium 
-Standart
-Basic
+- Premium 
+- Standart
+- Basic
 
 #### Payment Summmary
 User dapat memilih metode pembayaran apa yang ingin dilakukan.
 Terdapat 2 pilihan payment method, yaitu:
-Transfer Bank (BCA, Mandiri, BNI, BRI)
-After Service
+- Transfer Bank (BCA, Mandiri, BNI, BRI)
+- After Service
 
 ### Cancel Appointment
 User dapat menggagalkan pertemuan grooming hewan peliharaannya jika diinginkan.
