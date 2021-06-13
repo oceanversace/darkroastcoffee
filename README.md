@@ -114,7 +114,7 @@ Terdapat 4 pilihan waktu, yaitu:
 
 #### Grooming Packages
 User dapat memilih paket grooming apa yang diinginkan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/62bf780cb141d56bee67b3fec692ba56/GROOM_PACKAGES.png" width="1000" height="300" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/62bf780cb141d56bee67b3fec692ba56/GROOM_PACKAGES.png" width="1000" height="400" />
 Terdapat 3 pilihan package, yaitu:
 - Premium (premium bath, blow drying, specialized shampoo, styles cuts, nail trimming, eye stain removal, teeth brushing, anal gland expression)
 - Standard (standard bath, blow drying, style cuts, nail trimming, eyes stain removal, teeth brushing)
