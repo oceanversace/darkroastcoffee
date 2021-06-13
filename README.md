@@ -113,7 +113,8 @@ Terdapat 4 pilihan waktu, yaitu:
 User dapat memilih paket grooming apa yang diinginkan.
 Terdapat 3 pilihan package, yaitu:
 - Premium 
-- Standart
+Premium bath, blow drying
+- Standard
 - Basic
 
 #### Payment Summmary
