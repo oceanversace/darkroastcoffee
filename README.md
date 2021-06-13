@@ -101,6 +101,37 @@ User dapat mengisi berapa usia hewan peliharaannya.
 ##### Pet Gender
 User dapat memilih hewan peliharaannya berjenis kelamin laki-laki atau perempuan.
 
+#### Appointment Date and Time
+User dapat memilih tanggal dan juga waktu grooming untuk hewan peliharaan kesayangannya.
+Terdapat 4 pilihan waktu, yaitu:
+8.00-10.00 WIB
+10.00-12.00 WIB
+13.00-15.00 WIB
+15.00-17.00 WIB
+
+#### Grooming Packages
+User dapat memilih paket grooming apa yang diinginkan.
+Terdapat 3 pilihan package, yaitu:
+Premium 
+Standart
+Basic
+
+#### Payment Summmary
+User dapat memilih metode pembayaran apa yang ingin dilakukan.
+Terdapat 2 pilihan payment method, yaitu:
+Transfer Bank (BCA, Mandiri, BNI, BRI)
+After Service
+
+### Cancel Appointment
+User dapat menggagalkan pertemuan grooming hewan peliharaannya jika diinginkan.
+
+### Edit Account
+User dapat mengganti data dirinya yang berupa name, password, phone number, gender, address.
+
+### Delete Account
+User juga bebas menghapus akunnya kapan saja.
+
+
 ## Use Case Diagram
 ### Customer
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607f78bcb5f70f711e786d84/0b33c1e6e8771cb28d0c01bd5cee136d/UseCaseCust.png" width="500" height="400" />
