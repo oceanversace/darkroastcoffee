@@ -112,10 +112,9 @@ Terdapat 4 pilihan waktu, yaitu:
 #### Grooming Packages
 User dapat memilih paket grooming apa yang diinginkan.
 Terdapat 3 pilihan package, yaitu:
-- Premium 
-Premium bath, blow drying
-- Standard
-- Basic
+- Premium (premium bath, blow drying, specialized shampoo, styles cuts, nail trimming, eye stain removal, teeth brushing, anal gland expression)
+- Standard (standard bath, blow drying, style cuts, nail trimming, eyes stain removal, teeth brushing)
+- Basic (basic bath, blow drying, nail trimming, teeth brushing)
 
 #### Payment Summmary
 User dapat memilih metode pembayaran apa yang ingin dilakukan.
@@ -156,6 +155,8 @@ User juga bebas menghapus akunnya kapan saja.
 [Github](https://github.com/oceanversace/darkroastcoffee)
 
 ## Saran untuk Pengembangan Selanjutnya
+- Pet grooming tersedia untuk hewan peliharaan lainnya, seperti kelinci dan musang
+- 
 
 ## Ucapan Terima Kasih
 Puji syukur kami panjatkan kepada Allah SWT atas rahmat-Nya yang telah membuat kelompok kami dapat menyelesaikan pembuatan aplikasi berbasis web bernama HelloPet dari mata kuliah Rekayasa Perangkat Lunak (KOM331). Ucapan terima kasih juga kami sampaikan kepada semua pihak yang memberi kami kesempatan dan selalu membantu kami dalam pembuatan aplikasi HelloPet, diantaranya:
