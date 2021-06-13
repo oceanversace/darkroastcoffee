@@ -211,7 +211,7 @@
 		align-items: center;
 		cursor: pointer;
 		border: none;
-		background: none;
+		background: #FFFFFF;
 		color: #000000;
 	 }
 	 .myorder{
@@ -244,7 +244,7 @@
 		align-items: center;
 		cursor: pointer;
 		border: none;
-		background: #FFFFFF;
+		background: none;
 	 }
 	 .title{
 	 	position: absolute;
