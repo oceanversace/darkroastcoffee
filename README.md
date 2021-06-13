@@ -73,8 +73,8 @@ Saat ini memiliki hewan peliharaan sudah menjadi hobi tersendiri di kalangan mas
 - Menyediakan layanan “panggil ke rumah”, sehigga pemilik tidak perlu repot untuk pergi ke luar rumah.
 - Menyediakan layanan grooming yang sesuai dengan jenis dan kebutuhan hewan peliharaan tersebut.
 
-## User Profile
-Target pengguna dari HelloPet adalah orang yang memiliki hewan peliharaan (anjing dan kucing).
+## User Target
+Pemilik hewan peliharaan kucing atau anjing yang ingin memandikan dan merawat kebersihan hewan peliharaannya
 
 ## User Stories
 - Sebagai pemilik hewan, saya ingin mengetahui perawatan apa saja yang tersedia, agar saya dapat memesan perawatan yang sesuai dengan kebutuhan hewan saya
