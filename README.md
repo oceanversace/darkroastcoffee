@@ -135,7 +135,7 @@ User dapat melihat detail pemesanan.
 
 ### Cancel Appointment
 User dapat menggagalkan pertemuan grooming hewan peliharaannya jika diinginkan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604b5e7bbd645885c867f/c446f37966e299158dba058267dc1180/BOOKING_CANCELLED.png" width="500" height="750" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604b5e7bbd645885c867f/c446f37966e299158dba058267dc1180/BOOKING_CANCELLED.png" width="600" height="750" />
 
 ### Memberikan Review
 User dapat memberikan review dalam rangka membangun service HelloPet yang lebih baik.
