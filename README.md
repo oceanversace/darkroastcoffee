@@ -85,7 +85,13 @@ Target pengguna dari HelloPet adalah orang yang memiliki hewan peliharaan (anjin
 - Sebagai pengguna yang telah log out, saya ingin log in kembali dengan email dan password, agar saya dapat kembali melakukan aktivitas pada web
 
 ## Fitur
+### Log in dan Log out
+(image) User yang ingin booking pada HelloPet, diharuskan untuk log in akun terlebih dahulu. Setelah user selesai melakukan booking, tentu saja user dapat log out akun kapan saja.
 
+### Sign in
+(image) Jika user belum memiliki akun dan tertarik untuk melakukan booking di HelloPet, user akan dialihkan untuk mengisi data diri. Data yang dibutuhkan berupa
+
+### Booking
 
 ## Use Case Diagram
 ### Customer
