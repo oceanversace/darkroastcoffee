@@ -143,7 +143,7 @@ User dapat memberikan review dalam rangka membangun service HelloPet yang lebih 
 
 ### Melihat Review
 User dapat meilhat review dari pengguna lainnya.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604244b303650ca0fce83/b19cd237e44432a9b290be535e4214cb/Review.png" width="1360" height="900" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604244b303650ca0fce83/b19cd237e44432a9b290be535e4214cb/Review.png" width="1360" height="800" />
 
 ### Edit Account
 User dapat mengganti data dirinya yang berupa name, phone number, gender, address.
