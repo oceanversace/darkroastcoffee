@@ -156,7 +156,7 @@ User juga bebas menghapus akunnya kapan saja.
 
 ## Saran untuk Pengembangan Selanjutnya
 - Pet grooming tersedia untuk hewan peliharaan lainnya, seperti kelinci dan musang
-- 
+- HelloPet tersedia pada mobile
 
 ## Ucapan Terima Kasih
 Puji syukur kami panjatkan kepada Allah SWT atas rahmat-Nya yang telah membuat kelompok kami dapat menyelesaikan pembuatan aplikasi berbasis web bernama HelloPet dari mata kuliah Rekayasa Perangkat Lunak (KOM331). Ucapan terima kasih juga kami sampaikan kepada semua pihak yang memberi kami kesempatan dan selalu membantu kami dalam pembuatan aplikasi HelloPet, diantaranya:
