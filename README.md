@@ -86,15 +86,17 @@ Pemilik hewan peliharaan kucing atau anjing yang ingin memandikan dan merawat ke
 
 ## Fitur
 ### Log in dan Log out
-(image) User yang ingin booking pada HelloPet, diharuskan untuk log in akun terlebih dahulu. Setelah user selesai melakukan booking, tentu saja user dapat log out akun kapan saja.
+User yang ingin booking pada HelloPet, diharuskan untuk log in akun terlebih dahulu. Setelah user selesai melakukan booking, tentu saja user dapat log out akun kapan saja.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6056d17986b7272e907b9/552448a5b210fdc44fd075cb7001a5c2/Login.png" width="1000" height="430" />
 
 ### Sign in
-(image) Jika user belum memiliki akun dan tertarik untuk melakukan booking di HelloPet, user akan dialihkan untuk mengisi data diri. Data yang dibutuhkan berupa
+Jika user belum memiliki akun dan tertarik untuk melakukan booking di HelloPet, user akan dialihkan untuk mengisi data diri. Data yang dibutuhkan berupa name, email, username, password, dan phone number.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6056d17986b7272e907b9/1b21dae10bb3cc8c0f83045fb352b331/Sign_up.png" width="1000" height="430" />
 
 ### Booking
 #### Pet Details
 User dapat mengisi detail hewan peliharaannya yang ingin melakukan service grooming.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/be5e666acb135a1769545c74bfe64684/Pet_details.png" width="1360" height="570" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/be5e666acb135a1769545c74bfe64684/Pet_details.png" width="1000" height="470" />
 
 ##### Pet Type
 User dapat memilih hewan peliharaannya berjenis anjing atau kucing.
@@ -105,7 +107,7 @@ User dapat memilih hewan peliharaannya berjenis kelamin laki-laki atau perempuan
 
 #### Appointment Date and Time
 User dapat memilih tanggal dan juga waktu grooming untuk hewan peliharaan kesayangannya.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/63f6a55cb96f83c6052a73dbc0c24fe2/Apptmt.png" width="1360" height="570" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/63f6a55cb96f83c6052a73dbc0c24fe2/Apptmt.png" width="1000" height="470" />
 Terdapat 4 pilihan waktu, yaitu: 
 - 8.00-10.00 WIB
 - 10.00-12.00 WIB
@@ -122,20 +124,49 @@ Terdapat 3 pilihan package, yaitu:
 
 #### Payment Summmary
 User dapat memilih metode pembayaran apa yang ingin dilakukan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/32d97c817584699385df8e036bdf1284/Payment.png" width="1360" height="570" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/32d97c817584699385df8e036bdf1284/Payment.png" width="100" height="470" />
 Terdapat 2 pilihan payment method, yaitu:
 - Transfer Bank (BCA, Mandiri, BNI, BRI)
 - After Service
 
+### Booking Details
+User dapat melihat detail pemesanan.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6048084d8dc6047d959d1/4b94273e5d8f68c06990133b4caa9c0e/BOOKING_DETAILS(1).png" width="500" height="1000" />
+
 ### Cancel Appointment
 User dapat menggagalkan pertemuan grooming hewan peliharaannya jika diinginkan.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604b5e7bbd645885c867f/c446f37966e299158dba058267dc1180/BOOKING_CANCELLED.png" width="500" height="1000" />
+
+### Memberikan Review
+User dapat memberikan review dalam rangka membangun service HelloPet yang lebih baik.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604244b303650ca0fce83/dfdc7f3e7ce9b9783ceb95097395f20e/Giving_Review.png" width="1000" height="470" />
+
+### Melihat Review
+User dapat meilhat review dari pengguna lainnya.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604244b303650ca0fce83/b19cd237e44432a9b290be535e4214cb/Review.png" width="1360" height="1380" />
 
 ### Edit Account
-User dapat mengganti data dirinya yang berupa name, password, phone number, gender, address.
+User dapat mengganti data dirinya yang berupa name, phone number, gender, address.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c60505e3da2e45f755e9db/b8b50282f1299842d1d61fb3f7f550a6/Profile.png" width="1000" height="470" />
+
+### Mengganti Password
+User dapat mengganti password.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c60505e3da2e45f755e9db/ad2f906fc0442b3927532d9eb4efbf31/Profile(2).png" width="1000" height="470" />
 
 ### Delete Account
 User juga bebas menghapus akunnya kapan saja.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c60505e3da2e45f755e9db/eaaac3d033ad4be2ce25b7811240752c/Profile(3).png" width="1000" height="470" />
 
+### My Order (user)
+User dapat melihat pemesanan yang sedang ditunggu, pemesanan sudah dilakukan, dan pemesanan yang digagalkan.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c60505e3da2e45f755e9db/cb15bd8f486ae1c79baedda83b0eba60/Profile(1).png" width="1000" height="470" />
+
+### My Order (admin)
+User dapat melihat pemesanan yang sedang berjalan, pemesanan yang sedang ditunggu, pemesanan sudah dilakukan, dan pemesanan yang digagalkan.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6053c1671c667d081bebe/18a9dae15d32672e7a6297a57a93ef9c/ADMIN.png" width="1000" height="470" />
+
+### Notifications
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604d8d4a235827c323704/866cf42ce8d0c14f2f49a4b237d253d3/NOTIF.png" width="1000" height="470" />
 
 ## Use Case Diagram
 ### Customer
