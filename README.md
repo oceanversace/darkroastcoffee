@@ -92,6 +92,14 @@ Target pengguna dari HelloPet adalah orang yang memiliki hewan peliharaan (anjin
 (image) Jika user belum memiliki akun dan tertarik untuk melakukan booking di HelloPet, user akan dialihkan untuk mengisi data diri. Data yang dibutuhkan berupa
 
 ### Booking
+#### Pet Details
+User dapat mengisi detail hewan peliharaannya yang ingin melakukan service grooming.
+##### Pet Type
+User dapat memilih hewan peliharaannya berjenis anjing atau kucing.
+##### Pet Age
+User dapat mengisi berapa usia hewan peliharaannya.
+##### Pet Gender
+User dapat memilih hewan peliharaannya berjenis kelamin laki-laki atau perempuan.
 
 ## Use Case Diagram
 ### Customer
