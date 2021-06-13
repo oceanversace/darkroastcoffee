@@ -131,11 +131,11 @@ Terdapat 2 pilihan payment method, yaitu:
 
 ### Booking Details
 User dapat melihat detail pemesanan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6048084d8dc6047d959d1/4b94273e5d8f68c06990133b4caa9c0e/BOOKING_DETAILS(1).png" width="500" height="850" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6048084d8dc6047d959d1/4b94273e5d8f68c06990133b4caa9c0e/BOOKING_DETAILS(1).png" width="500" height="750" />
 
 ### Cancel Appointment
 User dapat menggagalkan pertemuan grooming hewan peliharaannya jika diinginkan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604b5e7bbd645885c867f/c446f37966e299158dba058267dc1180/BOOKING_CANCELLED.png" width="500" height="1000" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604b5e7bbd645885c867f/c446f37966e299158dba058267dc1180/BOOKING_CANCELLED.png" width="500" height="750" />
 
 ### Memberikan Review
 User dapat memberikan review dalam rangka membangun service HelloPet yang lebih baik.
