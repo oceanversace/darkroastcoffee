@@ -93,6 +93,7 @@ Pemilik hewan peliharaan kucing atau anjing yang ingin memandikan dan merawat ke
 
 ### Booking
 #### Pet Details
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/63f6a55cb96f83c6052a73dbc0c24fe2/Apptmt.png" width="500" height="270" />
 User dapat mengisi detail hewan peliharaannya yang ingin melakukan service grooming.
 ##### Pet Type
 User dapat memilih hewan peliharaannya berjenis anjing atau kucing.
@@ -103,6 +104,7 @@ User dapat memilih hewan peliharaannya berjenis kelamin laki-laki atau perempuan
 
 #### Appointment Date and Time
 User dapat memilih tanggal dan juga waktu grooming untuk hewan peliharaan kesayangannya.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/63f6a55cb96f83c6052a73dbc0c24fe2/Apptmt.png" width="1360" height="737" />
 Terdapat 4 pilihan waktu, yaitu: 
 - 8.00-10.00 WIB
 - 10.00-12.00 WIB
