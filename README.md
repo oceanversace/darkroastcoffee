@@ -124,14 +124,14 @@ Terdapat 3 pilihan package, yaitu:
 
 #### Payment Summmary
 User dapat memilih metode pembayaran apa yang ingin dilakukan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/32d97c817584699385df8e036bdf1284/Payment.png" width="100" height="470" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/32d97c817584699385df8e036bdf1284/Payment.png" width="1000" height="470" />
 Terdapat 2 pilihan payment method, yaitu:
 - Transfer Bank (BCA, Mandiri, BNI, BRI)
 - After Service
 
 ### Booking Details
 User dapat melihat detail pemesanan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6048084d8dc6047d959d1/4b94273e5d8f68c06990133b4caa9c0e/BOOKING_DETAILS(1).png" width="500" height="900" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6048084d8dc6047d959d1/4b94273e5d8f68c06990133b4caa9c0e/BOOKING_DETAILS(1).png" width="500" height="850" />
 
 ### Cancel Appointment
 User dapat menggagalkan pertemuan grooming hewan peliharaannya jika diinginkan.
@@ -143,7 +143,7 @@ User dapat memberikan review dalam rangka membangun service HelloPet yang lebih 
 
 ### Melihat Review
 User dapat meilhat review dari pengguna lainnya.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604244b303650ca0fce83/b19cd237e44432a9b290be535e4214cb/Review.png" width="1360" height="1350" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604244b303650ca0fce83/b19cd237e44432a9b290be535e4214cb/Review.png" width="1360" height="1000" />
 
 ### Edit Account
 User dapat mengganti data dirinya yang berupa name, phone number, gender, address.
