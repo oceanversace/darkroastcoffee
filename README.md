@@ -157,14 +157,6 @@ User dapat mengganti password.
 User juga bebas menghapus akunnya kapan saja.
 <img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c60505e3da2e45f755e9db/eaaac3d033ad4be2ce25b7811240752c/Profile(3).png" width="1000" height="470" />
 
-### My Order (user)
-User dapat melihat pemesanan yang sedang ditunggu, pemesanan sudah dilakukan, dan pemesanan yang digagalkan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c60505e3da2e45f755e9db/cb15bd8f486ae1c79baedda83b0eba60/Profile(1).png" width="1000" height="470" />
-
-### My Order (admin)
-User dapat melihat pemesanan yang sedang berjalan, pemesanan yang sedang ditunggu, pemesanan sudah dilakukan, dan pemesanan yang digagalkan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6053c1671c667d081bebe/18a9dae15d32672e7a6297a57a93ef9c/ADMIN.png" width="1000" height="470" />
-
 ### Notifications
 <img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604d8d4a235827c323704/866cf42ce8d0c14f2f49a4b237d253d3/NOTIF.png" width="1000" height="470" />
 
@@ -179,7 +171,114 @@ User dapat melihat pemesanan yang sedang berjalan, pemesanan yang sedang ditungg
 *bzz*
 
 ## Fungsi CRUD
-*otw*
+CRUD adalah Create, Read, Update, Delete.
+Jadi teknik CRUD berfungsi untuk membuat, membaca, memperbaharui, dan menghapus data pada HelloPet. 
+<table>
+  <thead>
+      <th>Use Case</th>
+      <th>User</th>
+      <th>Admin</th>
+      <th>Server</th>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>Akun</td>
+      <td>C, R, U, D</td>
+      <td>R dan D</td>
+      <td>R dan U</td>
+     </tr> 
+      <td>Nama</td>
+      <td>C, R, U</td>
+      <td>C, R, U</td>
+      <td>R</td>
+     </tr>
+     <tr>
+      <td>Email</td>
+      <td>C dan R</td>
+      <td>C dan R</td>
+      <td>R</td>
+     </tr>
+    <tr>
+      <td>Username</td>
+      <td>C dan R</td>
+      <td>C dan R</td>
+      <td>R</td>
+     </tr>
+     <tr>
+      <td>Password</td>
+      <td>C, R, U</td>
+      <td>U</td>
+      <td>R dan U</td>
+     </tr>
+     <tr>
+      <td>Phone Number</td>
+      <td>C, R, U</td>
+      <td>R dan U</td>
+      <td>R dan U</td>
+     </tr>
+     <tr>
+      <td>Alamat</td>
+      <td>C, R, U</td>
+      <td>C, R, U</td>
+      <td>R dan U</td>
+     </tr>
+     <tr>
+      <td>Gender</td>
+      <td>C, R, U</td>
+      <td>C, R, U</td>
+      <td>R dan U</td>
+     </tr>
+     <tr>
+      <td>Jenis Hewan</td>
+      <td>C dan R</td>
+      <td>R</td>
+      <td>R</td>
+     </tr>
+     <tr>
+      <td>Umur Hewan</td>
+      <td>C dan R</td>
+      <td>R</td>
+      <td>R</td>
+     </tr>
+     <tr>
+      <td>Jenis Kelamin Hewan</td>
+      <td>C dan R</td>
+      <td>R</td>
+      <td>R</td>
+     </tr>
+     <tr>
+      <td>Tanggal/Waktu Pemesanan</td>
+      <td>C dan R</td>
+      <td>R</td>
+      <td>R</td>
+     </tr>
+     <tr>
+      <td>Pilihan Packages</td>
+      <td>C dan R</td>
+      <td>R</td>
+      <td>R</td>
+     </tr>
+     <tr>
+      <td>Detail Pemesanan</td>
+      <td>R</td>
+      <td>R</td>
+      <td>C dan R</td>
+     </tr>
+     <tr>
+      <td>Booking ID</td>
+      <td>R</td>
+      <td>R</td>
+      <td>C</td>
+     </tr>
+     <tr>
+      <td>Review</td>
+      <td>C</td>
+      <td>R</td>
+      <td>R</td>
+     </tr>
+    </tbody>
+</table> 
 
 ## ERD
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607ad0194e80172b2e1cbb4e/11b6ed7c04ccc6a89ec3ed1b21163734/image.png" width="500" height="270" />
