@@ -93,7 +93,7 @@ Pemilik hewan peliharaan kucing atau anjing yang ingin memandikan dan merawat ke
 
 ### Booking
 #### Pet Details
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/be5e666acb135a1769545c74bfe64684/Pet_details.png" width="1060" height="270" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/be5e666acb135a1769545c74bfe64684/Pet_details.png" width="1360" height="570" />
 User dapat mengisi detail hewan peliharaannya yang ingin melakukan service grooming.
 ##### Pet Type
 User dapat memilih hewan peliharaannya berjenis anjing atau kucing.
@@ -115,11 +115,8 @@ Terdapat 4 pilihan waktu, yaitu:
 User dapat memilih paket grooming apa yang diinginkan.
 <img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/62bf780cb141d56bee67b3fec692ba56/GROOM_PACKAGES.png" width="1360" height="570" />
 Terdapat 3 pilihan package, yaitu:
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/8c04d44f308af391c933e8cc53d0ea24/GROOM_PACKAGES(1).png" width="1360" height="570" />
 - Premium (premium bath, blow drying, specialized shampoo, styles cuts, nail trimming, eye stain removal, teeth brushing, anal gland expression)
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/52c1f889ea255c5ec432902ba153f86a/GROOM_PACKAGES(2).png" width="1360" height="570" />
 - Standard (standard bath, blow drying, style cuts, nail trimming, eyes stain removal, teeth brushing)
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/cf821bb1fe40fd6782bccca2c1ae35fe/GROOM_PACKAGES(3).png" width="1360" height="570" />
 - Basic (basic bath, blow drying, nail trimming, teeth brushing)
 
 #### Payment Summmary
