@@ -88,14 +88,11 @@ Target pengguna dari HelloPet adalah orang yang memiliki hewan peliharaan (anjin
 
 
 ## Use Case Diagram
-> customer
+### Customer
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607f78bcb5f70f711e786d84/0b33c1e6e8771cb28d0c01bd5cee136d/UseCaseCust.png" width="500" height="400" />
 
-> admin dan owner
+### Admin dan owner
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607f78bcb5f70f711e786d84/9b90bbdb73f1eb002a0580dd5c73a1da/UseCaseAdmOwn.png" width="500" height="400" />
-
-## Use Case Description
-*T.T*
 
 ## Activity Diagram
 *bzz*
