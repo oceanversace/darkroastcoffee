@@ -91,12 +91,12 @@ Pengguna yang ingin melakukan *booking* pada HelloPet, diharuskan untuk *log in*
 
 ### Sign up
 Jika pengguna belum memiliki akun dan tertarik untuk melakukan *booking* di HelloPet, pengguna akan dialihkan untuk mengisi data diri. Data yang dibutuhkan berupa nama, email, *username*, *password*, dan nomor telepon.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f2d61444023ff6c1261/c5aa2032bde108d0f36d0875531d715c/Sign_up.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f2d61444023ff6c1261/c5aa2032bde108d0f36d0875531d715c/Sign_up.png" width="1000" height="430" />
 
 ### Booking
 #### Pet Details
 Pengguna dapat mengisi detail hewan peliharaannya yang ingin melakukan *grooming service*.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/bd0cdf0a0b77f2c652a53e6c9ea23463/Pet_details.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/bd0cdf0a0b77f2c652a53e6c9ea23463/Pet_details.png" width="1000" height="470" />
 
 ##### Pet Type
 Pengguna dapat memilih hewan peliharaannya berjenis anjing atau kucing.
@@ -109,7 +109,7 @@ Pengguna dapat memilih hewan peliharaannya berjenis kelamin laki-laki atau perem
 
 #### Appointment Date and Time
 Pengguna dapat memilih tanggal dan juga waktu *grooming* untuk hewan peliharaan kesayangannya.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/dc2eb24aaa31824e09315a956c4f0b75/Date_and_time.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/dc2eb24aaa31824e09315a956c4f0b75/Date_and_time.png" width="1000" height="470" />
 Terdapat 4 pilihan waktu, yaitu: 
 - 8.00-10.00 WIB
 - 10.00-12.00 WIB
@@ -118,7 +118,7 @@ Terdapat 4 pilihan waktu, yaitu:
 
 #### Grooming Packages
 Pengguna dapat memilih paket *grooming* apa yang diinginkan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/269e3af989b4dad05a5de86886ea8dbb/pack.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/269e3af989b4dad05a5de86886ea8dbb/pack.png" width="1000" height="470" />
 Terdapat 3 pilihan package, yaitu:
 - **Premium** (*premium bath, blow drying, specialized shampoo, styles cuts, nail trimming, eye stain removal, teeth brushing, anal gland expression*)
 - **Standard** (*standard bath, blow drying, style cuts, nail trimming, eyes stain removal, teeth brushing*)
@@ -126,42 +126,42 @@ Terdapat 3 pilihan package, yaitu:
 
 #### Payment Summmary
 Pengguna dapat memilih metode pembayaran apa yang ingin dilakukan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/508ba778884bd657e11ea73ab8d6f454/Pay_sum.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/508ba778884bd657e11ea73ab8d6f454/Pay_sum.png" width="1000" height="470" />
 Terdapat 2 pilihan *payment method*, yaitu:
 - Transfer Bank (BCA, Mandiri, BNI, BRI)
 - *After Service*
 
 ### Booking Details
 Pengguna dapat melihat detail pemesanan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772b200ea0b861ddd7256/350a530a88abe7a75453e64a24b21975/berhasil.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772b200ea0b861ddd7256/350a530a88abe7a75453e64a24b21975/berhasil.png" width="700" height="850" />
 
 ### Cancel Appointment
 Pengguna dapat menggagalkan pertemuan *grooming* hewan peliharaannya jika diinginkan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772b200ea0b861ddd7256/8d620e6de25f45c36b621d46619ad61c/cancel.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772b200ea0b861ddd7256/8d620e6de25f45c36b621d46619ad61c/cancel.png" width="700" height="850" />
 
 ### Memberikan Review
 Pengguna dapat memberikan *review* dalam rangka membangun *service* HelloPet yang lebih baik.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f462ad6291365fb6a2e/a4f203372640d04c54e1f6e65d44c559/Add_review.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f462ad6291365fb6a2e/a4f203372640d04c54e1f6e65d44c559/Add_review.png" width="1000" height="470" />
 
 ### Melihat Review
 Pengguna dapat meilhat *review* dari pengguna lainnya.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f462ad6291365fb6a2e/b72775eb45c3afd01f3b1bca36b17471/show_rev.png" width="1000" height="380" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f462ad6291365fb6a2e/b72775eb45c3afd01f3b1bca36b17471/show_rev.png" width="1360" height="870" />
 
 ### Edit Account
 Pengguna dapat mengganti data dirinya yang berupa nama, username, email, nomor telepon, dan alamat.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772092488f56ab6fa22d3/777c55c2eef209696b60177479f3a139/edit_acc.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772092488f56ab6fa22d3/777c55c2eef209696b60177479f3a139/edit_acc.png" width="1000" height="470" />
 
 ### Mengganti Password
 Pengguna dapat mengganti *password*.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772092488f56ab6fa22d3/eb683cfc250fc0afc6323da0965382e1/edit_pass.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772092488f56ab6fa22d3/eb683cfc250fc0afc6323da0965382e1/edit_pass.png" width="1000" height="470" />
 
 ### Delete Account
 Pengguna juga bebas menghapus akunnya kapan saja.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772df12c698124cc929f8/c51c42d8c448f105d7489e529786afb4/delete_acc.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772df12c698124cc929f8/c51c42d8c448f105d7489e529786afb4/delete_acc.png" width="1000" height="470" />
 
 ### Appointment List
 Khusus untuk admin dan owner dapat *pending appointment, complete appointment, cancelled appointment*.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c771e6d4b1a5858bc55436/a3882c6a99c48950800b8e2e8806a7c4/admin_page.png" width="1000" height="400" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c771e6d4b1a5858bc55436/a3882c6a99c48950800b8e2e8806a7c4/admin_page.png" width="1000" height="470" />
 
 ## Use Case Diagram
 ### Customer
@@ -169,6 +169,9 @@ Khusus untuk admin dan owner dapat *pending appointment, complete appointment, c
 
 ### Admin dan Owner
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607f78bcb5f70f711e786d84/6a5ea9498b80047e4d67d99be55256ee/UseCaseDiagram-Page-3.png" width="500" height="400" />
+
+## Arsitektur Diagram
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/609ab497538efd09dcbec097/6580a96ef3dc8dd0e3940112cf09cb92/arsitektur_diagram.png" width="1000" height="470" />
 
 ## Activity Diagram
 ### Sub-System: Login
@@ -341,8 +344,8 @@ Jadi teknik CRUD berfungsi untuk membuat, membaca, memperbaharui, dan menghapus 
 - *Pet grooming service* tersedia untuk hewan peliharaan lainnya, seperti kelinci dan musang
 - HelloPet tersedia pada *mobile*
 - Fungsi *search* berfungsi dengan baik
-- Terdapat *treatment* tambahan seperti anti jamur, anti kutu, dll
-- Fungsi untuk mengganti *photo profile*
+- Ada fungsi untuk melihat pemesanan yang sedang berjalan, pending, dan sudah selesai
+- Terdapat treatment tambahan seperti anti jamur, anti kutu, dll
 
 ## Ucapan Terima Kasih
 Puji syukur kami panjatkan kepada Allah SWT atas rahmat-Nya yang telah membuat kelompok kami dapat menyelesaikan pembuatan aplikasi berbasis web bernama HelloPet dari mata kuliah Rekayasa Perangkat Lunak (KOM331). Ucapan terima kasih juga kami sampaikan kepada semua pihak yang memberi kami kesempatan dan selalu membantu kami dalam pembuatan aplikasi HelloPet, diantaranya:
