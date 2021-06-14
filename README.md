@@ -171,8 +171,9 @@ Admin dapat melihat pemberitahuan pemesanan *grooming service*.
 ## Activity Diagram
 ### Sub-System: Login
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/fc4c55ba652da53665cf1dbd33e96165/sub_system__login.jpg" width="650" height="850" />
+
 ### Sub-System: Registrasi
-<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/54f1cc95efb17e9d749663cca40cfeab/sub_system_regist.jpg" width="700" height="850" />
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/54f1cc95efb17e9d749663cca40cfeab/sub_system_regist.jpg" width="550" height="850" />
 ### Sub-System: Edit Profile
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/27dc8da41ad75c83f442a7db00bc9c38/sub_system_edit_profile.jpg" width="700" height="850" />
 ### Sub-System: Delete Account
