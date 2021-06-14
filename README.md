@@ -282,7 +282,7 @@ Jadi teknik CRUD berfungsi untuk membuat, membaca, memperbaharui, dan menghapus 
 </table> 
 
 ## ERD
-<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607ad0194e80172b2e1cbb4e/11b6ed7c04ccc6a89ec3ed1b21163734/image.png" width="500" height="270" />
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607ad0194e80172b2e1cbb4e/811b18c64ddc4c2d173612fe23977a7f/IMG-20210614-WA0008.jpg" width="500" height="370" />
 
 ## Project Documentations 
 ### Trello 
