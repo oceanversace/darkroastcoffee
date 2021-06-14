@@ -169,7 +169,12 @@ Admin dapat melihat pemberitahuan pemesanan *grooming service*.
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607f78bcb5f70f711e786d84/6a5ea9498b80047e4d67d99be55256ee/UseCaseDiagram-Page-3.png" width="500" height="400" />
 
 ## Activity Diagram
-*bzz*
+### Sub-System: Login
+### Sub-System: Registrasi
+### Sub-System: Edit Profile
+### Sub-System: Delete Account
+### Sub-System: Make Order/Appointment
+### SUb System: Cancel/Complete Order
 
 ## Fungsi CRUD
 CRUD adalah *Create, Read, Update, Delete*.
