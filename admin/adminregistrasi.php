@@ -37,5 +37,8 @@
 				window.location.replace("index.php");
 			</script>';
 	}
+	else {
+		header('Location : ../');
+	}
         
  ?>

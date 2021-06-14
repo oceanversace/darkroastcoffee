@@ -4,7 +4,7 @@
     if( !isset($_SESSION["login"]) ) {
     	header('Location: adminlogin.php');
   	}
-    else if( $_SESSION["role"] != "admin" || $_SESSION["role"] != "owner" ) {
+    else if( $_SESSION["role"] != "admin" && $_SESSION["role"] != "owner" ) {
         header('Location: ../');
     }
 
