@@ -285,16 +285,16 @@ Jadi teknik CRUD berfungsi untuk membuat, membaca, memperbaharui, dan menghapus 
 
 ## Project Documentations 
 <br>
-[Trello](https://trello.com/b/oWXYobb6/hellopetteam-depresso)
+Trello [click](https://trello.com/b/oWXYobb6/hellopetteam-depresso)
 <img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6d0b8fa935f6ef3d51516/7b0d233d851f213e1763617bacfd7207/20210614_104312.png" width="1366" height="420" /> </br>
 <br>
-[Figma](https://www.figma.com/file/furUw4CzGsUYrucQHiXPW3/HelloPet?node-id=0%3A1)
+Figma [click](https://www.figma.com/file/furUw4CzGsUYrucQHiXPW3/HelloPet?node-id=0%3A1)
 <img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6d0ab7be9ca21f11f34ee/ce7d7b4ddaa80bc50cad5c3e0b376444/20210614_104149.png" width="1366" height="420" /> </br>
 <br>
-[Google Sites](https://sites.google.com/apps.ipb.ac.id/hellopet)
+Google Sites [click](https://sites.google.com/apps.ipb.ac.id/hellopet)
 <img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6d0af4bd5ca18b73979c8/9b928f5c950d1e100ffa92057a3fc58e/20210614_104244.png" width="1366" height="420" /> </br>
 <br>
-[Github](https://github.com/oceanversace/darkroastcoffee)
+Github [click](https://github.com/oceanversace/darkroastcoffee)
 <img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6d0bb9a107741dccd8f23/c127de71cc54ddf0b0d4432836f9fd95/20210614_104219.png" width="1366" height="420" /> </br>
 
 ## Saran untuk Pengembangan Selanjutnya
