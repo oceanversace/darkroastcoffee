@@ -9,9 +9,10 @@
         header('Location: home.php');
     }
       
-    var_dump($_POST);
+    // var_dump($_POST);
     $usr_id = $_SESSION['id'];
-    $data = mysqli_query($conn, "INSERT INTO `feedback` (`id`, `cust_id`, `feedback`) VALUES (NULL, '$usr_id', '10/10 -IGN');");
+    $feedback = $_POST['review'];
+    $data = mysqli_query($conn, "INSERT INTO `feedback` (`id`, `cust_id`, `feedback`) VALUES (NULL, '$usr_id', '$feedback');");
     if ( $data ) {
         echo "<script type='text/javascript'>
     			alert('Terima kasih atas masukan anda!');
