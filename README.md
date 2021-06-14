@@ -87,7 +87,7 @@ Pemilik hewan peliharaan kucing atau anjing yang ingin memandikan dan merawat ke
 ## Fitur
 ### Sign In dan Sign Out
 Pengguna yang ingin melakukan *booking* pada HelloPet, diharuskan untuk *log in* akun terlebih dahulu. Setelah pengguna selesai melakukan *booking*, tentu saja pengguna dapat *log out* akun kapan saja.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75ed749709e1c381bd0aa/8527c187156edc114fa8b2b918b75688/Sign_in.png" height="430" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75ed749709e1c381bd0aa/8527c187156edc114fa8b2b918b75688/Sign_in.png" width="1000" height="400" />
 
 ### Sign up
 Jika pengguna belum memiliki akun dan tertarik untuk melakukan *booking* di HelloPet, pengguna akan dialihkan untuk mengisi data diri. Data yang dibutuhkan berupa nama, email, *username*, *password*, dan nomor telepon.
@@ -118,7 +118,7 @@ Terdapat 4 pilihan waktu, yaitu:
 
 #### Grooming Packages
 Pengguna dapat memilih paket *grooming* apa yang diinginkan.
-<img src="x" width="1000" height="470" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/269e3af989b4dad05a5de86886ea8dbb/pack.png" width="1000" height="470" />
 Terdapat 3 pilihan package, yaitu:
 - **Premium** (*premium bath, blow drying, specialized shampoo, styles cuts, nail trimming, eye stain removal, teeth brushing, anal gland expression*)
 - **Standard** (*standard bath, blow drying, style cuts, nail trimming, eyes stain removal, teeth brushing*)
@@ -133,11 +133,11 @@ Terdapat 2 pilihan *payment method*, yaitu:
 
 ### Booking Details
 Pengguna dapat melihat detail pemesanan.
-<img src="x" width="700" height="850" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772b200ea0b861ddd7256/350a530a88abe7a75453e64a24b21975/berhasil.png" width="700" height="850" />
 
 ### Cancel Appointment
 Pengguna dapat menggagalkan pertemuan *grooming* hewan peliharaannya jika diinginkan.
-<img src="x" width="700" height="850" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772b200ea0b861ddd7256/8d620e6de25f45c36b621d46619ad61c/cancel.png" width="700" height="850" />
 
 ### Memberikan Review
 Pengguna dapat memberikan *review* dalam rangka membangun *service* HelloPet yang lebih baik.
@@ -145,23 +145,23 @@ Pengguna dapat memberikan *review* dalam rangka membangun *service* HelloPet yan
 
 ### Melihat Review
 Pengguna dapat meilhat *review* dari pengguna lainnya.
-<img src="x" width="1360" height="870" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f462ad6291365fb6a2e/b72775eb45c3afd01f3b1bca36b17471/show_rev.png" width="1360" height="870" />
 
 ### Edit Account
-Pengguna dapat mengganti data dirinya yang berupa nama, nomor telepon, gender, dan alamat.
-<img src="hx" width="1000" height="470" />
+Pengguna dapat mengganti data dirinya yang berupa nama, username, email, nomor telepon, dan alamat.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772092488f56ab6fa22d3/777c55c2eef209696b60177479f3a139/edit_acc.png" width="1000" height="470" />
 
 ### Mengganti Password
 Pengguna dapat mengganti *password*.
-<img src="x" width="1000" height="470" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772092488f56ab6fa22d3/eb683cfc250fc0afc6323da0965382e1/edit_pass.png" width="1000" height="470" />
 
 ### Delete Account
 Pengguna juga bebas menghapus akunnya kapan saja.
-<img src="x" width="1000" height="470" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c772df12c698124cc929f8/c51c42d8c448f105d7489e529786afb4/delete_acc.png" width="1000" height="470" />
 
-### Notifications
-Admin dapat melihat pemberitahuan pemesanan *grooming service*.
-<img src="x" width="1000" height="470" />
+### Appointment List
+Khusus untuk admin dan owner dapat *pending appointment, complete appointment, cancelled appointment*.
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c771e6d4b1a5858bc55436/a3882c6a99c48950800b8e2e8806a7c4/admin_page.png" width="1000" height="470" />
 
 ## Use Case Diagram
 ### Customer
