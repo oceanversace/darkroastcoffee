@@ -225,12 +225,6 @@ Jadi teknik CRUD berfungsi untuk membuat, membaca, memperbaharui, dan menghapus 
       <td>R dan U</td>
      </tr>
      <tr>
-      <td>Gender</td>
-      <td>C, R, U</td>
-      <td>C, R, U</td>
-      <td>R dan U</td>
-     </tr>
-     <tr>
       <td>Jenis Hewan</td>
       <td>C dan R</td>
       <td>R</td>
