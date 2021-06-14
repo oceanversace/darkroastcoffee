@@ -13,7 +13,7 @@
 
 		if($res) {
 			if ( password_verify($password, $res['password']) ) {
-                if ( $res["role"] == 'admin' ){
+                if ( $res["role"] == 'admin' || $res["role"] == 'owner'){
 				
 				    $_SESSION["login"] = true;
 				    $_SESSION["id"] = $res['id'];
