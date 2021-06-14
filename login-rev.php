@@ -180,9 +180,9 @@
    		<button type="submit" name="submit" class="signin-button">SIGN IN</button>
    		</form> 
    		<span class="not-member">Not a member?</span>
-   		<a class="sign-up" href="sign-up.html">Signup now</a>
+   		<a class="sign-up" href="sign-up-page.php">Signup now</a>
    	</div>
-   	<a href="home-sebelumlogin.html">
+   	<a href="home.php">
   		<i class="iconify" data-inline="false" data-icon="gridicons:cross" style="font-size: 35px; position: absolute; top: 30px; left: 1300px; color:#000000"></i>
  	</a>
    	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
