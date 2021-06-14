@@ -85,21 +85,23 @@ Pemilik hewan peliharaan kucing atau anjing yang ingin memandikan dan merawat ke
 - Sebagai pengguna yang telah *log out*, saya ingin *log in* kembali dengan email dan *password*, agar saya dapat kembali melakukan aktivitas pada web
 
 ## Fitur
-### Log in dan Log out
+### Sign In dan Sign Out
 Pengguna yang ingin melakukan *booking* pada HelloPet, diharuskan untuk *log in* akun terlebih dahulu. Setelah pengguna selesai melakukan *booking*, tentu saja pengguna dapat *log out* akun kapan saja.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6056d17986b7272e907b9/552448a5b210fdc44fd075cb7001a5c2/Login.png" width="1000" height="430" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75ed749709e1c381bd0aa/8527c187156edc114fa8b2b918b75688/Sign_in.png" height="430" />
 
-### Sign in
+### Sign up
 Jika pengguna belum memiliki akun dan tertarik untuk melakukan *booking* di HelloPet, pengguna akan dialihkan untuk mengisi data diri. Data yang dibutuhkan berupa nama, email, *username*, *password*, dan nomor telepon.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6056d17986b7272e907b9/1b21dae10bb3cc8c0f83045fb352b331/Sign_up.png" width="1000" height="430" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f2d61444023ff6c1261/c5aa2032bde108d0f36d0875531d715c/Sign_up.png" width="1000" height="430" />
 
 ### Booking
 #### Pet Details
 Pengguna dapat mengisi detail hewan peliharaannya yang ingin melakukan *grooming service*.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/be5e666acb135a1769545c74bfe64684/Pet_details.png" width="1000" height="470" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/bd0cdf0a0b77f2c652a53e6c9ea23463/Pet_details.png" width="1000" height="470" />
 
 ##### Pet Type
 Pengguna dapat memilih hewan peliharaannya berjenis anjing atau kucing.
+##### Pet Size
+Pengguna dapat memilih ukuran hewan peliharannya kecil, sedang, atau besar.
 ##### Pet Age
 Pengguna dapat mengisi berapa usia hewan peliharaannya.
 ##### Pet Gender
@@ -107,7 +109,7 @@ Pengguna dapat memilih hewan peliharaannya berjenis kelamin laki-laki atau perem
 
 #### Appointment Date and Time
 Pengguna dapat memilih tanggal dan juga waktu *grooming* untuk hewan peliharaan kesayangannya.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/63f6a55cb96f83c6052a73dbc0c24fe2/Apptmt.png" width="1000" height="470" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/dc2eb24aaa31824e09315a956c4f0b75/Date_and_time.png" width="1000" height="470" />
 Terdapat 4 pilihan waktu, yaitu: 
 - 8.00-10.00 WIB
 - 10.00-12.00 WIB
@@ -116,7 +118,7 @@ Terdapat 4 pilihan waktu, yaitu:
 
 #### Grooming Packages
 Pengguna dapat memilih paket *grooming* apa yang diinginkan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/62bf780cb141d56bee67b3fec692ba56/GROOM_PACKAGES.png" width="1000" height="470" />
+<img src="x" width="1000" height="470" />
 Terdapat 3 pilihan package, yaitu:
 - **Premium** (*premium bath, blow drying, specialized shampoo, styles cuts, nail trimming, eye stain removal, teeth brushing, anal gland expression*)
 - **Standard** (*standard bath, blow drying, style cuts, nail trimming, eyes stain removal, teeth brushing*)
@@ -124,42 +126,42 @@ Terdapat 3 pilihan package, yaitu:
 
 #### Payment Summmary
 Pengguna dapat memilih metode pembayaran apa yang ingin dilakukan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c5f37b6bf735676ccdd098/32d97c817584699385df8e036bdf1284/Payment.png" width="1000" height="470" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f692174675988d91e1e/508ba778884bd657e11ea73ab8d6f454/Pay_sum.png" width="1000" height="470" />
 Terdapat 2 pilihan *payment method*, yaitu:
 - Transfer Bank (BCA, Mandiri, BNI, BRI)
 - *After Service*
 
 ### Booking Details
 Pengguna dapat melihat detail pemesanan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6048084d8dc6047d959d1/4b94273e5d8f68c06990133b4caa9c0e/BOOKING_DETAILS(1).png" width="700" height="850" />
+<img src="x" width="700" height="850" />
 
 ### Cancel Appointment
 Pengguna dapat menggagalkan pertemuan *grooming* hewan peliharaannya jika diinginkan.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604b5e7bbd645885c867f/c446f37966e299158dba058267dc1180/BOOKING_CANCELLED.png" width="700" height="850" />
+<img src="x" width="700" height="850" />
 
 ### Memberikan Review
 Pengguna dapat memberikan *review* dalam rangka membangun *service* HelloPet yang lebih baik.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604244b303650ca0fce83/dfdc7f3e7ce9b9783ceb95097395f20e/Giving_Review.png" width="1000" height="470" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c75f462ad6291365fb6a2e/a4f203372640d04c54e1f6e65d44c559/Add_review.png" width="1000" height="470" />
 
 ### Melihat Review
 Pengguna dapat meilhat *review* dari pengguna lainnya.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604244b303650ca0fce83/b19cd237e44432a9b290be535e4214cb/Review.png" width="1360" height="870" />
+<img src="x" width="1360" height="870" />
 
 ### Edit Account
 Pengguna dapat mengganti data dirinya yang berupa nama, nomor telepon, gender, dan alamat.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c60505e3da2e45f755e9db/b8b50282f1299842d1d61fb3f7f550a6/Profile.png" width="1000" height="470" />
+<img src="hx" width="1000" height="470" />
 
 ### Mengganti Password
 Pengguna dapat mengganti *password*.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c60505e3da2e45f755e9db/ad2f906fc0442b3927532d9eb4efbf31/Profile(2).png" width="1000" height="470" />
+<img src="x" width="1000" height="470" />
 
 ### Delete Account
 Pengguna juga bebas menghapus akunnya kapan saja.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c60505e3da2e45f755e9db/eaaac3d033ad4be2ce25b7811240752c/Profile(3).png" width="1000" height="470" />
+<img src="x" width="1000" height="470" />
 
 ### Notifications
 Admin dapat melihat pemberitahuan pemesanan *grooming service*.
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c604d8d4a235827c323704/866cf42ce8d0c14f2f49a4b237d253d3/NOTIF.png" width="1000" height="470" />
+<img src="x" width="1000" height="470" />
 
 ## Use Case Diagram
 ### Customer
