@@ -285,7 +285,7 @@ Jadi teknik CRUD berfungsi untuk membuat, membaca, memperbaharui, dan menghapus 
 
 ## Project Documentations 
 [Trello](https://trello.com/b/oWXYobb6/hellopetteam-depresso)
-<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6d0b8fa935f6ef3d51516/7b0d233d851f213e1763617bacfd7207/20210614_104312.png" width="1366" height="768" />
+<img src="https://trello-attachments.s3.amazonaws.com/602a4b02da969478253f9e8f/60c6d0b8fa935f6ef3d51516/7b0d233d851f213e1763617bacfd7207/20210614_104312.png" width="1366" height="450" />
 [Figma](https://www.figma.com/file/furUw4CzGsUYrucQHiXPW3/HelloPet?node-id=0%3A1)
 [Google Sites](https://sites.google.com/apps.ipb.ac.id/hellopet)
 [Github](https://github.com/oceanversace/darkroastcoffee)
