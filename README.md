@@ -188,8 +188,28 @@ Admin dapat melihat pemberitahuan pemesanan *grooming service*.
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/01c02869277e58c28190f9e2d8737025/sub_system_cancel_order.jpg" width="620" height="850" />
 
 ### Sub System: Review
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/01c02869277e58c28190f9e2d8737025/sub_system_cancel_order.jpg" width="620" height="850" />
 
 ### Sub System: Admin
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/01c02869277e58c28190f9e2d8737025/sub_system_cancel_order.jpg" width="620" height="850" />
+
+### Sub System: Review-Insert
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/c1489f337a6e46c15a4faff8f5bee4c3/sub_system_review_insert.jpg" width="620" height="850" />
+
+### Sub System: Review-Show
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/e7d9826149e39406890e505b58bed33c/sub_system_review_show.jpg" width="620" height="850" />
+
+### Sub System: Admin, Show Orders
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/a213fa4eedd34181ab0bc0c010545fb9/sub_system_admin_show_order.jpg" width="620" height="700" />
+
+### Sub System: Admin, Show List Orders (complete/cancelled)
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/3c81f7254e821f3251519417ba9a2606/sub_system_admin_show_list_order.jpg" width="620" height="850" />
+
+### Sub System: Admin, Verifikasi Bayar
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/d123f52296fd4c62377208a67193e7e9/sub_system_admin_verifikasi_bayar.jpg" width="620" height="850" />
+
+### Sub System: Complete/Cancel Order
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/9739fd4b723b476b304695d497e649ae/sub_system_admin_complete_cancel_order.jpg" width="620" height="850" />
 
 ## Fungsi CRUD
 CRUD adalah *Create, Read, Update, Delete*.
@@ -318,7 +338,7 @@ Jadi teknik CRUD berfungsi untuk membuat, membaca, memperbaharui, dan menghapus 
 ## Saran untuk Pengembangan Selanjutnya
 - *Pet grooming service* tersedia untuk hewan peliharaan lainnya, seperti kelinci dan musang
 - HelloPet tersedia pada *mobile*
-- Ada fungsi *search*
+- Fungsi *search* berfungsi dengan baik
 - Ada fungsi untuk melihat pemesanan yang sedang berjalan, pending, dan sudah selesai
 - Terdapat treatment tambahan seperti anti jamur, anti kutu, dll
 
