@@ -10,6 +10,7 @@
 <html>
 <head>
 	<title>HelloPet</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <style>
 	body{
@@ -66,7 +67,7 @@
 	}
 	.your-name{
 		position: absolute;
-		width: 327px;
+		width: 310px;
 		height: 20px;
 		left: 45px;
 		top: 98px;
@@ -92,7 +93,7 @@
 	}
 	.email-user{
 		position: absolute;
-		width: 327px;
+		width: 310px;
 		height: 20px;
 		left: 45px;
 		top: 171px;
@@ -117,7 +118,7 @@
 	}
 	.user-name{
 		position: absolute;
-		width: 327px;
+		width: 310px;
 		height: 20px;
 		left: 45px;
 		top: 244px;
@@ -142,7 +143,7 @@
 	}
 	.password-user{
 		position: absolute;
-		width: 327px;
+		width: 310px;
 		height: 20px;
 		left: 45px;
 		top: 319px;
@@ -150,6 +151,7 @@
 		background: #E5EAED;
 		border-radius: 5px;
 		padding: 10px;
+
 	}
 	.rptpass{
 		position: absolute;
@@ -169,7 +171,7 @@
 	}
 	.rpt-psw{
 		position: absolute;
-		width: 327px;
+		width: 310px;
 		height: 20px;
 		left: 45px;
 		top: 395px;
@@ -194,7 +196,7 @@
 	}
 	.phone-numb{
 		position: absolute;
-		width: 327px;
+		width: 312px;
 		height: 20px;
 		left: 45px;
 		top: 473px;
@@ -209,12 +211,16 @@
 		width: 113px;
 		height: 39px;
 		left: 155px;
-		top: 529px;
+		top: 543px;
 		cursor: pointer;
 		border: none;
 		background: #53B2F2;
-		box-shadow: 0px 4px 30px rgba(83, 178, 242, 0.5);
 		border-radius: 10px;
+		font-family: Roboto;
+		font-size: 16px;
+	}
+	.registerbtn:hover{
+		background : #309BE4;
 	}
 	.button-icon{
 		position: absolute;
@@ -229,9 +235,12 @@
 	#hide1{
 		display: none;
 	}
+	#hide3{
+		display:none;
+	}
 </style>
 <body>
-	<div id="card">
+<div id="card">
 		<form method="post" class="form" action="prosesregist.php">
 		<span class="title">SIGN UP</span>
 		<div class="name">Your Name</div>
@@ -256,9 +265,9 @@
    				required />
    			<span class="eye" onclick="myFunction()">
    				<i id="hide1" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
-				left: 338px; top: 328px; cursor:pointer; color:#666666;"></i>
+				left: 338px; top: 328px; color:#666666; cursor: pointer;"></i>
    				<i id="hide2" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
-				left: 338px; top: 328px; cursor:pointer; color:#666666;"></i>
+				left: 338px; top: 328px; color:#666666; cursor: pointer;"></i>
    			</span>
    		</div>
    		<div class="pswd">
@@ -269,12 +278,10 @@
    				type="password"
    				name="confirm-password"
    				required/>
-   			<span class="eye" onclick="myFunction()">
-   				<i id="hide1" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
-				left: 339px; top: 405px; cursor:pointer; color:#666666;"></i>
-   				<i id="hide2" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
-				left: 339px; top: 405px; cursor:pointer; color:#666666;"></i>
-   			</span>
+   				<i id="hide3" onclick="myFungsi()" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
+				left: 339px; top: 405px; color:#666666; cursor: pointer;"></i>
+   				<i id="hide4" onclick="myFungsi()" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
+				left: 339px; top: 405px; color:#666666; cursor: pointer;"></i>
    		</div>
    		<label class="phone">Phone Number</label>
    			<input 
@@ -283,12 +290,14 @@
    				id="user-phone-number"
    				class="phone-numb"
    				required/>
-   		<button type="submit" name="submit"class="registerbtn"><b>SIGN UP</b></button> 
+   		<button type="submit" name="submit" class="registerbtn"><b>SIGN UP</b></button> 
   </div>
-  <button type="close-outline" class="button-icon">
-  	<span class="iconify" data-inline="false" data-icon="gridicons:cross" style="font-size: 35px;"></span>
-  </button>
-  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <a href="home.php">
+  		<i class="iconify" data-inline="false" data-icon="gridicons:cross" style="font-size: 35px; position: absolute; top: 30px; left: 1300px; color:#000000"></i>
+ 	</a>
+</div>
+</form>
+<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
   <script>
   	 function myFunction(){
   	 	var x = document.getElementById("user-password");
@@ -296,8 +305,8 @@
   	 	var z = document.getElementById("hide2");
   	 	if(x.type==='password'){
   	 		x.type="text";
-  	 		y.display="block";
-  	 		z.display="none";
+  	 		y.style.display="block";
+  	 		z.style.display="none";
   	 	}
   	 	else{
   	 		x.type="password";
@@ -306,6 +315,22 @@
   	 	}
   	 }
   </script>
-	</div>	
+   <script>
+  	 function myFungsi(){
+  	 	var a = document.getElementById("repeat-password");
+  	 	var b = document.getElementById("hide3");
+  	 	var c = document.getElementById("hide4");
+  	 	if(a.type==='password'){
+  	 		a.type="text";
+  	 		b.style.display="block";
+  	 		c.style.display="none";
+  	 	}
+  	 	else{
+  	 		a.type="password";
+  	 		b.style.display="none";
+  	 		c.style.display="block";
+  	 	}
+  	 }
+  	</script>
 </body>
 </html>

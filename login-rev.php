@@ -9,139 +9,199 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login HelloPet</title>
-  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-  <link rel="icon" href="img/logo.png" type="image/x-icon">
-
-  <style>
-    body {
-			background-image: url(img/Headerhome.png);
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-size: cover;
-		}
-		#card {
-			background: #fbfbfb;
-			border-radius: 8px;
-			box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
-			height: 410px;
-			margin: 6rem auto 8.1rem auto;
-			width: 329px;
-		}
-		#card-content {
-      		padding: 12px 44px;
-		}
-		#card-title {
-      		font-family: "Raleway Thin", sans-serif;
-      		letter-spacing: 4px;
-      		padding-bottom: 23px;
-      		padding-top: 13px;
-      		text-align: center;
-		}
-		.underline-title {
-      		background: -webkit-linear-gradient(right, #fa80a7, #fa80a7);
-      		height: 2px;
-      		margin: -1.1rem auto 0 auto;
-      		width: 89px;
-      	}
-      	a {
-    		text-decoration: none;
-		}
-		label {
-    		font-family: "Raleway", sans-serif;
-    		font-size: 11pt;
-		}
-		#forgot-pass {
-    		color: #fa80a7;
-    		font-family: "Raleway", sans-serif;
-    		font-size: 10pt;
-    		margin-top: 3px;
-    		text-align: right;
-		}
-		.form {
-   			align-items: left;
-    		display: flex;
-    		flex-direction: column;
-		}
-		.form-border {
-    		background: -webkit-linear-gradient(right, #fa80a7, #fa80a7);
-    		height: 1px;
-    		width: 100%;
-		}
-		.form-content {
-    		background: #fbfbfb;
-    		border: none;
-    		outline: none;
-    		padding-top: 14px;
-		}
-		#signup {
-    		color: #fa80a7;
-    		font-family: "Raleway", sans-serif;
-    		font-size: 10pt;
-    		margin-top: 16px;
-    		text-align: center;
-		}
-		#submit-btn {
-    		background: -webkit-linear-gradient(right, #fa80a7, #bd2db1);
-    		border: none;
-    		border-radius: 21px;
-    		box-shadow: 0px 1px 8px #c624be;
-    		cursor: pointer;
-    		color: white;
-    		font-family: "Raleway SemiBold", sans-serif;
-    		height: 42.3px;
-    		margin: 0 auto;
-    		margin-top: 50px;
-    		transition: 0.25s;
-    		width: 153px;
-		}
-		#submit-btn:hover {
-    		box-shadow: 0px 1px 18px #c624c6;
-		}
-		#logo{
-			width: 211px;
-			height: 51px;
-			left: 14px;
-			top: 20px;
-			background: url("img/logo.png");
-			background-repeat: no-repeat;
-			background-position: center center;
-			background-size: cover;
-			opacity: 1;
-			position: relative;
-			overflow: hidden;
-  		}
-  </style>
+	<title>Sign In HelloPet</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
+<style>
+	body{
+		background: url("img/Bcg.png");
+  		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+	#card{
+		position: absolute;
+		width: 422px;
+		height: 578px;
+		left: 469px;
+		top: 40px;
+
+		background: #FFFFFF;
+		box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+		border-radius: 30px;
+	}
+	.title{
+		position: absolute;
+		width: 110px;
+		height: 29px;
+		left: 163px;
+		top: 29px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		line-height: 29px;
+
+		color: #000000;
+	}
+	.email{
+		position: absolute;
+		width: 119px;
+		height: 19px;
+		left: 48px;
+		top: 118px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		color: #000000;
+	}
+	.user-email{
+		position: absolute;
+		width: 300px;
+		height: 30px;
+		left: 515px;
+		top: 190px;
+		border: none;
+		background: #E5EAED;
+		border-radius: 5px;
+		padding: 10px;
+	}
+	.pass{
+		position: absolute;
+		width: 71px;
+		height: 19px;
+		left: 517px;
+		top: 260px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		color: #000000;
+	}
+	.user-password{
+		position: absolute;
+		width: 300px;
+		height: 30px;
+		left: 0px;
+		top: 30px;
+		border: none;
+		background: #E5EAED;
+		border-radius: 5px;
+		padding: 10px
+	}
+	.signin-button{
+		position: absolute;
+		width: 113px;
+		height: 39px;
+		left: 625px;
+		top: 480px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: #FFFFFF;
+		background: #53B2F2;
+		border-radius: 10px;
+		border: none;
+		cursor: pointer;
+	}
+	.signin-button:hover{
+		background : #309BE4;
+	}
+	.signin-button:focus{
+		outline: none;
+	}
+	.not-member{
+		position: absolute;
+		width: 110px;
+		height: 19px;
+		left: 580px;
+		top: 544px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		color: #000000;
+	}
+	.sign-up{
+		position: absolute;
+		width: 83px;
+		height: 19px;
+		left: 695px;
+		top: 544px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		text-decoration-line: underline;
+
+		color: #000000;
+	}
+	#hide1{
+		display: none;
+	}
+</style>
 <body>
-  <div id="card">
-    <div id="card-content">
-      <div id="card-title">
-      <h2>LOGIN</h2>
-      <div class="underline-title"></div>
-      </div>
-      <form method="post" class="form" action="proseslogin.php"> 
-        <label for="user-email" style="padding-top:13px">&nbsp;Email</label>
-        <input
-          id="user-email"
-          class="form-content"
-          type="email"
-          name="email"
-          autocomplete="on"
-          required />
-        <div class="form-border"></div>
-      <label for="user-password" style="padding-top:22px">&nbsp;Password</label>
-        <input
-          id="user-password"
-          class="form-content"
-          type="password"
-          name="password"
-          required />
-        <div class="form-border"></div>
-      <a href="#"><legend id="forgot-pass">Forgot password?</legend></a>
-      <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
-      <a href="#" id="signup">Don't have account yet?</a>
-    </form>
-  </div>
+	<div id="card">
+		<p class="title">SIGN IN</p>
+		<form action="proseslogin.php" method="POST">
+		<label for="user-email" class="email">Email</div>
+		<input
+  				id="user-email"
+  				class="user-email"
+  				type="email" type="text"
+   				name="email"
+   				autocomplete="on"
+   				required />
+   		<div class="pswd">
+   			<label for="user-password" class="pass">Password</span>
+   			<input
+  				id="user-password"
+   				class="user-password"
+   				type="password"
+   				name="password"
+   				required />
+   				<i id="hide1" onclick="myFunction()" class="iconify" data-icon="bi:eye-fill" style="font-size: 20px; position: absolute;
+				left: 280px; top: 45px; color:#666666; cursor:pointer;"></i>
+   				<i id="hide2" onclick="myFunction()" class="iconify" data-icon="bi:eye-slash-fill" style="font-size: 20px; position: absolute;
+				left: 280px; top: 45px; color:#666666; cursor: pointer;"></i>
+   			</span>
+   		</div>
+   		<button type="submit" name="submit" class="signin-button">SIGN IN</button>
+   		</form> 
+   		<span class="not-member">Not a member?</span>
+   		<a class="sign-up" href="sign-up.html">Signup now</a>
+   	</div>
+   	<a href="home-sebelumlogin.html">
+  		<i class="iconify" data-inline="false" data-icon="gridicons:cross" style="font-size: 35px; position: absolute; top: 30px; left: 1300px; color:#000000"></i>
+ 	</a>
+   	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+	<script>
+  	 function myFunction(){
+  	 	var x = document.getElementById("user-password");
+  	 	var y = document.getElementById("hide1");
+  	 	var z = document.getElementById("hide2");
+  	 	if(x.type=='password'){
+  	 		x.type="text";
+  	 		y.style.display="block";
+  	 		z.style.display="none";
+  	 	}
+  	 	else{
+  	 		x.type="password";
+  	 		y.style.display="none";
+  	 		z.style.display="block";
+  	 	}
+  	 }
+  </script>
 </body>
 </html>
