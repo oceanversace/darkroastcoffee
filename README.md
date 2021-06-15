@@ -231,7 +231,7 @@ Jadi teknik CRUD berfungsi untuk membuat, membaca, memperbaharui, dan menghapus 
       <td>Akun</td>
       <td>C, R, U, D</td>
       <td>C, R, U, D</td>
-      <t>C, R, U,D</td>
+      <td>C, R, U, D</td>
      </tr> 
       <td>Nama</td>
       <td>C, R, U</td>
