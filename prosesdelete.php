@@ -3,7 +3,8 @@
 	session_start();
 
 	$usr_id = $_SESSION['id'];
-	$query = "DELETE FROM user WHERE id=$usr_id";
+	$query = mysqli_query($conn, "DELETE FROM appointment WHERE user_id=$usr_id");
+	$query = mysqli_query($conn, "DELETE FROM `user` WHERE `user`.`id` = $usr_id");
 	if ($query) {
 		echo "<script type='text/javascript'>
     			alert('Delete Account Sukses!');
@@ -13,7 +14,7 @@
 	else {
 		echo "<script type='text/javascript'>
     			alert('Delete Account Gagal!');
-    			window.location.replace('proseslogout.php');
+    			window.location.replace('myprofile.php');
 				</script>";
 	}
  ?>

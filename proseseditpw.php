@@ -9,14 +9,15 @@
 
     if( isset($_POST['submit']) ) {
         $current_pass = $_POST['current-pass'];
+        $new_pass = $_POST['new-pass'];
         $id = $_SESSION['id'];
         // var_dump($id);
         $data = mysqli_query($conn, "SELECT * FROM user WHERE id=$id");
         $res = mysqli_fetch_assoc($data);
         if ($data) {
             if ( password_verify($current_pass, $res['password']) ) {
-                $current_pass = password_hash($current_pass, PASSWORD_DEFAULT);
-                $data1 = mysqli_query($conn, "UPDATE user SET password='$current_pass' WHERE id=$id");
+                $new_pass = password_hash($new_pass, PASSWORD_DEFAULT);
+                $data1 = mysqli_query($conn, "UPDATE user SET password='$new_pass' WHERE id=$id");
 
                 if ($data1) {
                     echo "<script type='text/javascript'>

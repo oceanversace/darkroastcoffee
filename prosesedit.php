@@ -7,13 +7,14 @@
 	}
 	// var_dump($_POST);
 	// die;
+	$id = $_SESSION['id'];
 	$username = htmlspecialchars($_POST['username']);
 	$nama = htmlspecialchars($_POST['nama']);
 	$email = htmlspecialchars($_POST['email']);
 	$alamat = htmlspecialchars($_POST['alamat']);
 	$notelp = htmlspecialchars($_POST['no_telp']);
 
-	$query = "UPDATE user SET nama='$nama', email='$email', alamat='$alamat', no_telp='$notelp' WHERE username='$username'";
+	$query = "UPDATE user SET nama='$nama', email='$email', alamat='$alamat', no_telp='$notelp' WHERE id = '$id'";
 	$res = mysqli_query($conn, $query);
 	// var_dump($res);
 	// die;
