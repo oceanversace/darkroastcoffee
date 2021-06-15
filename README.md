@@ -170,6 +170,9 @@ Khusus untuk admin dan owner dapat *pending appointment, complete appointment, c
 ### Admin dan Owner
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/607f78bcb5f70f711e786d84/6a5ea9498b80047e4d67d99be55256ee/UseCaseDiagram-Page-3.png" width="500" height="400" />
 
+## Architecture Diagram
+<img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/609ab497538efd09dcbec097/6580a96ef3dc8dd0e3940112cf09cb92/arsitektur_diagram.png" width="1000" height="auto"
+
 ## Activity Diagram
 ### Sub-System: Login
 <img src="https://trello-attachments.s3.amazonaws.com/6035bdf63d3da78bf0df2bd2/60784bbe7315647f727b39c3/fc4c55ba652da53665cf1dbd33e96165/sub_system__login.jpg" width="650" height="850" />
