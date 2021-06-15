@@ -6,7 +6,7 @@
   	}
 	
 	$usr_id = $_SESSION['id'];
-	$apt_id = $_SESSION['id'];
+	$apt_id = $_GET['id'];
  ?>
 
 <!DOCTYPE html>
@@ -177,7 +177,7 @@
 </style>
 <body style="background-color: #F3F6F6;">
   <div class="box" id="box">
-      <button class="back" onclick="window.history.back();" >
+      <button class="back" onclick="window.location.href='bookingdetails.php?id=<?=$apt_id?>'" >
         <span class="iconify" data-inline="false" data-icon="eva:arrow-back-fill" style="font-size: 40px;"></span>
 	  </button>
       <span class="title" id="title" name="title"><b>HelloPet Order</b></span>
@@ -227,7 +227,7 @@
 
         
         </form>
-		<button class="next" onclick="window.history.back()"><b>OK</b></button>
+		<button class="next" onclick="window.location.href='bookingdetails.php?id=<?=$apt_id?>'"><b>OK</b></button>
     </div>
   </div>
   <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
