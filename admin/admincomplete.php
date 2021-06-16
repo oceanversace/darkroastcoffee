@@ -9,7 +9,7 @@
     }
 
     $id = $_GET['id'];
-    $data = mysqli_query($conn, "UPDATE appointment SET status = 'completed', status_bayar = 'sudah bayar' WHERE id=1;");
+    $data = mysqli_query($conn, "UPDATE appointment SET status = 'completed', status_bayar = 'sudah bayar' WHERE id=$id;");
     var_dump($data);
 
     if ($data) {
